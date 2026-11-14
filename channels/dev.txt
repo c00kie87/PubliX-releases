@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.455
+version: 0.7.456
 date: 2026-11-14
 host: 21
-commit: 7f6f0f938dcbc730f0e8c1c61be5118e47131d22
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.455/p2-0.7.455-mac.zip
-mac.sha512: e3e799b351a539a87c2f349262c681dd7676d70dd1abc9758f694029c6620df4657de049de8a486d2cca8d36b80e92559bf3093f754415df82c486b3fa46663e
+commit: 66888e729120b865c566a46946a63806565a7a7f
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.456/p2-0.7.456-mac.zip
+mac.sha512: 194db20157666c1212b3cbb505db9d2dd64061e2e2690a09995d781d23f467cae00dae1c31d995a7d5018e276d6c041dd420db0db7cd2bd36f9bd65127d36e82
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Codes: Fehlercodes im Protokoll; ein Code-Rahmen bricht die Ausgabe nicht mehr ab (Fehler stehen im Bericht).
+- Codes: Ampel-Etikett vor dem Einsetzen (kein Fehlercode mehr). Selbsttest: optional Seiten als PNG (selbsttest/bilder.txt).
