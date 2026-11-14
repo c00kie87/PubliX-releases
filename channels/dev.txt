@@ -1,14 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.453
+version: 0.7.454
 date: 2026-11-14
 host: 21
-commit: 8688e71371aa07e4189287378dac5586b2cbfafa
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.453/p2-0.7.453-mac.zip
-mac.sha512: e4a99df72b1fda7675feeec9eb34e962f95c54295bc555812e3c9d4471ffcc3298935f87475acec26e63d1cd459aeea7ebd32f0e226b85b73a58dd55d093877f
+commit: 374d935234306dc794a87f13ae94f0187c50fe33
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.454/p2-0.7.454-mac.zip
+mac.sha512: 152c66842f01c50846579523d1f52c66a78d74afdca507a1b5175af16f500bed37be9c0d17b38577fa237e36409bea76ccf2640edb10b8e6866f660ab3640e2f
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Codes zeichnen schneller und zuverlässig:
-- Code-Pfade werden als ein Snippet platziert statt Teilpfad für Teilpfad (gestalteter QR-Code etwa 15-mal schneller).
-- Behoben: „Objekt existiert nicht mehr“ beim Zusammenfügen der Pfade (0.7.452).
+- Codes: Diagnose beim Einsetzen in den Rahmen (Protokoll), Fehlercode des Einsetzens bricht die Ausgabe nicht mehr ab.
