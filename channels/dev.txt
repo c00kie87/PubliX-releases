@@ -1,17 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.452
+version: 0.7.453
 date: 2026-11-14
 host: 21
-commit: c4754d6c91bdc48c923f4b3e0da13eae0fdba274
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.452/p2-0.7.452-mac.zip
-mac.sha512: bf217f149ff232ba59e5f95d0bd680a58a95d86cf7c6d3f9eeae1bc13bd52900ada7facc48b12a74faa0d750045ceef74eb0b7faa2f6bc0431df1408312aa155
+commit: 8688e71371aa07e4189287378dac5586b2cbfafa
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.453/p2-0.7.453-mac.zip
+mac.sha512: e4a99df72b1fda7675feeec9eb34e962f95c54295bc555812e3c9d4471ffcc3298935f87475acec26e63d1cd459aeea7ebd32f0e226b85b73a58dd55d093877f
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- QR-Codes und Strichcodes im Dokument:
-- Palette Automatisieren, Grafikrahmen: neue Zeilen „Code“ (QR-Code, EAN-13/-8, UPC-A/-E, ISBN, ISSN, Code 128, GS1-128, ITF-14, ITF, Code 39, Code 93, Codabar, PZN), „Code-Inhalt“ (Feldkette, z. B. https://example.org/{nr}; leer = Bildfeld), „Gestaltung“ (QR: Quadrate, Punkte mit runden Suchmustern, abgerundet, Rauten, mit Logo-Mitte; Strichcodes mit/ohne Klarschrift und Ruhezone) und „Farbfeld“.
-- Beim Publizieren zeichnet p2 den Code als Vektorpfad in den Rahmen; Prüfziffern werden ergänzt bzw. geprüft, ungültige Werte erhalten eine rote Ampel und einen Hinweis im Bericht. Klarschrift wird in Pfade umgewandelt.
-- Mitgelieferte Schrift OCR-B (freie Lizenz) für die Klarschrift; p2 legt sie bei Bedarf ohne Adminrechte im Benutzer-Schriftordner ab.
-- Spielwiese: Szenario S234 (QR, EAN-13, Code 128 aus Datenfeldern).
-- Selbsttest: Textfluss-Szenarien erhalten automatisch eine Einfügemarke; Prüfregel „Text überlagert“ übergeht Haarlinien und zusammengefallene leere Bildrahmen.
+- Codes zeichnen schneller und zuverlässig:
+- Code-Pfade werden als ein Snippet platziert statt Teilpfad für Teilpfad (gestalteter QR-Code etwa 15-mal schneller).
+- Behoben: „Objekt existiert nicht mehr“ beim Zusammenfügen der Pfade (0.7.452).
