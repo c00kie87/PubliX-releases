@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.454
+version: 0.7.455
 date: 2026-11-14
 host: 21
-commit: 374d935234306dc794a87f13ae94f0187c50fe33
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.454/p2-0.7.454-mac.zip
-mac.sha512: 152c66842f01c50846579523d1f52c66a78d74afdca507a1b5175af16f500bed37be9c0d17b38577fa237e36409bea76ccf2640edb10b8e6866f660ab3640e2f
+commit: 7f6f0f938dcbc730f0e8c1c61be5118e47131d22
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.455/p2-0.7.455-mac.zip
+mac.sha512: e3e799b351a539a87c2f349262c681dd7676d70dd1abc9758f694029c6620df4657de049de8a486d2cca8d36b80e92559bf3093f754415df82c486b3fa46663e
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Codes: Diagnose beim Einsetzen in den Rahmen (Protokoll), Fehlercode des Einsetzens bricht die Ausgabe nicht mehr ab.
-signature: 25e2c54563f06d58442b6f1fe4e0f5517184cfa98fb74406cd87141d9cf90324a6e09cbf569bd857131b76731f3ef6f9224b04aeccdcd9c5577ca01b99e6d000
+- Codes: Fehlercodes im Protokoll; ein Code-Rahmen bricht die Ausgabe nicht mehr ab (Fehler stehen im Bericht).
+signature: 8798d6ee40bbe0dfa6cfbfa0e5c4066bcc05d881b50a065b947819034aaeb9a9be4a2bfbb8385fbb99cfa72c70422807e7e3b6aa7b642fc942e6c63803ae2707
