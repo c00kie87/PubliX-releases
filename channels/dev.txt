@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.461
+version: 0.7.462
 date: 2026-11-15
 host: 21
-commit: 74aa48758f405bc12bf757cd20eb5734fdaf01db
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.461/p2-0.7.461-mac.zip
-mac.sha512: 98a1f53912dee63768f380b4bdb5c0fc149143eb063bf17f69c31ee34e39e7e691fde5ad51a3106974517b4f19ec34fa57537e78e76b5a765c956626483e134c
+commit: e3417e9169804167aa3ad4f7986ff3fc5bf65936
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.462/p2-0.7.462-mac.zip
+mac.sha512: d526634c2c846ad053a836de9d9c52a3262b73e4f4d21688e875f57eb3392d31dfcf96deb3e19dd1a946079273d64ad400cf1c82abe8a6e52ae092dd414a4c49
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Selbsttest: läuft zuverlässig weiter, solange InDesign im Hintergrund ist (Leerlaufaufgabe wurde bis zum nächsten Wechsel in den Vordergrund angehalten).
+- Codes: Nach dem Ersetzen des Platzhalters werden Größe und Lage des Codes exakt wiederhergestellt (0.7.460/461 schrumpfte der Code auf Platzhaltergröße).
