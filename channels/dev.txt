@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.457
-date: 2026-11-14
+version: 0.7.458
+date: 2026-11-15
 host: 21
-commit: b201abdb5b3fac647427a9b336e6cb6906bbfcc9
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.457/p2-0.7.457-mac.zip
-mac.sha512: 209b7ff2295b00474bcdaab4b4ebbe7dbe6d0a0b5a49d191d956b66c6496fafe64d923c59a0af4cad5aa6759037985220d96c48f66f3a72041f5d4a4d8ef6a37
+commit: cbc2083cee034a1673e1c513f5a73d254db13db4
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.458/p2-0.7.458-mac.zip
+mac.sha512: a794019a84320856e7883c63f32beb7c2f89607abaa9fe61f2517c6bedeeda17306ab3a3eadaddda7da76a49861c2f44fbd6b1b0ba3ae776dd31ed7fc11625ba
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Codes: Ruhezone und Lage im Rahmen korrekt (Pfade lagen bündig links oben).
+- Codes: Der gezeichnete Code wird vor dem Einsetzen vom Druckbogen gelöst (bis 0.7.457 hing er zusätzlich auf dem Bogen – sichtbares Streuobjekt, beschädigter Dokumentbaum). Lage und Ruhezone im Rahmen werden nach dem Einsetzen wiederhergestellt; Protokoll prüft „Kinder 1“.
