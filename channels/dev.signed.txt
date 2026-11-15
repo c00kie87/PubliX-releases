@@ -1,16 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.465
+version: 0.7.466
 date: 2026-11-15
 host: 21
-commit: e40a66dcc595e969dc7457ca7474fd1a4f000f86
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.465/p2-0.7.465-mac.zip
-mac.sha512: aa01a9f9be99e5c88b4a573a67fe8cf6bc732f4f1a807fc660f3b97704dd8552646488aa81353d5d0516e24aefbc7debc61b7e6c1bfda9fa04e19c7313388511
+commit: 3bd90a9b9e13afed21e2c178a77a50647219fbb1
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.466/p2-0.7.466-mac.zip
+mac.sha512: 547ddba5a57ac2d6513537d87ce3fc2ef17b53b4ab5fe2cdd59b1274a4c6b4c74477932d0efad3f9b647a640b3c5369a99a24761fd85b3306ccc8741b734891e
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Dynamik:
-- Ein Objekt, das nur einem genannten Objekt folgt, rückt mit diesem auch nach unten (bisher nur in dessen eigener Wirkrichtung).
-- Ein statisches Objekt direkt darüber hält seinen Folger fest: Schrumpft ein Text daneben, rückt der Folger nicht mehr unter das statische Objekt (z. B. Preis unter das Bild).
-- Selbsttest: Szenarien ohne Vorlage gelten als „nicht prüfbar“; Altsystem-Vorlagen der Spielwiese werden ihrer Gruppe zugeordnet; hängendes InDesign wird im Stapellauf kontrolliert beendet.
-signature: 91b7d99752344a45dd227a6065bb91f69be3964471f1688fe6f14ed3e367d591b07f55f7a73d2fecb47d76666c40c4a3e8aead02daa0485cbf8fc0ff2dfa1103
+- Hyperlinks und Selbsttest:
+- QR-Codes mit Web-, Mail- oder Telefonadresse sind als ganzer Rahmen verlinkt (interaktives PDF); andere Codes per Code-Einstellung „link=“ mit Feldkette, „link=0“ schaltet ab.
+- Selbsttest merkt sich die vorher aktive Datenquelle in einer Datei und stellt sie auch nach einem abgebrochenen Lauf wieder her.
+- Im Stapellauf liest p2 eine geänderte Quelle nie ungefragt neu ein (Rückfrage wird übersprungen und protokolliert).
+signature: 07b126ec1a59e14a2727ae0b8a0026e02c917307ce4b29a0dfa291fa33e9d5b70d2396afdc59c0a59c69f38d015cd235e5f83b6b9421eff474478ac72dfd3d04
