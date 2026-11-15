@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.460
+version: 0.7.461
 date: 2026-11-15
 host: 21
-commit: 8c20a7b330ab3ecfccf3716cd32d9a40261a543b
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.460/p2-0.7.460-mac.zip
-mac.sha512: 6a6f15091a41631433b3f349eb67c0db4b5d5b0d77f2a5517f3d67ac6fcfd6b3051cce9675a88fb45d88064267efcbb7702351a7057461110bcd299269657204
+commit: 74aa48758f405bc12bf757cd20eb5734fdaf01db
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.461/p2-0.7.461-mac.zip
+mac.sha512: 98a1f53912dee63768f380b4bdb5c0fc149143eb063bf17f69c31ee34e39e7e691fde5ad51a3106974517b4f19ec34fa57537e78e76b5a765c956626483e134c
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Codes: Im getaggten Rahmen ersetzt der Code den XML-Platzhalter (wie beim Platzieren eines Bildes); der Rahmen hat genau einen Inhalt, die Ampel bleibt erhalten.
-signature: 978dfb4df79540af3138650c08f0c2b74f6795abe23672ef465859970b14395f91c99d213a663f6fae55a127796c77515f81e981a88622f1193371655afd1d0c
+- Selbsttest: läuft zuverlässig weiter, solange InDesign im Hintergrund ist (Leerlaufaufgabe wurde bis zum nächsten Wechsel in den Vordergrund angehalten).
+signature: 6d9f78d15f97f738096810a71b793f813159db73a03e192b193b913c90ed0452cf5be4f57d04017ad0a06ad053fbeb7bd9c99fe1a5d21df04856465c30caf20a
