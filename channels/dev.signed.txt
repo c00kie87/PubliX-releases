@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.468
+version: 0.7.469
 date: 2026-11-15
 host: 21
-commit: 6ea56d74534921adb0cc8c6da0240674315be063
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.468/p2-0.7.468-mac.zip
-mac.sha512: 2945cd7fc2abb7d2841231e11072e2cd181404a85b57c4b9fb513804badaaf656d15a4cd33ad02d8e17732bca87217b138cc48a03ff88c9507141bae8025c9b7
+commit: 689504d2cc3f1a16747d38f3586a266fb0817404
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.469/p2-0.7.469-mac.zip
+mac.sha512: 5ea25e2a6ce70ab8d98a8d4deddc70f6e18579e725375bf5298e8bdbfeea5c856d01daeb8807235a7624d5a1355b801f2a120657c636e5a9aaf91f03d252255a
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Querverweise zeigen die Seitenzahl sofort (Aktualisierung nach dem Anlegen). Dynamik: „folgt nur …“ greift auch, wenn das genannte Objekt auf gleicher Höhe liegt und später verarbeitet wird.
-signature: b1d165d8aabc37fe35cc652a6c25e1bf3e67edbe04c4a0a1791de19a5ed5e2ab2310fc6c0bda259171f55b42b0380b312d6269fb5d05a0c471c7e231b6833201
+- Dynamik: Beim Nachrücken (Folgende dürfen eine verdrängende Gruppe nicht überholen) rückt ein Objekt, das nur einem genannten folgt, mit diesem nach (S41: Farbe bleibt neben dem Namen).
+signature: 6523681e9a92697bdb206862e347f81aae22ed2132131e6c1a17c543047cc7c4b7adde29261bfd0758299e4a3861736e23036e5ce8ca926831d5ee20d3be7307
