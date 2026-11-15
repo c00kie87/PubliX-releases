@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.459
+version: 0.7.460
 date: 2026-11-15
 host: 21
-commit: 721e9cff4cb765d8d23d16cef505bb1f5594c66c
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.459/p2-0.7.459-mac.zip
-mac.sha512: c87fe05ce7ca7797970b55cf7b95e71c90b1033764658bcbfda6e46198ea2edb0216b308da684b551beb89dfbb43b8fb45eb26ee2f5b2c862bc6318bc8c73a36
+commit: 8c20a7b330ab3ecfccf3716cd32d9a40261a543b
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.460/p2-0.7.460-mac.zip
+mac.sha512: 6a6f15091a41631433b3f349eb67c0db4b5d5b0d77f2a5517f3d67ac6fcfd6b3051cce9675a88fb45d88064267efcbb7702351a7057461110bcd299269657204
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Codes: Diagnose des Rahmeninhalts vor/nach dem Einsetzen im Protokoll.
-signature: 5bd713e9fb30ba34d0ce5cec78f4f9fe8d28f3e75df5c61044526dcb7e6878b49fe2847c064b7525d7fc2e2df04b23fcb66955e6affcc46c74487077836b7404
+- Codes: Im getaggten Rahmen ersetzt der Code den XML-Platzhalter (wie beim Platzieren eines Bildes); der Rahmen hat genau einen Inhalt, die Ampel bleibt erhalten.
+signature: 978dfb4df79540af3138650c08f0c2b74f6795abe23672ef465859970b14395f91c99d213a663f6fae55a127796c77515f81e981a88622f1193371655afd1d0c
