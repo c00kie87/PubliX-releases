@@ -1,12 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.464
+version: 0.7.465
 date: 2026-11-15
 host: 21
-commit: 2b2ef3fadd39fc23b51bd151044d71a65ca5e39a
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.464/p2-0.7.464-mac.zip
-mac.sha512: 107b80c66d75732c3ca06d2504597e6fe7afea83ca3db317fd93290c7fd59f74b0bd45b8ddc84517bf46ed68cd9f17b31ca2f6427c0cb55db9968b0708b28aec
+commit: e40a66dcc595e969dc7457ca7474fd1a4f000f86
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.465/p2-0.7.465-mac.zip
+mac.sha512: aa01a9f9be99e5c88b4a573a67fe8cf6bc732f4f1a807fc660f3b97704dd8552646488aa81353d5d0516e24aefbc7debc61b7e6c1bfda9fa04e19c7313388511
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Selbsttest: Szenarien laufen ohne die Projektbibliotheken des Arbeitsprojekts (keine fremden Template-Varianten in der Spielwiese); Startmarke je Szenario im Protokoll. Spielwiese: Dokumentvorgabe der Ränder passt zu breiten Vorlagen.
+- Dynamik:
+- Ein Objekt, das nur einem genannten Objekt folgt, rückt mit diesem auch nach unten (bisher nur in dessen eigener Wirkrichtung).
+- Ein statisches Objekt direkt darüber hält seinen Folger fest: Schrumpft ein Text daneben, rückt der Folger nicht mehr unter das statische Objekt (z. B. Preis unter das Bild).
+- Selbsttest: Szenarien ohne Vorlage gelten als „nicht prüfbar“; Altsystem-Vorlagen der Spielwiese werden ihrer Gruppe zugeordnet; hängendes InDesign wird im Stapellauf kontrolliert beendet.
