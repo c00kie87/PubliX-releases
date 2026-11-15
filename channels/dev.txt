@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.469
+version: 0.7.470
 date: 2026-11-15
 host: 21
-commit: 689504d2cc3f1a16747d38f3586a266fb0817404
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.469/p2-0.7.469-mac.zip
-mac.sha512: 5ea25e2a6ce70ab8d98a8d4deddc70f6e18579e725375bf5298e8bdbfeea5c856d01daeb8807235a7624d5a1355b801f2a120657c636e5a9aaf91f03d252255a
+commit: d63a5f576fc7a25ce6f5b986a49865ae56d8e390
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.470/p2-0.7.470-mac.zip
+mac.sha512: e08b8d9b3d26365f9efe304736f637892857acdb46d0cf7fd41ffbb3284a5ef13e4e0e2679d0f32e58a7b01257f3f25694a3f0ace083335d64ef6a91d11e64ec
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Dynamik: Beim Nachrücken (Folgende dürfen eine verdrängende Gruppe nicht überholen) rückt ein Objekt, das nur einem genannten folgt, mit diesem nach (S41: Farbe bleibt neben dem Namen).
+- Template-Umbau (Etappe A/B, erste Fassung): Ebenen „Template X“ einer Vorlage des Altsystems werden von ihren Musterseiten übernommen, Hilfstabellen (auch verschachtelte) zu Rahmen aufgelöst, Datentabellen mit Abfrage bleiben Tabellen; …P- und …f-Ebenen entfallen. Ergebnis in der eigenen Bibliothek „Gesamtkatalog (umgewandelt)“ mit Bericht. Zunächst über den Selbsttest; Menübefehl folgt.
