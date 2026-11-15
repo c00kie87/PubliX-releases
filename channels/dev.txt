@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.470
+version: 0.7.471
 date: 2026-11-15
 host: 21
-commit: d63a5f576fc7a25ce6f5b986a49865ae56d8e390
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.470/p2-0.7.470-mac.zip
-mac.sha512: e08b8d9b3d26365f9efe304736f637892857acdb46d0cf7fd41ffbb3284a5ef13e4e0e2679d0f32e58a7b01257f3f25694a3f0ace083335d64ef6a91d11e64ec
+commit: c79fb0ff5a509417fe0c175196ca17392af3be61
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.471/p2-0.7.471-mac.zip
+mac.sha512: 8b5e971de697b5eaf3edc956aa7fbd999335904fc52188f6e32520b0df17836e266a90db1b3d6899e4eb6cbc3d53d027154bdaa34d0d9067786f4da03b8adda4
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Template-Umbau (Etappe A/B, erste Fassung): Ebenen „Template X“ einer Vorlage des Altsystems werden von ihren Musterseiten übernommen, Hilfstabellen (auch verschachtelte) zu Rahmen aufgelöst, Datentabellen mit Abfrage bleiben Tabellen; …P- und …f-Ebenen entfallen. Ergebnis in der eigenen Bibliothek „Gesamtkatalog (umgewandelt)“ mit Bericht. Zunächst über den Selbsttest; Menübefehl folgt.
+- Template-Umbau: alle Skripte arbeiten fest mit der Arbeitskopie (nie mit dem vorderen Dokument des Anwenders); eigene Bibliothek wird vor jedem Umbau frisch angelegt; Gründe für nicht auflösbare Tabellen im Protokoll.
