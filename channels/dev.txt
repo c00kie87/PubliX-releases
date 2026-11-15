@@ -1,15 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.463
+version: 0.7.464
 date: 2026-11-15
 host: 21
-commit: 30a421fc5cbfdfed800a6d466d07cd1d5a33c269
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.463/p2-0.7.463-mac.zip
-mac.sha512: 7833ac71c39d361e21c1e8c97dc318f25b4b1262945b9f3af04c3a23cbf3719eb7f70e2f56fdbb9802dfbd819a67dbb2f31cc116b5ad29c018d8fbf43237d6fb
+commit: 2b2ef3fadd39fc23b51bd151044d71a65ca5e39a
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.464/p2-0.7.464-mac.zip
+mac.sha512: 107b80c66d75732c3ca06d2504597e6fe7afea83ca3db317fd93290c7fd59f74b0bd45b8ddc84517bf46ed68cd9f17b31ca2f6427c0cb55db9968b0708b28aec
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Altprojekt und Codes:
-- Die zuletzt geladene Projektdatei des Altsystems wird je Quelle gemerkt, nicht mehr global. Bisher galten ihre Regeln und Zusatzfelder auch für andere Quellen (z. B. die Spielwiese). Beim Quellenwechsel wird ein still geladenes Altprojekt verworfen; die bisherige Merkdatei wird einmalig der aktiven Quelle zugeordnet.
-- DataMatrix und GS1-DataMatrix (ECC200, 10×10 bis 144×144) als Codeart; Umlaute über UTF-8-Kennung. Mit zwei unabhängigen Lesern gegengelesen.
-- Spielwiese: Vorlagen breiter als der Satzspiegel erhalten passende Seitenränder.
+- Selbsttest: Szenarien laufen ohne die Projektbibliotheken des Arbeitsprojekts (keine fremden Template-Varianten in der Spielwiese); Startmarke je Szenario im Protokoll. Spielwiese: Dokumentvorgabe der Ränder passt zu breiten Vorlagen.
