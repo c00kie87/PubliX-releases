@@ -1,17 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.467
+version: 0.7.468
 date: 2026-11-15
 host: 21
-commit: e744f027a99c0daa6c6dd88aacbdbc4e46f13550
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.467/p2-0.7.467-mac.zip
-mac.sha512: f4bc234270d79982d96f6d4fa8e4bb8b8cede258bcae2aadbb6cf34a31bed5eb3ff5c2e93043be7a2b6f538543558a2f1148686b3e4b4bd8622970f9c9e2a218
+commit: 6ea56d74534921adb0cc8c6da0240674315be063
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.468/p2-0.7.468-mac.zip
+mac.sha512: 2945cd7fc2abb7d2841231e11072e2cd181404a85b57c4b9fb513804badaaf656d15a4cd33ad02d8e17732bca87217b138cc48a03ff88c9507141bae8025c9b7
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Querverweise, Aztec, Breite an Inhalt:
-- Querverweise: «Feld|seite» im Template-Text setzt die Seitenzahl des Datensatzes, dessen Schlüssel im Feld steht – als nativer InDesign-Querverweis (Format „p2 Seitenzahl“), der sich bei Seitenänderungen aktualisiert. Fehlendes Ziel: „?“ und Hinweis.
-- Aztec als Codeart (kompakt und voll, bis 32 Lagen).
-- Breite an Inhalt: der Rahmen wird so breit, dass kein Übersatz entsteht (vorher konnte ein kurzes Wort ganz im Übersatz verschwinden).
-- Spielwiese: Szenario S235 (Querverweise); Schnappschuss des Selbsttests enthält den Textinhalt.
-signature: 5ba9ec64b1b664cf09cafd422aaaebcabfed7d9438691a878167b1e0fd0074c944874176a4b08fd99388e58addc79f271278698ffbccada8fecc2cfbc02e2b00
+- Querverweise zeigen die Seitenzahl sofort (Aktualisierung nach dem Anlegen). Dynamik: „folgt nur …“ greift auch, wenn das genannte Objekt auf gleicher Höhe liegt und später verarbeitet wird.
+signature: b1d165d8aabc37fe35cc652a6c25e1bf3e67edbe04c4a0a1791de19a5ed5e2ab2310fc6c0bda259171f55b42b0380b312d6269fb5d05a0c471c7e231b6833201
