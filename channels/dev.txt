@@ -1,12 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.462
+version: 0.7.463
 date: 2026-11-15
 host: 21
-commit: e3417e9169804167aa3ad4f7986ff3fc5bf65936
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.462/p2-0.7.462-mac.zip
-mac.sha512: d526634c2c846ad053a836de9d9c52a3262b73e4f4d21688e875f57eb3392d31dfcf96deb3e19dd1a946079273d64ad400cf1c82abe8a6e52ae092dd414a4c49
+commit: 30a421fc5cbfdfed800a6d466d07cd1d5a33c269
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.463/p2-0.7.463-mac.zip
+mac.sha512: 7833ac71c39d361e21c1e8c97dc318f25b4b1262945b9f3af04c3a23cbf3719eb7f70e2f56fdbb9802dfbd819a67dbb2f31cc116b5ad29c018d8fbf43237d6fb
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Codes: Nach dem Ersetzen des Platzhalters werden Größe und Lage des Codes exakt wiederhergestellt (0.7.460/461 schrumpfte der Code auf Platzhaltergröße).
+- Altprojekt und Codes:
+- Die zuletzt geladene Projektdatei des Altsystems wird je Quelle gemerkt, nicht mehr global. Bisher galten ihre Regeln und Zusatzfelder auch für andere Quellen (z. B. die Spielwiese). Beim Quellenwechsel wird ein still geladenes Altprojekt verworfen; die bisherige Merkdatei wird einmalig der aktiven Quelle zugeordnet.
+- DataMatrix und GS1-DataMatrix (ECC200, 10×10 bis 144×144) als Codeart; Umlaute über UTF-8-Kennung. Mit zwei unabhängigen Lesern gegengelesen.
+- Spielwiese: Vorlagen breiter als der Satzspiegel erhalten passende Seitenränder.
