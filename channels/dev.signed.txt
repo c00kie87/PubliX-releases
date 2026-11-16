@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.498
+version: 0.7.499
 date: 2026-11-16
 host: 21
-commit: 58173feb8039f54493a990aebe2058998cefa978
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.498/p2-0.7.498-mac.zip
-mac.sha512: 671ad13306fee1c86120d4c47fab32f933ab17bc6e69e4c4fb17d9899ff6fbeeac1ef88698e51d438608916489d349da19c31aeec9925bb3296e10d3d71a066f
+commit: 6dd40f73242c3f5077ce3d28c4b499f798f22c6a
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.499/p2-0.7.499-mac.zip
+mac.sha512: 4f1c39d66a9589c519058063263a763ef2f0b027c71d49563f2c324291ea8c47544550ef7a5a29a81024af80abac3f9b6bfa9d601954380647c01469cc6f8ff3
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Diagnose: Einpassen hoher Textspalten und Dynamik-Verschiebungen protokolliert.
-signature: d47e28950fd463c7d21d037223405e895929a70f456eec501ce850fa8a6e4f9df45988488767782e7644c12536f58466123854485d05cd4d553721d7d80d8e0e
+- Diagnose: Lage der Gruppenkinder vor dem Einpassen.
+signature: e84809c9638dfbda44da32cfbae4bca26944cc451a504c8211cd4d2474c12ecd669d0526a0359c05bca61c108984ca970c4b47d7f5f1f92ec48b7232f0f8cf04
