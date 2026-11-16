@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.497
+version: 0.7.498
 date: 2026-11-16
 host: 21
-commit: 0bbbe80fe7f65461fad77c14ecc51934cfefec15
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.497/p2-0.7.497-mac.zip
-mac.sha512: ca1a511736de481802f0e99aef494a87247de065a1d13efdc2b6edceb90209a9411f844687351fb6414b7146bb742e03609a1130aebe67ef18359b1a1c4bce7d
+commit: 58173feb8039f54493a990aebe2058998cefa978
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.498/p2-0.7.498-mac.zip
+mac.sha512: 671ad13306fee1c86120d4c47fab32f933ab17bc6e69e4c4fb17d9899ff6fbeeac1ef88698e51d438608916489d349da19c31aeec9925bb3296e10d3d71a066f
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Diagnose: Lage der Rahmen beim Seitenabschluss.
-signature: 6a215676b2deb63500a26cb4dca15e490a407f8a748b0c37166159a18ad2234a8e4ae8338edab680b5c870a170f948433c0f0af0e10e4f95f5c40b3a02a76903
+- Diagnose: Einpassen hoher Textspalten und Dynamik-Verschiebungen protokolliert.
+signature: d47e28950fd463c7d21d037223405e895929a70f456eec501ce850fa8a6e4f9df45988488767782e7644c12536f58466123854485d05cd4d553721d7d80d8e0e
