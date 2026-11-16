@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.476
+version: 0.7.477
 date: 2026-11-16
 host: 21
-commit: cf5175d1ee13ca846f6307eb1e3696c843977631
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.476/p2-0.7.476-mac.zip
-mac.sha512: 69d61f801fd5e4f87aedc0ad89029c515a201f5c355550922ab69d8fa7e212ecb2a28d4d8e512b80340d760df4dadbd79eadde20b25b3dbe69b133ad41036a14
+commit: 7d9b8b938aa9b265ca8e030ba99ed6a9cc6c607b
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.477/p2-0.7.477-mac.zip
+mac.sha512: 8054bdfb2a64f64a292ddd16ea4cfa363f22b0bdfb76c391aae3bd83bd4d811e6a2add454edd313c177ee6bdff8a2eafd6faa190a41cdd599723d731582b6033
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Bedingungen mit Platzhaltern des Altsystems laden die Projektdatei vorher (Textkonsolidierungen wie $TK_C_Stahl850N wurden in 0.7.475 noch nicht ausgewertet); Platzhalter ohne Datenfeld gelten immer als leer statt die Ausgabe abzubrechen.
-signature: aca1c4c1d14bc588fe1d04a5951d9c868e815356cc834fc409d7f4be105a95d62f504fdde89d050c4eceee587610a17b29177608e3174eb489c1af826f25fc03
+- Seitenfluss: Breitentoleranz 1,5 pt statt 0,5 pt – halb überstehende Konturen (Tabelle 183,4 mm im 183-mm-Satzspiegel) brechen die Ausgabe nicht mehr ab.
+signature: 4317e2c4e30e399b1e97e09c54c84095e2897e174c14f93431bc908336374c8ea4489e8ea60d6d23e6d96655d1c16bd658ee39d68a6346a8d18b128dfedd7909
