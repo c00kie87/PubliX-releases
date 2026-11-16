@@ -1,14 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.475
+version: 0.7.476
 date: 2026-11-16
 host: 21
-commit: a05d530fac68cd91a82b34d86e3f8c5c7b7878c2
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.475/p2-0.7.475-mac.zip
-mac.sha512: 197019a766b6ad5c3ea181e06c63dfa560ee2c51a19d9e0c58d1d56d814c4675a6bce28fe97ad82baf7b80c7c49481b9c951024cb6dc43feed45d439df693184
+commit: cf5175d1ee13ca846f6307eb1e3696c843977631
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.476/p2-0.7.476-mac.zip
+mac.sha512: 69d61f801fd5e4f87aedc0ad89029c515a201f5c355550922ab69d8fa7e212ecb2a28d4d8e512b80340d760df4dadbd79eadde20b25b3dbe69b133ad41036a14
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Template aus Feld: Varianten des Altsystems („K1P“, „K1f“) nehmen automatisch das Grund-Template („K1“) statt der Rückfrage „Template-Wahl unklar“.
-- Bedingungen mit Textkonsolidierungen des Altsystems (z. B. $TK_C_Stahl850N) werden aus den Datensätzen der Einheit zusammengestellt; Platzhalter ohne Datenfeld gelten als leer – die Ausgabe bricht nicht mehr mit „Datenfeld fehlt“ ab.
-signature: 8a93f84fdd0adb3f0862ff867bdbfc368077e9b5de79abefe160f6faea7237698e2bbf2d81f76dc84c504f75f0255d1b61fd7f4523c01ce40719f8b071254c0e
+- Bedingungen mit Platzhaltern des Altsystems laden die Projektdatei vorher (Textkonsolidierungen wie $TK_C_Stahl850N wurden in 0.7.475 noch nicht ausgewertet); Platzhalter ohne Datenfeld gelten immer als leer statt die Ausgabe abzubrechen.
+signature: aca1c4c1d14bc588fe1d04a5951d9c868e815356cc834fc409d7f4be105a95d62f504fdde89d050c4eceee587610a17b29177608e3174eb489c1af826f25fc03
