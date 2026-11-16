@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.477
+version: 0.7.478
 date: 2026-11-16
 host: 21
-commit: 7d9b8b938aa9b265ca8e030ba99ed6a9cc6c607b
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.477/p2-0.7.477-mac.zip
-mac.sha512: 8054bdfb2a64f64a292ddd16ea4cfa363f22b0bdfb76c391aae3bd83bd4d811e6a2add454edd313c177ee6bdff8a2eafd6faa190a41cdd599723d731582b6033
+commit: 1b26193fe977d7a8c45e54370d5e595feb284154
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.478/p2-0.7.478-mac.zip
+mac.sha512: d9e0003a2c5ac808c59a1574890f2ac273a9ad57478a0b4773db6cadcf90be8bebeb6fdff547178a3236950b39ab6f5ec97dba375217ca877a5a00b46537686e
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Seitenfluss: Breitentoleranz 1,5 pt statt 0,5 pt – halb überstehende Konturen (Tabelle 183,4 mm im 183-mm-Satzspiegel) brechen die Ausgabe nicht mehr ab.
+- Bildrahmen aus Altsystem-Templates übernehmen Höchst- und Mindestmaße (MaxFrameWidth/-Height, MinFrameWidth/-Height): „Farbskala“ wächst nicht mehr über 183 mm hinaus und bricht die Ausgabe nicht mehr ab.
