@@ -1,13 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.473
+version: 0.7.474
 date: 2026-11-16
 host: 21
-commit: f778428e73caa61c2d03522b975e0e72a46bf4bb
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.473/p2-0.7.473-mac.zip
-mac.sha512: 23bea79a43580f1903949f910f224124cae426095969664b0253ce195b652afcdddf4cc5ba7f3be39d4740bb4acae667348d506593c5019d55dc0e90d855dce6
+commit: 70f46f98c557a6d0cde69479aa0eae749c858b27
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.474/p2-0.7.474-mac.zip
+mac.sha512: c3db76fbd160887062ca7e55acf4d8503eda988858e06959810bcb614ee94401f848862363fc70cacce51e855ec42ca9514fb476f4e2160c847af508ea430353
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Template-Umbau ersetzt Altsystem-Konstrukte durch die Objekte eines Vorbild-Templates (Standard: Template K1 aus der eigenen Bibliothek des Anwenders): Piktogramm-Reihen (PG_/VG_Piktogramm1…n) werden zu je einem Rahmen mit Vervielfältigen und Raster, die fünf Herstellerlogo-Bilder zu einem Logo-Rahmen, die Kreuztabelle zur p2-Kreuztabelle – mit allen Regeln und Bedingungen des Vorbilds.
-- Logo- und Produktgruppentext-Tabellen werden aufgelöst; Zellen im Übersatz wachsen beim Umbau mit; gescheiterte Rahmen werden nicht in jeder Runde erneut versucht.
+- Template-Umbau: Rahmen wachsen bei Übersatz nur noch in der Höhe – Breitenwachstum schob aufgelöste Texte über die Nachbarspalte.
