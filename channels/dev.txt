@@ -1,13 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.479
+version: 0.7.480
 date: 2026-11-16
 host: 21
-commit: dbf0fa605495e15f1f1dc7b6130258b45d171bd8
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.479/p2-0.7.479-mac.zip
-mac.sha512: 378233b57aafaf304dc35f9e64a9bacd3e496bcbd5d662c4331cf7da17ada573d003d2c089e92e5f49962c8cad1d129c1f9261176b9e40808b6bca11fea31179
+commit: 2b05c2ea9039761e6add458b65dd8198dac8f48b
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.480/p2-0.7.480-mac.zip
+mac.sha512: cac3e9c12805689c43d3703132e8c62fca48f60ff1717572ad5aa764aff96aea7402cacb96229227d6d8dfceb6b485ce326e8ef0406b4a42ff6f360e8da176eb
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Template-Umbau: Teile, die über die Templatebreite hinausragen (verschachtelte Tabelle breiter als ihre Zelle, im Altsystem Übersatz), werden in den Satzspiegel geschoben – Template 2 und K3 waren 211 mm breit und brachen die Ausgabe ab. Arbeitskopie mit Einzelseiten; beim Auflösen werden nur noch kleine Lageabweichungen ausgerichtet.
-- Laufzeitmessung für das Einlesen und Entfernen der Templates je Automatisieren-Lauf (Protokoll laufzeit.csv).
+- Seitenfluss: Breitentoleranz 3 pt (≈ 1 mm) für überstehende Konturen; umgewandelte Templates messen 183,0–183,8 mm.
