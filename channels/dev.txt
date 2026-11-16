@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.491
+version: 0.7.492
 date: 2026-11-16
 host: 21
-commit: 659ba8a2d2f07d20d151db7e93fd648dd6cf45e2
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.491/p2-0.7.491-mac.zip
-mac.sha512: ef049a14295fb9e724042681b3b238e5c827e30f26d3ec060e2033667c6529547001da51a16ddf9fc5a59572249e49ea89d9d7764f0d7e092adb99a06fb0596a
+commit: 1b6b998d69a06edb6726555b2246f5102009e41c
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.492/p2-0.7.492-mac.zip
+mac.sha512: f24ec55ce1088a71d6053d7745cd753b714b315c610c013ab6c17922e93468071629a918934cfb2163fa6a419b772acb470f0e157c9a2d386f7bc28e94c5d444
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Fortsetzung: Fortsetzungsrahmen werden genau an den Resttext angepasst (eigene Messung statt „Rahmen an Inhalt“, das bei verketteten Rahmen falsch maß) – der Rest wird richtig geplant und überlagert die nächste Gruppe nicht mehr.
+- Fortsetzung: „Nicht vom vorherigen trennen“ zieht keine kurzen Nachbarspalten mehr auf die nächste Seite, wenn eine Spalte der Zeile ohnehin weiterläuft (Rest von Spalte 1 rutschte sonst unter Spalte 2).
