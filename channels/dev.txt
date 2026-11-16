@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.472
-date: 2026-11-15
+version: 0.7.473
+date: 2026-11-16
 host: 21
-commit: bcdd25b4baac5c0d9696468cef5617021e6c35ab
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.472/p2-0.7.472-mac.zip
-mac.sha512: f4961a6c7142922d4a1d3d39fb9a6e3b906e396690954134877e441b209398eb7d3d1e8ee6e6e6a80544133eb5aa6b8f4e1d8b2193dede4ed9ffc6cfddcbea11
+commit: f778428e73caa61c2d03522b975e0e72a46bf4bb
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.473/p2-0.7.473-mac.zip
+mac.sha512: 23bea79a43580f1903949f910f224124cae426095969664b0253ce195b652afcdddf4cc5ba7f3be39d4740bb4acae667348d506593c5019d55dc0e90d855dce6
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Template-Umbau: alle Templates werden von ihrer Musterseite übernommen (vorher fehlten 14 Templates mit 0 Objekten). Duplizieren statt Musterseite übergehen – das Entfernen der Musterseite konnte InDesign abstürzen lassen.
-- Hilfstabellen auflösen im Template-Umbau nachsichtig: Rahmen wachsen bei Übersatz mit, kleine Lageabweichungen werden vermerkt statt abzubrechen. Im normalen Auflösen rollt eine fehlerhafte Zelle die Tabelle sauber zurück statt eines Skriptabbruchs.
+- Template-Umbau ersetzt Altsystem-Konstrukte durch die Objekte eines Vorbild-Templates (Standard: Template K1 aus der eigenen Bibliothek des Anwenders): Piktogramm-Reihen (PG_/VG_Piktogramm1…n) werden zu je einem Rahmen mit Vervielfältigen und Raster, die fünf Herstellerlogo-Bilder zu einem Logo-Rahmen, die Kreuztabelle zur p2-Kreuztabelle – mit allen Regeln und Bedingungen des Vorbilds.
+- Logo- und Produktgruppentext-Tabellen werden aufgelöst; Zellen im Übersatz wachsen beim Umbau mit; gescheiterte Rahmen werden nicht in jeder Runde erneut versucht.
