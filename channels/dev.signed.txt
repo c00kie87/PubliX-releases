@@ -1,14 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.482
+version: 0.7.483
 date: 2026-11-16
 host: 21
-commit: c3c25a2cfa966b6db1b82502475b53fb7d9df518
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.482/p2-0.7.482-mac.zip
-mac.sha512: 64978d3d9a1ab1ad0f07d596d388367da2765586449d70cfc114e4ee0ab22aa40b056d9a57c90de1819355a63a3f4c2610b20ec006e8291b84bcd6805456de53
+commit: f81d62dd452a3094368c5faf0e4462378a24d034
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.483/p2-0.7.483-mac.zip
+mac.sha512: c1294e494aef51aaafafd0f9c4e58a997012a3d2bea46be757548cb952c584fa27088465d52750238c32739f32b7d21cc215295c6f02257a766b1f243016da00
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Vorabladen der Templates schneller: vor der Wahl nur das erste Template mit bedingter Verwendung bzw. geteilter Tabelle (mehr wertet die Wahl nicht aus); Rahmenbedingungen nur ohne Template-Feld. Mit Template aus Feld (z. B. KG3) werden praktisch nur die gewählten Templates samt Varianten eingelesen.
-- Template-Umbau schützt die Bibliothek: vom Anwender gelöschte oder bearbeitete Templates werden beim erneuten Umwandeln weder wiederhergestellt noch überschrieben; die Templates-Palette aktualisiert sich danach sofort.
-signature: e476fa60da9cb538bb84a07055c62eda3e8a04666fdef3bcbf2890dce127eaa7114f086247f776befaf5d358291e3f2db06e0b2956c23018d425c5d75d279908
+- Templates zwischen Bibliotheken kopieren: Palettenmenü „Auswahl in Bibliothek kopieren …“ – ausgewählte Templates samt Vorschau, Details und Varianten-Bezug in eine andere Bibliothek; gleichnamige nur nach Ankreuzen ersetzt.
+signature: 0d73c8a325b1b23f73af855fc69661c0770eb9aaf374f467761960671aa80f0a44f4eb348d0e1747f13eeb68a864b963bafeadcad7d914be239162f52c961b0f
