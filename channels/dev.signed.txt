@@ -1,13 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.478
+version: 0.7.479
 date: 2026-11-16
 host: 21
-commit: 1b26193fe977d7a8c45e54370d5e595feb284154
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.478/p2-0.7.478-mac.zip
-mac.sha512: d9e0003a2c5ac808c59a1574890f2ac273a9ad57478a0b4773db6cadcf90be8bebeb6fdff547178a3236950b39ab6f5ec97dba375217ca877a5a00b46537686e
+commit: dbf0fa605495e15f1f1dc7b6130258b45d171bd8
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.479/p2-0.7.479-mac.zip
+mac.sha512: 378233b57aafaf304dc35f9e64a9bacd3e496bcbd5d662c4331cf7da17ada573d003d2c089e92e5f49962c8cad1d129c1f9261176b9e40808b6bca11fea31179
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Bildrahmen aus Altsystem-Templates übernehmen Höchst- und Mindestmaße (MaxFrameWidth/-Height, MinFrameWidth/-Height): „Farbskala“ wächst nicht mehr über 183 mm hinaus und bricht die Ausgabe nicht mehr ab.
-signature: f0792ca86115edfcfd31c9cc3ae6215cedcb64bba89a2a455daac1bb714a9081e74e1601fa5d46e2a859983bb8ea5adea2a3b14da3ad09b37b82e09894558b07
+- Template-Umbau: Teile, die über die Templatebreite hinausragen (verschachtelte Tabelle breiter als ihre Zelle, im Altsystem Übersatz), werden in den Satzspiegel geschoben – Template 2 und K3 waren 211 mm breit und brachen die Ausgabe ab. Arbeitskopie mit Einzelseiten; beim Auflösen werden nur noch kleine Lageabweichungen ausgerichtet.
+- Laufzeitmessung für das Einlesen und Entfernen der Templates je Automatisieren-Lauf (Protokoll laufzeit.csv).
+signature: a9ea6b8f41dc4d2b52d44d6251bb7fcee5ecaec389873a244ffa996efda7d94f0514bda747e188c18b25efd38a3b3b05288a51b1a743d07713afddadecc1470a
