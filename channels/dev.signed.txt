@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.483
+version: 0.7.484
 date: 2026-11-16
 host: 21
-commit: f81d62dd452a3094368c5faf0e4462378a24d034
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.483/p2-0.7.483-mac.zip
-mac.sha512: c1294e494aef51aaafafd0f9c4e58a997012a3d2bea46be757548cb952c584fa27088465d52750238c32739f32b7d21cc215295c6f02257a766b1f243016da00
+commit: f5c811354a7091336e0c8c6b7a0b0a79b0f0575e
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.484/p2-0.7.484-mac.zip
+mac.sha512: a4e433b9ce1ba67d6a685c950bd197a4a5f3f2ff9439db8674b20982f898ec27742e50521478afb44b557cf122d0e39fe8f21971e9d5c4fc729a3594796858a2
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Templates zwischen Bibliotheken kopieren: Palettenmenü „Auswahl in Bibliothek kopieren …“ – ausgewählte Templates samt Vorschau, Details und Varianten-Bezug in eine andere Bibliothek; gleichnamige nur nach Ankreuzen ersetzt.
-signature: 0d73c8a325b1b23f73af855fc69661c0770eb9aaf374f467761960671aa80f0a44f4eb348d0e1747f13eeb68a864b963bafeadcad7d914be239162f52c961b0f
+- Fortsetzung in Gruppen mit mehreren Textspalten: Verketten bzw. Einpassen verschob die Gruppe (z. B. 162 pt), die nächste Spalte wurde an der alten Lage geteilt und der erste Teil passte nicht mehr auf die Seite (S72/S74, Abbruch „kann hier nicht fortgesetzt werden“). Die Lage wird nach jedem Schritt zurückgesetzt.
+signature: 854e8fd37e8b465cd86d5b4a15209e8f5fcd6ec77fee7ba86fb7c82479cdb359f97910a358faef29817dc04a4d5031b04484feb660f3f8305fc355876a74cb04
