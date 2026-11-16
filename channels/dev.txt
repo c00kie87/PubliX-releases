@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.501
+version: 0.7.502
 date: 2026-11-16
 host: 21
-commit: 5d44e4b0528776852a0fcf5f88581c2150717c26
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.501/p2-0.7.501-mac.zip
-mac.sha512: 8490a831d47ea60ff12f3bb6c675f8569f5561e45091444c8d23d525bdf2456d6abb3c1f3a74cfcedf3749f1391c0bab82f19b80dddc150ef737a3740d6abf0b
+commit: 40543781e3a3aa2e222e98c5ed3ce6cefeb392f0
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.502/p2-0.7.502-mac.zip
+mac.sha512: ca0b60ef6854738bfa55d1dead529499f0d88e46016a3aeff05ddef16b9707353f5bb917b4926a1ca3b05562a734de997cbdd2c1438244245cf8cf1b9737b829
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Rahmenfortsetzung: Liegt ein Rahmen mit „nicht vom vorherigen trennen“ auf der Seitenkante, gehen die letzten Textzeilen des Vorgängers mit auf die nächste Seite (statt erzwungenem Setzen mit Übersatz).
+- Rahmenfortsetzung mit wiederholtem Kopf/Fortsetzungshinweis: Schnittlage nach dem Einfügen der Fortsetzungsobjekte neu bestimmt (Schnitt lag sonst neben der Einheit, Aufbau wurde erzwungen gesetzt).
