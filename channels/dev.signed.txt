@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.499
+version: 0.7.500
 date: 2026-11-16
 host: 21
-commit: 6dd40f73242c3f5077ce3d28c4b499f798f22c6a
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.499/p2-0.7.499-mac.zip
-mac.sha512: 4f1c39d66a9589c519058063263a763ef2f0b027c71d49563f2c324291ea8c47544550ef7a5a29a81024af80abac3f9b6bfa9d601954380647c01469cc6f8ff3
+commit: 84293e93e94bf78f6e73d333ebc8faf8b3bb87c7
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.500/p2-0.7.500-mac.zip
+mac.sha512: be8bf7288f2e0bb88a6663c0c80041f20126f07d9bbd61370e95cb04a6a8ac9420b7212f7865500fbd7161e8fe8f3df73b037a9c7a279e6746b3de004a35c817
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Diagnose: Lage der Gruppenkinder vor dem Einpassen.
-signature: e84809c9638dfbda44da32cfbae4bca26944cc451a504c8211cd4d2474c12ecd669d0526a0359c05bca61c108984ca970c4b47d7f5f1f92ec48b7232f0f8cf04
+- Rahmenfortsetzung: InDesign verschob beim Anpassen hoher Textspalten an der Kante der Montagefläche die übrige Gruppe – p2 setzt sie zurück (Überlagerung am Seitenanfang behoben).
+signature: 30de5ad3d73737258efc16efd91f4cf340e72c6021c18f113cc6fd695529b73823b3ccece45355c2a866c4520f69cb9fb03fa7fa96e7d07cc2555a9a77c0940f
