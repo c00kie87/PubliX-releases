@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.494
+version: 0.7.495
 date: 2026-11-16
 host: 21
-commit: 049a76591962c0c605750b787272cf6aca53bfbf
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.494/p2-0.7.494-mac.zip
-mac.sha512: e866a96f3f6c31353e159623b945f7e911dbb239cc23a6d52d1c875eac01606cc84bb8ce9a607c4e64d52e59086db37e87db749646c252694e0529d80a61fd94
+commit: 493793f0461f9e07967d443fbb38a6ab1b977cad
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.495/p2-0.7.495-mac.zip
+mac.sha512: 94e67923531173aba6792339af7f362843a163a1cc52bae9e32e8834434801b2f386e4b8d8c5d529e287bc661506f779d68eb599e881659b34c850bd824d5791
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Fortsetzung: Mitführen des Schnitts wieder aktiv, unplausible Verschiebungen (größer als der Aufbau) werden verworfen.
+- Seitenfluss: Ein Aufbau, der nicht mehr auf die Seite passt, wird auf der nächsten Seite wieder neu gebaut (Verschieben aus 0.7.489 zurückgenommen – verschlechterte drei Szenarien).
