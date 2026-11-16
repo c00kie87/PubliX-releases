@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.503
+version: 0.7.504
 date: 2026-11-16
 host: 21
-commit: 2ec110956f17592461283de4f2996262b3a7cd01
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.503/p2-0.7.503-mac.zip
-mac.sha512: 44db588f7b9d8528472edfdb738aeb52e7d7bc5629c05128bedb8eeb14e1359798bb099218ed0cfa628b50f368d3bef8f1d03543516c61c29a6c8b65c7d700fd
+commit: ee5ac175c8c717743efd4aafe0bc20f3af1b31b1
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.504/p2-0.7.504-mac.zip
+mac.sha512: b35890328a3a024c5920041d750332e69baebf4e6a4546e57a3be110b22b42a056c0f935cdf9f38f3a8a6dac4c3fd1abd798a88526db6401b498f696412c4a12
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Rahmenfortsetzung: Verschiebt InDesign die Gruppe beim Verketten, rücken nachfolgende Rahmen (z. B. Fuß) im Rest korrekt hinter die fortgesetzte Spalte nach (Überlagerung behoben).
+- Rahmenfortsetzung: Nachfolgende Rahmen (z. B. Fuß) werden im Rest hinter das Ende jeder fortgesetzten Spalte gesetzt, Abstand wie im Template.
