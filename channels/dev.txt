@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.496
+version: 0.7.497
 date: 2026-11-16
 host: 21
-commit: 0dc494ca25f2fab4770a57505f956242ee5f0234
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.496/p2-0.7.496-mac.zip
-mac.sha512: 0ed075a1034b6908c26c4d01fcc1459925e017e721d77dfcb7d1d5f43dfe216f2e0c6c006686dac48ea7cac08e58d07f8e80ab6e0f5e69c09ed52a88b6c9def8
+commit: 0bbbe80fe7f65461fad77c14ecc51934cfefec15
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.497/p2-0.7.497-mac.zip
+mac.sha512: ca1a511736de481802f0e99aef494a87247de065a1d13efdc2b6edceb90209a9411f844687351fb6414b7146bb742e03609a1130aebe67ef18359b1a1c4bce7d
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Diagnose: Protokoll der Abstandsverdichtung beim Seitenabschluss.
+- Diagnose: Lage der Rahmen beim Seitenabschluss.
