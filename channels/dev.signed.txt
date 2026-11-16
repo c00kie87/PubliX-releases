@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.495
+version: 0.7.496
 date: 2026-11-16
 host: 21
-commit: 493793f0461f9e07967d443fbb38a6ab1b977cad
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.495/p2-0.7.495-mac.zip
-mac.sha512: 94e67923531173aba6792339af7f362843a163a1cc52bae9e32e8834434801b2f386e4b8d8c5d529e287bc661506f779d68eb599e881659b34c850bd824d5791
+commit: 0dc494ca25f2fab4770a57505f956242ee5f0234
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.496/p2-0.7.496-mac.zip
+mac.sha512: 0ed075a1034b6908c26c4d01fcc1459925e017e721d77dfcb7d1d5f43dfe216f2e0c6c006686dac48ea7cac08e58d07f8e80ab6e0f5e69c09ed52a88b6c9def8
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Seitenfluss: Ein Aufbau, der nicht mehr auf die Seite passt, wird auf der nächsten Seite wieder neu gebaut (Verschieben aus 0.7.489 zurückgenommen – verschlechterte drei Szenarien).
-signature: 0cb68b8d85fac9e886292306cae42b4b30069f055bfe387e9c651a6245d3cb40796bbab6a97fe8447e78a8a715331b053e27985f53a382c528cd57c3b9571c09
+- Diagnose: Protokoll der Abstandsverdichtung beim Seitenabschluss.
+signature: 0a23730db220a2948488b52ce3ad60859c890c8b0aaceb918fb39e1fc7f5efe30ab006f818aef111436e0149a515d380ec56341ed0ea2704ab9ccba795c76d05
