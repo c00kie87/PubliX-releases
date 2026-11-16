@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.488
+version: 0.7.489
 date: 2026-11-16
 host: 21
-commit: 17d8f0c467afe37cd7fb6d68f78ab8595746d6bc
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.488/p2-0.7.488-mac.zip
-mac.sha512: dbc1ef070b79f680d5695f4a21c95cc1e63de285fd031632d501e8e72fbbc71bdcff449369f9cd9546aac52aac819eb200ac3014d3b9c51338ab636e75a40cc3
+commit: 951c7fee4f46d9729ded33d06eefff9b41b3d0e9
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.489/p2-0.7.489-mac.zip
+mac.sha512: 1c17f09c4b7932e283f93aae41e4d38d661354bb85cd53c47d3d342ecec014e086c48124022583f201de21ad258bb575352fe1084b3a64f9560f2c6134d7dfed
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Passt ein Aufbau selbst auf einer leeren Seite nicht und erlaubt das Template keine Fortsetzung, bricht die Ausgabe nicht mehr ab: Der Aufbau wird gesetzt, zu hohe Textrahmen enden am Satzspiegel (Rest im Übersatz), mit Hinweis am Aufbau und im Bericht. Ebenso für zu breite Aufbauten.
+- Hänger F26 (S232/K1): Ein Aufbau, der auf der Seite nicht mehr Platz findet, wird nicht mehr gelöscht und neu gebaut, sondern auf die nächste Seite verschoben (das Löschen ließ InDesign hängen; das Leeren der Texte in 0.7.487 konnte abstürzen und ist entfernt). Erzwungen gesetzte Aufbauten bestehen die Schlussprüfung der Seite.
