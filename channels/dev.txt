@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.493
+version: 0.7.494
 date: 2026-11-16
 host: 21
-commit: cedd473ab836320307b22afef729464d372d7785
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.493/p2-0.7.493-mac.zip
-mac.sha512: a705c0d208489e261a53cb44b9748e62bd745a32c77dd077efc54b2f3b238de6512d1eec94b6dcd474a48f4a0652ee53d66b5ba45e99219d5bc6a41855682fe3
+commit: 049a76591962c0c605750b787272cf6aca53bfbf
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.494/p2-0.7.494-mac.zip
+mac.sha512: e866a96f3f6c31353e159623b945f7e911dbb239cc23a6d52d1c875eac01606cc84bb8ce9a607c4e64d52e59086db37e87db749646c252694e0529d80a61fd94
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Fortsetzung: Mitführen des Schnitts bei Gruppenverschiebung (0.7.486) abgeschaltet – es maß Fehlverschiebungen.
+- Fortsetzung: Mitführen des Schnitts wieder aktiv, unplausible Verschiebungen (größer als der Aufbau) werden verworfen.
