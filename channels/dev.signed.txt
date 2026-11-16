@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.484
+version: 0.7.485
 date: 2026-11-16
 host: 21
-commit: f5c811354a7091336e0c8c6b7a0b0a79b0f0575e
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.484/p2-0.7.484-mac.zip
-mac.sha512: a4e433b9ce1ba67d6a685c950bd197a4a5f3f2ff9439db8674b20982f898ec27742e50521478afb44b557cf122d0e39fe8f21971e9d5c4fc729a3594796858a2
+commit: facdec237cc3c1b4f63be69dbf9c419f37ee30ad
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.485/p2-0.7.485-mac.zip
+mac.sha512: 517f4e1f6df4442802f695ba94719142254ae464e9122456089e41db41d31b2a02ad304c7437b0133ed2660431543e37b3f1a661001b1f5d6c33d3c53bd3691d
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Fortsetzung in Gruppen mit mehreren Textspalten: Verketten bzw. Einpassen verschob die Gruppe (z. B. 162 pt), die nächste Spalte wurde an der alten Lage geteilt und der erste Teil passte nicht mehr auf die Seite (S72/S74, Abbruch „kann hier nicht fortgesetzt werden“). Die Lage wird nach jedem Schritt zurückgesetzt.
-signature: 854e8fd37e8b465cd86d5b4a15209e8f5fcd6ec77fee7ba86fb7c82479cdb359f97910a358faef29817dc04a4d5031b04484feb660f3f8305fc355876a74cb04
+- Fortsetzungsrahmen wachsen vor dem Einpassen, bis der Resttext ganz gesetzt ist – vorher plante p2 mit zu kleinem Rest; der Rahmen wuchs später unter den Satzspiegel und behielt Übersatz (S75/S79/S81).
+signature: 2e6547c673645089328f6ac68e17437bfe0cab4ecde67c293f70698a3ebd7089cdc24fe6d76f910f3d798173153402cf03322baa6daaaa903cbcec818e07c003
