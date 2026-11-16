@@ -1,12 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.481
+version: 0.7.482
 date: 2026-11-16
 host: 21
-commit: 569a1ad380c871bebe0926b6a406ea3e79a2fefe
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.481/p2-0.7.481-mac.zip
-mac.sha512: 9117cee1aaff7497731cbd92c2ae8ddd469a7799a1fc9c5b79387fa2c8f32b1491bfa58fb4351520aab866c93db075daffe283777c3bc2eaf3f00cbbfbded4b3
+commit: c3c25a2cfa966b6db1b82502475b53fb7d9df518
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.482/p2-0.7.482-mac.zip
+mac.sha512: 64978d3d9a1ab1ad0f07d596d388367da2765586449d70cfc114e4ee0ab22aa40b056d9a57c90de1819355a63a3f4c2610b20ec006e8291b84bcd6805456de53
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Automatisieren liest nicht mehr bei jedem Lauf alle Templates der Bibliothek ein: vor der Template-Wahl nur die, deren Rahmen Einheit oder Wahl beeinflussen (bedingte Verwendung, geteilte Tabelle, Rahmenbedingungen ohne eigene Regel) oder die neu bzw. geändert sind; nach der Wahl die gewählten Templates samt ihren Varianten (alternative Aufbauten). Die Analyse je Template wird zwischengespeichert und nur bei geänderter Bibliotheksdatei erneuert.
+- Vorabladen der Templates schneller: vor der Wahl nur das erste Template mit bedingter Verwendung bzw. geteilter Tabelle (mehr wertet die Wahl nicht aus); Rahmenbedingungen nur ohne Template-Feld. Mit Template aus Feld (z. B. KG3) werden praktisch nur die gewählten Templates samt Varianten eingelesen.
+- Template-Umbau schützt die Bibliothek: vom Anwender gelöschte oder bearbeitete Templates werden beim erneuten Umwandeln weder wiederhergestellt noch überschrieben; die Templates-Palette aktualisiert sich danach sofort.
