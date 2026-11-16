@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.485
+version: 0.7.486
 date: 2026-11-16
 host: 21
-commit: facdec237cc3c1b4f63be69dbf9c419f37ee30ad
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.485/p2-0.7.485-mac.zip
-mac.sha512: 517f4e1f6df4442802f695ba94719142254ae464e9122456089e41db41d31b2a02ad304c7437b0133ed2660431543e37b3f1a661001b1f5d6c33d3c53bd3691d
+commit: 92e8aba0cb6cfe497449d43ad0f521ba39565199
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.486/p2-0.7.486-mac.zip
+mac.sha512: b0e248e2c3d5dc6ab9f0aded33d66f60ff5c0708437da0fd3556e4def6b291269c51bfb123fdf56d9c923fb0c855cabc1740a7ee6809613b7c1ec84655606073
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Fortsetzungsrahmen wachsen vor dem Einpassen, bis der Resttext ganz gesetzt ist – vorher plante p2 mit zu kleinem Rest; der Rahmen wuchs später unter den Satzspiegel und behielt Übersatz (S75/S79/S81).
+- Fortsetzung mehrspaltiger Gruppen: Schnitt und Rahmenlage wandern mit, wenn InDesign die Gruppe beim Verketten/Formatieren verschiebt (ersetzt das Zurücksetzen aus 0.7.484).
