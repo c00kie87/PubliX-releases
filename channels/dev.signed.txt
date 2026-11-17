@@ -1,15 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.523
+version: 0.7.524
 date: 2026-11-17
 host: 21
-commit: 896c1e709b0c866ade4d3b07d443f5e0cf37b44e
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.523/p2-0.7.523-mac.zip
-mac.sha512: 39e5f2281d7bdda59d1bd31233f301483f17fba754e75d45989b3bad6fe320ef5f09d8beb30f43e6dad1d99541657650dc0b836ad81f38b45186ea040a1894ae
+commit: 2795d38ef31be76673ebb8e79c00900cc1aefb09
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.524/p2-0.7.524-mac.zip
+mac.sha512: 1025d163fb2443b087dcc4000ab179b26589b5763f0dbfe7600b75de815342525f864e2ce522c243bed630206990644e2658c482ec7bef0953aeff39b54a9fcf
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Doppelklick auf einen platzierten Wert springt jetzt auch zu Werten, die einen ganzen Rahmen füllen, und zu Bildwerten und markiert sie vollständig.
-- Projekt öffnen: Testquelle (Spielwiese) wird aus dem Projekt entfernt (Konfiguration nach Sicherungen), fehlende Bibliothekskopie im Projektordner wird angelegt.
-- Selbsttest-Szenarien schreiben nie mehr in das geöffnete Projekt.
-signature: c7110dbedbc082a7622ab89dee1629413b28a8a1370ac8a45ab6c3c6cc99a631a3d2e45a0ddaaf9139cd7de2941fc04a028f28df51bc1276855e29d03468bb03
+- Datenquelle: Statusfarben und Doppelklick-Springen werten nur Werte auf Dokumentseiten – Musterseiten (z. B. abgelegte Original-Templates) und Montagefläche färben die Datenquelle nicht mehr.
+signature: 8ede78b989d4f38c48529c752ddbeda44a76eefadb18cdfa374e7d04368c6f87498b9211224f0165db3d9b97dbf60ee230da3a32714b38c1151ff3bb859a350a
