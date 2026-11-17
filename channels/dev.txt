@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.511
+version: 0.7.512
 date: 2026-11-17
 host: 21
-commit: dd292c9fa9bb410dfe2a534149ab2899abda6803
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.511/p2-0.7.511-mac.zip
-mac.sha512: c079ad305ff8fc605b19739c571ad6a504ab8c47e7cd8ffb5db4d5fe8ec66ae71ccafd36ac110a58e228dd7af89b729690a45536d243f1a67d5b4dbd734e645d
+commit: 9d418e24972b02fe665c744414eda04a43198375
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.512/p2-0.7.512-mac.zip
+mac.sha512: c614bdf5a1cdbeb7f94f8ef14db7d300542c6915795c614e086fefd6a77637ef8e0fbaa57817ec842fd1e7a8e46fc15664a93ebc85ad2598fc3022f24e856645
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Selbsttest „projekt“ stellt das Projekt selbst wieder her (lief sonst nur mit InDesign im Vordergrund).
+- Laufzeit Tabellen: Zelle im Übersatz wird zum Messen kurz verbreitert, damit die ganze Tabelle gesammelt gelesen wird. Diagnose: Nachlauf misst den Textsatz getrennt.
