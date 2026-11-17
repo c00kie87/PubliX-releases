@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.508
+version: 0.7.509
 date: 2026-11-17
 host: 21
-commit: 9568c8623b786d88a90fa2161f09fc2d90050593
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.508/p2-0.7.508-mac.zip
-mac.sha512: 5713d84c976e74195abeecc242c587b25f29c42b80ec094d775f6c616696c6538e8ce6fbaaf02c9436fffdf8b006bea988db57b661881e7d66f7d94b6fc1e8dd
+commit: 1338eb355c6c64342f227e836392bfd8e22df969
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.509/p2-0.7.509-mac.zip
+mac.sha512: 36f397e78d77f470bd562bbd29bf6451464b7122e5a8ceec8b2c2be80fb2119ffef01ec73c51b822d58f08c960d55b143047c52628d44f5fec093cf9e5882bfa
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Diagnose: Unterzeiten der Tabellenmessung (Absätze, Zeilen, Wörter) im Laufzeitbericht.
-signature: 806e52e8a13cb21a89746653210ccbde98de519dc8096e22bc4d96bea76dedcb78b8fcc43e89e08db0593d32c792b49a489475f3872387f154df2f8312f02509
+- Diagnose: Tabellenmessung zählt einzeln gelesene Zellen und Zellen mit Übersatz.
+signature: ff700a8f21f1d77a7120004680e61431f27cafc84e73c321c67a91a270ba28cf4fecb2cf5d6b3ed9bce0434507a0dc21d549b02f9036f501e38602ad12ee7208
