@@ -1,14 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.525
+version: 0.7.526
 date: 2026-11-17
 host: 21
-commit: 97c490f1edde9c032d391095e5bb5159adfcb6a5
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.525/p2-0.7.525-mac.zip
-mac.sha512: d2249987f6f47a3e152bdfb03b546c0cb9158d66a9fe99347af7c1085a6b5c0d8e8955ba9ed4633a4ee46a5f90615c953bc92b25b14149291f5c42e3bf79e990
+commit: 8ba80eec64eb43db09563e94d8fb314883107139
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.526/p2-0.7.526-mac.zip
+mac.sha512: a10aaab9ad6e7a7db24389f2375b9e31d4c3a7c77e601eb61ef8b0a30d03875dd141dd2efcc5e1c16df0e81c6c832ed068741c254aecfd9f4785c95c9b4a81e7
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Menü Projekt: „Quelldatei im Finder zeigen“ und „Ablageort der Quelle öffnen (Arbeitskopie)“ (Datenquelle und Fenster › p2 › Projekt).
-- Statusfarben: nur Werte auf Dokumentseiten (Musterseiten zählen nicht).
-signature: 690a4aaad1f1c61f4122f273c5c1a259d471d7db3f865f7cbb170330dc0c91b81ba19137d8e2c7984ed9a525096813b6795fb10702bafee3ca8329dad7ca0f0f
+- Menüs: Untermenü „Automatisieren“ entfällt – alle Einträge direkt im Palettenmenü, gegliedert (Ausgabe, Einrichten, Platzhalter, Auswahl/Datensatz, Hilfstabellen, Nacharbeit, Produktversionen).
+- Untermenüs verständlicher benannt: Gruppieren und Sortieren, Datenfelder und Werte (gegliedert), Ansicht und Regeln (Konfiguration), Quelle laden und verwalten, Abgleich Dokument und Quelle, Projekt und Ablage.
+- Herkunft-Palette: Buttons als gleichmäßiges Zweierraster über die volle Breite.
+signature: 66587b34320182b3836d3c159e5c39abc45e8cb48485f4d9515d0a322cd9add17d7069291628fb17672c0aad0c312baeb74f903605db6cfd7176c9592035010c
