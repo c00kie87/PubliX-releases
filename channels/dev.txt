@@ -1,13 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.522
+version: 0.7.523
 date: 2026-11-17
 host: 21
-commit: 855eb185a7e3fc5b96994012d2a3573e4b66df22
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.522/p2-0.7.522-mac.zip
-mac.sha512: a5624c3edc7b3c45056a86ce2d06f309e7e2cdcd898d92ac62db29ac5be7fc211b303f41546f14071dfabfcd326a3947ce3412745722be744b9a1c27cde3685a
+commit: 896c1e709b0c866ade4d3b07d443f5e0cf37b44e
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.523/p2-0.7.523-mac.zip
+mac.sha512: 39e5f2281d7bdda59d1bd31233f301483f17fba754e75d45989b3bad6fe320ef5f09d8beb30f43e6dad1d99541657650dc0b836ad81f38b45186ea040a1894ae
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Neues Projekt: p2 fragt direkt nach der Quelle; sie wird Teil des Projekts, alles Weitere wird im Projektordner gespeichert.
-- Projekt öffnen: Fehlt eine Bibliothek des Projekts, übernimmt p2 sie aus der Kopie im Projektordner (nie über eine vorhandene).
+- Doppelklick auf einen platzierten Wert springt jetzt auch zu Werten, die einen ganzen Rahmen füllen, und zu Bildwerten und markiert sie vollständig.
+- Projekt öffnen: Testquelle (Spielwiese) wird aus dem Projekt entfernt (Konfiguration nach Sicherungen), fehlende Bibliothekskopie im Projektordner wird angelegt.
+- Selbsttest-Szenarien schreiben nie mehr in das geöffnete Projekt.
