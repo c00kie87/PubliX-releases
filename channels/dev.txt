@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.543
+version: 0.7.544
 date: 2026-11-17
 host: 21
-commit: c4cae0a209ae874aa290a4d03bc21d36cc4f8db5
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.543/p2-0.7.543-mac.zip
-mac.sha512: 62da828914b8655264d107f6efd5b83d071ffb07739f18b022fa6b5a2a3432bd33aea40633957c439d7280800e0d49bd62b7b357328e171af03a3f8750dc6719
+commit: b3e7919dba7e1e78b907cfc729c9d87b58a47c23
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.544/p2-0.7.544-mac.zip
+mac.sha512: a1ee4c02ef6b41e9bfbd6bea9e759c4a15e024334214ebc5bbd6e71517d58bdc3059ff876b42e703ce01d52baf6fbc2fccfa0fd64d56ec382818bbc05f2cc68c
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Verankerte Bildrahmen im Text und in Tabellenzellen werden jetzt befüllt; leere (ohne Bild) mit „Leeren Rahmen löschen“ werden entfernt, danach greift „Leere Absätze entfernen“ auch für die Zelle.
+- Verankerte Bildrahmen (z. B. Symbole im Tabellenkopf): bei leerem Bildwert wird der Rahmen mit „Leeren Rahmen löschen“ (am Bildrahmen oder am Textrahmen) entfernt, auch wenn ein Ersatzbild eingestellt ist; Protokoll je Rahmen mit Begründung.
