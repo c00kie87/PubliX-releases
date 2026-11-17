@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.540
+version: 0.7.541
 date: 2026-11-17
 host: 21
-commit: 1d56cb348cc8dcb8ba8d98549802ac758d40b29e
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.540/p2-0.7.540-mac.zip
-mac.sha512: 262c9e5880444f311bb2e5985469cdfa4a56decd3a3e84c5db382733e3805d2014392fa8115d818975d900d7c5031a827b768e1ed8b3126a9479ebff337254b7
+commit: 5fa6e0f47ede874c8c7bc9d86e8c9f7d43050291
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.541/p2-0.7.541-mac.zip
+mac.sha512: cc88dd380d7666e87d2ee67a112b8f469bbb8b8d3f9bff5c564c7f0d020bcf217b6ea9723bf37baa74b1b59685d406182f8f536c0fa80d98b5401891a33df1c3
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Beziehungen: eigener p2-Dialog mit Liste, Entfernen, Feldlisten passend zur gewählten Tabelle, Vorschau der Treffer und Hilfetexten; nicht geladene Tabellen werden nach OK nachgeladen. Spielwiese: Szenario S236 mit Beziehungstabelle „referenz“.
-signature: a76a8e70fbccbb131906e7cfeeb042a5e4ff9dc55d322863c39c55037119baf04b6403e8112ddb32098588ad330dd0913ad69a54d9dfc3d174da7864916ff003
+- Meldungen verständlicher: Projektkonfiguration und Projektprüfung nennen Quellen ohne Kennungen und Dateiendungen, Bereiche statt Dateinamen, Tabellen ohne technische Anhänge; die Projektprüfung zeigt nur die aktive Quelle im Detail, fasst gleichartige Stellen zusammen und sagt, was zu tun ist. Nicht aktive Quellen lösen keine Meldung mehr aus.
+signature: a4b59e0e421a3387765171d57ebe59751cc932a60ff49081cad7e8a7e7980d1b45682d24711abe08256d13da01eaf35708b89a5006b69983951a94a54d47d507
