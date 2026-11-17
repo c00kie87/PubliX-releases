@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.517
+version: 0.7.518
 date: 2026-11-17
 host: 21
-commit: 14791fcf5780a47215b4f2eae15d4a6cda844558
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.517/p2-0.7.517-mac.zip
-mac.sha512: a5c41359b2fca220dc66fe21ccc661d01637c6cba0ae88c229ab6c6f5341a41be4e1f5c3f180cf0ad77d4c579b722b6d82d8adf545c40b960939661da6e9ac28
+commit: 513b5b0cb9b34ece6deb3e11018fac7fd76f7d50
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.518/p2-0.7.518-mac.zip
+mac.sha512: aafd0aa6cc719b395c7a3d9df93c4f48ce66436c94534332e0ae8fff8620bb3d4c1b70b7d021f3c34b63c0147d0d6c223e8c6a449b189f5f197d6a5156bfeab1
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Absturz behoben: Code-/QR-Platzierung („In Pfade umwandeln“) stürzte mit dem schnellen Skriptmodus von 0.7.516 ab. Schneller Modus nur noch für Tabellenskripte und den Nachlauf.
-signature: 03ac78d5f401811d5897fd4a0c2f239cb4d77e7c330618aa402bb922519bbe6c4bc6ee96a4ebb66cdf3528c4762632eafbdb781b790b3360ad651d9c1abbd501
+- QR-/Strichcodes: Die Klarschrift unter dem Code bleibt echte Schrift (OCR-B) statt in Pfade umgewandelt zu werden – damit entfällt auch die Absturzursache von 0.7.516.
+signature: 147e0e41b7d8ac95e6c5497086a4562bfd401da2e2b91542778b582d143df6c27b92a01b2d328a386a353326e1f8b9421259703d68300bc87d73bdc5f527200a
