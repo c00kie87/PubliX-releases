@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.533
+version: 0.7.534
 date: 2026-11-17
 host: 21
-commit: 2b0328444c5bf5b8e615c6c210eceb5bade54d13
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.533/p2-0.7.533-mac.zip
-mac.sha512: 5c2f1b15fa6ecca10324de6501385600dbb722c76e512c6f5c497084075f2ba5a005ba00856f23e61eaf3a4c0fc551d22abc9ec9ff3e14b791e9c90b46c9e0c2
+commit: 085da1b1d831a758321b1b9e3c31965e4047f2b2
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.534/p2-0.7.534-mac.zip
+mac.sha512: 42246d5c2599f2af3bbfdbcc7ce896a6237d27f476441261f1c3e73fc7300f37f4d2275719f30aed6043a29f06b859f3d50b62c803a4a449cdb6b3bf320e74fe
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- „In Datentabelle wiedergeben“: Tabelle ist so breit wie der Satzspiegel der aktiven Seite (vorher wurden Punkte als Dokumenteinheit gerechnet – Tabelle bis 1.488 mm breit); Spalten gleich breit, Umbrüche in Kauf.
-signature: 82a6169e8dff854c31c3e15984324564daadcaf5c28343fb98ed0e77b5ff0db688d9227e112695f8a075fdb035a3225ab0464fbedb10a0383620c605dbaa8307
+- Meldungen der bisherigen Ausgabe-Palette erscheinen jetzt als Hinweis-Dialog (gekürzt; vollständig in ausgabebericht.txt). Die Palette muss nicht mehr geöffnet sein.
+signature: 0c0a274e27e9fbe9ddf62fd54b54baa34360b70a67e7101f5e54fc134a6619c1d854ba6421b2b6e3a3be4e3bec95256d0befa0eb58573c1f73edd396e9164309
