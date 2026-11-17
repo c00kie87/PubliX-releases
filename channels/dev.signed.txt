@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.507
+version: 0.7.508
 date: 2026-11-17
 host: 21
-commit: 31b62eeb89b0f7a30b6c3f2f84a9a9733d691c27
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.507/p2-0.7.507-mac.zip
-mac.sha512: 9d2bdfd3d1b21ddcb338a52070f2e38280fd5321af7a7f6f4a0ce2bf876c1e5aa1cf67614f0a63e906fd98331b42aeb27772e1416ceba79baec6cf888accfa5b
+commit: 9568c8623b786d88a90fa2161f09fc2d90050593
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.508/p2-0.7.508-mac.zip
+mac.sha512: 5713d84c976e74195abeecc242c587b25f29c42b80ec094d775f6c616696c6538e8ce6fbaaf02c9436fffdf8b006bea988db57b661881e7d66f7d94b6fc1e8dd
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Rückfrage „Template-Wahl unklar“ und Berichte nennen den Datensatz lesbar (Bestellnummer · Name) statt der technischen Kennung. Selbsttest beantwortet die Rückfrage automatisch und vermerkt sie im Bericht.
-signature: 4a13bf2206d5c7496065b46f57ca647c18bc1b92d4edd5c81c6d78e628bbca512d2c2ab1044ae82f4321d37e9e072b2fe10cb48a8b8f7e3ce2d3ce49e3d5d604
+- Diagnose: Unterzeiten der Tabellenmessung (Absätze, Zeilen, Wörter) im Laufzeitbericht.
+signature: 806e52e8a13cb21a89746653210ccbde98de519dc8096e22bc4d96bea76dedcb78b8fcc43e89e08db0593d32c792b49a489475f3872387f154df2f8312f02509
