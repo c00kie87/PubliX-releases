@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.509
+version: 0.7.510
 date: 2026-11-17
 host: 21
-commit: 1338eb355c6c64342f227e836392bfd8e22df969
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.509/p2-0.7.509-mac.zip
-mac.sha512: 36f397e78d77f470bd562bbd29bf6451464b7122e5a8ceec8b2c2be80fb2119ffef01ec73c51b822d58f08c960d55b143047c52628d44f5fec093cf9e5882bfa
+commit: 6d244d93deaee783617e2e92cc01373b59e91663
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.510/p2-0.7.510-mac.zip
+mac.sha512: bc05abdb7008980222a7529383b0121bfcfc2b6aabb5c02503a73b9c54bf709bb6d6ddc81fb6c7b9e6b08bdfd08a2d696ce1aded5d3c712d1879a0425bc422ac
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Diagnose: Tabellenmessung zählt einzeln gelesene Zellen und Zellen mit Übersatz.
-signature: ff700a8f21f1d77a7120004680e61431f27cafc84e73c321c67a91a270ba28cf4fecb2cf5d6b3ed9bce0434507a0dc21d549b02f9036f501e38602ad12ee7208
+- Laufzeit Tabellen: Spaltenanzahl/-breiten beim Messen einmal statt je Zelle gelesen; eine Zelle im Übersatz lässt nicht mehr die halbe Tabelle einzeln lesen.
+signature: 2dcf3e6e85be5e4b72cdf8e0b7591855803f5552f1179031221bc9d66affe2815f85b8dca9edbf1cdb785f46203ffd3e689baf0e734abd4996d9543fdb76270b
