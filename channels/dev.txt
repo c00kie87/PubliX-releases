@@ -1,14 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.526
+version: 0.7.527
 date: 2026-11-17
 host: 21
-commit: 8ba80eec64eb43db09563e94d8fb314883107139
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.526/p2-0.7.526-mac.zip
-mac.sha512: a10aaab9ad6e7a7db24389f2375b9e31d4c3a7c77e601eb61ef8b0a30d03875dd141dd2efcc5e1c16df0e81c6c832ed068741c254aecfd9f4785c95c9b4a81e7
+commit: 044de8799068b227bf8dac9f8ec47a0525b28424
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.527/p2-0.7.527-mac.zip
+mac.sha512: bc443cb6746692413d64430c79b4f8be7f5ed290078d8fc925d6b26df1bb42b5955525b5925979340990d15e171e82978c881e1abb813c627c62d33ff379ab96
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Menüs: Untermenü „Automatisieren“ entfällt – alle Einträge direkt im Palettenmenü, gegliedert (Ausgabe, Einrichten, Platzhalter, Auswahl/Datensatz, Hilfstabellen, Nacharbeit, Produktversionen).
-- Untermenüs verständlicher benannt: Gruppieren und Sortieren, Datenfelder und Werte (gegliedert), Ansicht und Regeln (Konfiguration), Quelle laden und verwalten, Abgleich Dokument und Quelle, Projekt und Ablage.
-- Herkunft-Palette: Buttons als gleichmäßiges Zweierraster über die volle Breite.
+- Datenquelle: Statusfarben wieder vorhanden – verwaiste p2-Werte früherer Läufe (ohne Rahmen) werden übersprungen; die Suchgrenze war vorher von ihnen ausgeschöpft.
+- Konfiguration: Abschlussbericht als Meldung schaltbar (Vorgabe aus), doppelte Dauer-Zeile entfernt; Bestätigung beim Projektöffnen nur bei eingeschalteter Meldung.
+- Projekt: Konfigurationsordner tragen den Namen der Quelldatei statt der Kennung (Zuordnung in Konfigurationen/zuordnung.txt).
