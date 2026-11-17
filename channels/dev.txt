@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.542
+version: 0.7.543
 date: 2026-11-17
 host: 21
-commit: 56e11059a31a14d05587bd4e2fe0548ba3b412e5
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.542/p2-0.7.542-mac.zip
-mac.sha512: 294c2ee6636d330154cae584ac825712ba18f9bbf9290ce0584fe7b495aacfd26b6d266923172f9d15ded86474a091d23eb84dd221dfb8b33c34318f327c6d96
+commit: c4cae0a209ae874aa290a4d03bc21d36cc4f8db5
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.543/p2-0.7.543-mac.zip
+mac.sha512: 62da828914b8655264d107f6efd5b83d071ffb07739f18b022fa6b5a2a3432bd33aea40633957c439d7280800e0d49bd62b7b357328e171af03a3f8750dc6719
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Datenquelle: Die Statuszeile zeigt sofort, wie viele Datensätze im vorderen Dokument platziert sind (und wie viele einen Fehlbezug haben) – so ist nachvollziehbar, warum Zeilen grün bleiben.
+- Verankerte Bildrahmen im Text und in Tabellenzellen werden jetzt befüllt; leere (ohne Bild) mit „Leeren Rahmen löschen“ werden entfernt, danach greift „Leere Absätze entfernen“ auch für die Zelle.
