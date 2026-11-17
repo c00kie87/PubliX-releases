@@ -1,12 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.524
+version: 0.7.525
 date: 2026-11-17
 host: 21
-commit: 2795d38ef31be76673ebb8e79c00900cc1aefb09
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.524/p2-0.7.524-mac.zip
-mac.sha512: 1025d163fb2443b087dcc4000ab179b26589b5763f0dbfe7600b75de815342525f864e2ce522c243bed630206990644e2658c482ec7bef0953aeff39b54a9fcf
+commit: 97c490f1edde9c032d391095e5bb5159adfcb6a5
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.525/p2-0.7.525-mac.zip
+mac.sha512: d2249987f6f47a3e152bdfb03b546c0cb9158d66a9fe99347af7c1085a6b5c0d8e8955ba9ed4633a4ee46a5f90615c953bc92b25b14149291f5c42e3bf79e990
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Datenquelle: Statusfarben und Doppelklick-Springen werten nur Werte auf Dokumentseiten – Musterseiten (z. B. abgelegte Original-Templates) und Montagefläche färben die Datenquelle nicht mehr.
+- Menü Projekt: „Quelldatei im Finder zeigen“ und „Ablageort der Quelle öffnen (Arbeitskopie)“ (Datenquelle und Fenster › p2 › Projekt).
+- Statusfarben: nur Werte auf Dokumentseiten (Musterseiten zählen nicht).
