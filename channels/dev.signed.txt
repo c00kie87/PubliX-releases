@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.541
+version: 0.7.542
 date: 2026-11-17
 host: 21
-commit: 5fa6e0f47ede874c8c7bc9d86e8c9f7d43050291
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.541/p2-0.7.541-mac.zip
-mac.sha512: cc88dd380d7666e87d2ee67a112b8f469bbb8b8d3f9bff5c564c7f0d020bcf217b6ea9723bf37baa74b1b59685d406182f8f536c0fa80d98b5401891a33df1c3
+commit: 56e11059a31a14d05587bd4e2fe0548ba3b412e5
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.542/p2-0.7.542-mac.zip
+mac.sha512: 294c2ee6636d330154cae584ac825712ba18f9bbf9290ce0584fe7b495aacfd26b6d266923172f9d15ded86474a091d23eb84dd221dfb8b33c34318f327c6d96
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Meldungen verständlicher: Projektkonfiguration und Projektprüfung nennen Quellen ohne Kennungen und Dateiendungen, Bereiche statt Dateinamen, Tabellen ohne technische Anhänge; die Projektprüfung zeigt nur die aktive Quelle im Detail, fasst gleichartige Stellen zusammen und sagt, was zu tun ist. Nicht aktive Quellen lösen keine Meldung mehr aus.
-signature: a4b59e0e421a3387765171d57ebe59751cc932a60ff49081cad7e8a7e7980d1b45682d24711abe08256d13da01eaf35708b89a5006b69983951a94a54d47d507
+- Datenquelle: Die Statuszeile zeigt sofort, wie viele Datensätze im vorderen Dokument platziert sind (und wie viele einen Fehlbezug haben) – so ist nachvollziehbar, warum Zeilen grün bleiben.
+signature: 1505dbbc13aea66d171968f071e92b349d525820a1beb6dfe2c80c3dd154e64851a8fb4602a7f7bf32149351c6d5883ab04b9981d2734be04571c9b8c3cdfe0a
