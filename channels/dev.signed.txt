@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.510
+version: 0.7.511
 date: 2026-11-17
 host: 21
-commit: 6d244d93deaee783617e2e92cc01373b59e91663
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.510/p2-0.7.510-mac.zip
-mac.sha512: bc05abdb7008980222a7529383b0121bfcfc2b6aabb5c02503a73b9c54bf709bb6d6ddc81fb6c7b9e6b08bdfd08a2d696ce1aded5d3c712d1879a0425bc422ac
+commit: dd292c9fa9bb410dfe2a534149ab2899abda6803
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.511/p2-0.7.511-mac.zip
+mac.sha512: c079ad305ff8fc605b19739c571ad6a504ab8c47e7cd8ffb5db4d5fe8ec66ae71ccafd36ac110a58e228dd7af89b729690a45536d243f1a67d5b4dbd734e645d
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Laufzeit Tabellen: Spaltenanzahl/-breiten beim Messen einmal statt je Zelle gelesen; eine Zelle im Übersatz lässt nicht mehr die halbe Tabelle einzeln lesen.
-signature: 2dcf3e6e85be5e4b72cdf8e0b7591855803f5552f1179031221bc9d66affe2815f85b8dca9edbf1cdb785f46203ffd3e689baf0e734abd4996d9543fdb76270b
+- Selbsttest „projekt“ stellt das Projekt selbst wieder her (lief sonst nur mit InDesign im Vordergrund).
+signature: f93d690eb381cc4b415673fa8f6179e92a6557e363be886d5ff10bd0d0a67a4dc8b6dba14f3998f5cf1441648ac4c4091ac71a9bc39fca7fe1ff3a012ec80a01
