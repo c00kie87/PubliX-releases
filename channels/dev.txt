@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.514
+version: 0.7.515
 date: 2026-11-17
 host: 21
-commit: 74d53449d340c698a0171808f20ab3d6d236b5e7
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.514/p2-0.7.514-mac.zip
-mac.sha512: 402bde9a6e8332530507764320efbe81bd8e05625588a517ac4f451f60dc92137a7b0d0f75c36bce8205243deac974954a3539be5731cdcfdb85f9f00344ee8f
+commit: 30b8e2bb95b87e9a3bbbbc850d7a934995b26297
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.515/p2-0.7.515-mac.zip
+mac.sha512: d89cf263acc6eb184553c83174e6845c16625370dbe24608360469c984df0aaedf497c14134e679aea4241dc3d68a025d185584d74e21581cf0f79b319dcdc51
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Diagnose: Nachlauf protokolliert den Preflight-Zustand; Selbsttest „projekt“ kann ohne Preflight laufen.
+- Laufzeit: Live-Preflight des Dokuments ist während der Ausgabe ausgeschaltet und danach wieder wie vorher (KG3-Probelauf 190 → 135 s).
