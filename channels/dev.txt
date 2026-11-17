@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.547
+version: 0.7.548
 date: 2026-11-17
 host: 21
-commit: 5bd86e111108f70f563034bc28cc5216b4d5a9f1
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.547/p2-0.7.547-mac.zip
-mac.sha512: 43585ffe192fb2e0f2aff37c6254d7e122be2d9ff9f6e0a356df4fc099b43f997861c515a7c8c70de8b23f548c5c1fe3ec1101b81e27aa6db24ac3c986df661b
+commit: ec532a46c7b0ef40bc5e2b5da1ab45993706f4e4
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.548/p2-0.7.548-mac.zip
+mac.sha512: 0dd769c94cdf3bb6d3bebed2f864a3c8e7a1f0b2315c8200d054c942f726734427048b9906245f24f571839ca6ee32c5686a62b6bd65d2bac41ae159160568a3
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Filter lassen sich unter einem Namen speichern, laden und löschen (Projektkonfiguration). Automatisieren nimmt ohne Auswahl die gefilterten Datensätze – der Knopf zeigt „Gefilterte automatisieren (N)“.
+- Übersatz-Abschlussprüfung der Tabellen robuster: Zellen werden bei jeder Prüfung neu gelesen, bei „Objekt existiert nicht mehr“ ein zweiter Versuch; scheitert sie, steht ein Hinweis in der Abschlussmeldung statt stillem Abbruch.
