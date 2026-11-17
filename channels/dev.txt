@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.548
+version: 0.7.549
 date: 2026-11-17
 host: 21
-commit: ec532a46c7b0ef40bc5e2b5da1ab45993706f4e4
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.548/p2-0.7.548-mac.zip
-mac.sha512: 0dd769c94cdf3bb6d3bebed2f864a3c8e7a1f0b2315c8200d054c942f726734427048b9906245f24f571839ca6ee32c5686a62b6bd65d2bac41ae159160568a3
+commit: 7fe9719d38550c5f75017e74ca08f0817387c180
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.549/p2-0.7.549-mac.zip
+mac.sha512: ea5751745a87f8bb80cc291936a1de73e95d4d014fc28159973ec3cbde7b22610c7befcf137e6ce4b0ea71d5517fa46bcd293f5a1fb57f7e62a8b0e0431b456a
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Übersatz-Abschlussprüfung der Tabellen robuster: Zellen werden bei jeder Prüfung neu gelesen, bei „Objekt existiert nicht mehr“ ein zweiter Versuch; scheitert sie, steht ein Hinweis in der Abschlussmeldung statt stillem Abbruch.
+- Templates kopieren/verschieben: Zielbibliothek und Art im Dialog wählen; vorhandene Templates ersetzen oder überspringen; klare Meldung. Bisher scheiterte das Übertragen immer.
