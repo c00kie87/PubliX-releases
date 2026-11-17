@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.531
+version: 0.7.532
 date: 2026-11-17
 host: 21
-commit: 89d54a52f6c7630884b81e59e28cec5a904ae0fd
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.531/p2-0.7.531-mac.zip
-mac.sha512: 0fd705383f7f4a9db07e328010a1e5bd00766a65e06525d2a3c7d00010f6884888239c596529319ac4d748478063d96f659431e11a130fbcb55ca8c27adf9153
+commit: d0d3412545e6adf4d9cae87f5756208cdfa5c719
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.532/p2-0.7.532-mac.zip
+mac.sha512: f07fa8b9917ed494d5720550ef9483a602315d325c14c9fab92ea2e2d2454ddc4c49ec93d834997c8a6d89379e2ae03749067cb6320abe9106285fde1f92e8c1
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Verwaiste p2-Werte (Strukturelemente gelöschter Rahmen) werden automatisch entfernt: am Ende jeder Ausgabe, beim Auflösen aller Platzhalter-Tags und einmal je geöffnetem Dokument (eigener Rückgängig-Schritt). Es bleiben nur Tags, die wirklich in Verwendung sind.
-signature: 29076886ccf765ba405d134bdec963681dc040ee70d4ed3d21cbc1f290249ec299cb4e8dfab61498b59c4698a3ddda1c91c26978d3c0705aaa5e5e2ddde22c05
+- Keine automatische Entfernung verwaister p2-Werte mehr beim Öffnen (0.7.531 blockierte InDesign bei großen Mengen). Neu: Automatisieren-Palette › Menü › Verwaiste p2-Werte entfernen … mit Anzahl, Fortschritt und Abbrechen. Am Ausgabeende still nur bis 2.000 Stück, darüber Hinweis im Bericht.
+signature: b5523949d85b7dc2143612e5f319a1c3fc86908b83073d1f7cd1aac4f26ec935b589d61076a6983fe264c6fe4cf689da2ced0d0d0f3ca3a208d67abcdd70a200
