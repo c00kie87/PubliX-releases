@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.536
+version: 0.7.537
 date: 2026-11-17
 host: 21
-commit: 35a8af415b13ea1f57ddbf5f55f1fec103f48315
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.536/p2-0.7.536-mac.zip
-mac.sha512: 8f4601968c714651817df1a4b1524b5b5cb480bfe873e97d1004f662ec858b69fdfdb64f23cce1800bbd1772ea10c3923f9dd9352afd326fbb68a2a822a80af9
+commit: 9e37724d3a31d9f3d3e3a59e985db39bf915a1ee
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.537/p2-0.7.537-mac.zip
+mac.sha512: 5a56535584dca77c7417a9a27dfac5340a57c04e141264cd66f1ffd105dbcae592a4dd0770436187032e4a29347dd2aa3874b1928ac2bc37c12261ee9918b206
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Templates bringen ihre Kreuztabellen-Definition mit: Bei einer anderen Quelle findet p2 sie im Template oder in den übrigen Konfigurationen des Projekts und übernimmt sie in die aktive Konfiguration.
-signature: fff6929b0385693b58300e7f9674b256881c63401c649ff15b8c74cf767c68d42f89f64a0a790375edc877a72a1add8e13e3e0e0d0995b7964aefc37abcb230d
+- Kreuztabellen-Dialog: Hat die aktive Quelle keine Kreuztabellen, übernimmt p2 beim Öffnen die Definitionen der übrigen Konfigurationen des Projekts (neueste zuerst).
+signature: 4fe4eb3625b8497331183d7712e59895826ba9f4166c13eea4e918a2d757f8466aec43bbc40e88b4ef5f91f273577c94bae52dbb1a88ec10908fe7fc1fd1330f
