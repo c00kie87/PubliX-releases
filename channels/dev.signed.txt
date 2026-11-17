@@ -1,14 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.521
+version: 0.7.522
 date: 2026-11-17
 host: 21
-commit: a15bead835d88638bdc7c3d803b6bd5cf595412d
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.521/p2-0.7.521-mac.zip
-mac.sha512: 87dfe6273763b348d4987729a1cbd56c85b9c959ed0bfcad7ce63c80f3f205364f593fa0f14f472b903693261271b1f5a47c971536e83ec8e44d35877d70b2cd
+commit: 855eb185a7e3fc5b96994012d2a3573e4b66df22
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.522/p2-0.7.522-mac.zip
+mac.sha512: a5624c3edc7b3c45056a86ce2d06f309e7e2cdcd898d92ac62db29ac5be7fc211b303f41546f14071dfabfcd326a3947ce3412745722be744b9a1c27cde3685a
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Datenquelle: Statusfarben (grün platziert, rot fehlender Bezug/Abweichung, Datensatz dezent grün) werten jetzt alle platzierten Werte – auch in Rahmen ohne eigene Datensatzmarke (Hilfstabellen, Kreuztabellen, Fortsetzungen).
-- QR-/Strichcodes: Code und Klarschrift werden nach dem Einsetzen einzeln an ihre Lage gesetzt (Gruppe wurde gestaucht).
-signature: 2d2cea76f266ee6a527de1dd8312ae68b8ba5405d37dc6b7b902312f6630356c9fe6e42e23585d0d6b022e42a0e748d168b7c58be4bac496df1ab16ab5c9de01
+- Neues Projekt: p2 fragt direkt nach der Quelle; sie wird Teil des Projekts, alles Weitere wird im Projektordner gespeichert.
+- Projekt öffnen: Fehlt eine Bibliothek des Projekts, übernimmt p2 sie aus der Kopie im Projektordner (nie über eine vorhandene).
+signature: a81af5b1e1780a88c6c5f3a9ad411fc64fc10f5f521ea87895a71186fa41a6d937af63784c6cda1dec6b373bc576d228813e9bc2b2a3e4f2268b71971071b30e
