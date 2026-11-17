@@ -1,15 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.527
+version: 0.7.528
 date: 2026-11-17
 host: 21
-commit: 044de8799068b227bf8dac9f8ec47a0525b28424
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.527/p2-0.7.527-mac.zip
-mac.sha512: bc443cb6746692413d64430c79b4f8be7f5ed290078d8fc925d6b26df1bb42b5955525b5925979340990d15e171e82978c881e1abb813c627c62d33ff379ab96
+commit: ffc1debe57e1140c6cc4d0a700057df44eaec320
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.528/p2-0.7.528-mac.zip
+mac.sha512: ce39bb74544b62ae0b9decb8fed51778d090e364f0a306c6ea0f11ca7c2cd6c80b780e44700a1337879ee58501039757f0a7b74adf9641ec0b6ce6cf3a3c12de
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Datenquelle: Statusfarben wieder vorhanden – verwaiste p2-Werte früherer Läufe (ohne Rahmen) werden übersprungen; die Suchgrenze war vorher von ihnen ausgeschöpft.
-- Konfiguration: Abschlussbericht als Meldung schaltbar (Vorgabe aus), doppelte Dauer-Zeile entfernt; Bestätigung beim Projektöffnen nur bei eingeschalteter Meldung.
-- Projekt: Konfigurationsordner tragen den Namen der Quelldatei statt der Kennung (Zuordnung in Konfigurationen/zuordnung.txt).
-signature: 424eecd37a191caaac90ca3ae64e5d3244155fe6e405a4ff107d2b0ac878d43f81bdb8f80a130e532dacc15a19702b253ee0e4a48945f046bde828a92eec5b0a
+- Datenquelle › Filter: bis zu drei Wertbedingungen je Datensatz (ist gleich, ungleich, enthält, beginnt/endet mit, leer, größer/kleiner …), Vorkommensfilter optional.
+signature: 7c71b1770bc67284f9bf0929da44aa3fb7ca624cb1ab8da1471d18bde23ba3281effaae5823a4be307e258e88dbecb1670b0bef670ea5246af5f4085906edb02
