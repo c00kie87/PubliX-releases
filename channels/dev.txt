@@ -1,13 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.539
+version: 0.7.540
 date: 2026-11-17
 host: 21
-commit: b64f1544a8d9f3a6f751e09297af9163a385be54
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.539/p2-0.7.539-mac.zip
-mac.sha512: 4f2131b633065431cac4f4b246e39e6d2bea394dcb9afa6719a4e76c1686502ef8d3c55f3f8f0cf33a5fdeb338f9bbba14d2e350747abfcfcb6672c9c5782f4e
+commit: 1d56cb348cc8dcb8ba8d98549802ac758d40b29e
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.540/p2-0.7.540-mac.zip
+mac.sha512: 262c9e5880444f311bb2e5985469cdfa4a56decd3a3e84c5db382733e3805d2014392fa8115d818975d900d7c5031a827b768e1ed8b3126a9479ebff337254b7
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Datenbankquellen laden primär nur die Hauptabfrage (MappedCatalogArticles) und bereits genutzte Tabellen; weitere über „Tabelle hinzufügen …“.
-- Beziehungen über Vater-/Sohnfeld (mehrfach, beliebige Tabellen) im Menü „Quelle laden und verwalten“; Datensätze mit Referenzen zeigen vorne „R“ – Klick zeigt die referenzierten Datensätze, „◂R“ im Kopf führt zurück; Knopf „R“ blendet referenzierte Datensätze ein/aus.
+- Beziehungen: eigener p2-Dialog mit Liste, Entfernen, Feldlisten passend zur gewählten Tabelle, Vorschau der Treffer und Hilfetexten; nicht geladene Tabellen werden nach OK nachgeladen. Spielwiese: Szenario S236 mit Beziehungstabelle „referenz“.
