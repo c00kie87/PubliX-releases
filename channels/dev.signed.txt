@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.515
+version: 0.7.516
 date: 2026-11-17
 host: 21
-commit: 30b8e2bb95b87e9a3bbbbc850d7a934995b26297
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.515/p2-0.7.515-mac.zip
-mac.sha512: d89cf263acc6eb184553c83174e6845c16625370dbe24608360469c984df0aaedf497c14134e679aea4241dc3d68a025d185584d74e21581cf0f79b319dcdc51
+commit: 1d759c8ecb4c65768e260733eb95d340da6dd9f8
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.516/p2-0.7.516-mac.zip
+mac.sha512: 1d4a5567657b38ed02ddc1becd8a4ae25a70e2034a1891c4faeae4c49fd34545be8a00ae7fa13ac3944f2a98982dbff3ff557512daa79466f7d28b211c48d9fb
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Laufzeit: Live-Preflight des Dokuments ist während der Ausgabe ausgeschaltet und danach wieder wie vorher (KG3-Probelauf 190 → 135 s).
-signature: d648c580830a8a869434ac964938f63ed9c23d517ec2c60fbd53590654bc9c909fa02f12f492b3612c3e69fb62e55ff657ed0c7a136f2aed5a5ebf9c92f96508
+- Laufzeit: p2-Skripte laufen ohne Zustandssicherung je Aufruf (schneller; nach der Ausgabe entfällt das lange Schreiben der Dokumentdatenbank).
+signature: ca54a901a38f20efa8c8696ca1eee2c7439dba9736b5ddffe5fa12ea1b47e8622a1e99430f98444d75578e53a0ed5de81bb11c23203b3a9c3297b0fabd238308
