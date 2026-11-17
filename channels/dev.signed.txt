@@ -1,14 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.529
+version: 0.7.530
 date: 2026-11-17
 host: 21
-commit: 10c73418740c07be249713eee0098712fd5e84e6
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.529/p2-0.7.529-mac.zip
-mac.sha512: d3dc7acb96a004a06a42730eabbf952fa7e59ebf28123077c4e87f0c916f7205ed6b71806973e89b107df8254a13cc82abcbc54207c85901c38bccd90e2bfc47
+commit: 66e6bf9a5513af931c853b14f310105042727fb3
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.530/p2-0.7.530-mac.zip
+mac.sha512: 1419800240099d59494e8643c76aa8779af2dff11ff9392abe6d75b6f8620c5ba82995c9457bc144aac28b453a884008bd48c78c11dad289592878919e744c7f
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Doppelklick auf platzierten Wert: springt jetzt an die Stelle und markiert (Seite wurde am Elternteil statt am Rahmen bestimmt).
-- Neu: Kontextmenü p2 › Tabelle › „In Datentabelle wiedergeben“ – Zellinhalte als reine Daten in den Platzierungscursor.
-signature: a21a1833d4bb61d6c982af700a4d4afa3397e88fe8a9899f91f06f2889172718dad415fdf9a9048e82d40a03111da2d84124f835863eba4f6ea26683e293570f
+- Doppelklick in der Datenquelle markiert platzierte Werte jetzt auch in Tabellenzellen vollständig (native Textauswahl mit Bildlauf).
+- Tabellen: „Gesamtbreite vorgeben“ ist eine feste Obergrenze – die Tabelle wird nicht mehr breiter; Spalten werden bei Bedarf unter Wort-/Vorlagenbreite gestaucht (Hinweis im Bericht).
+- „In Datentabelle wiedergeben“ zeigt die Datensätze wie in der Datenquelle: je Datensatz eine Zeile, je Feld eine Spalte; Transponierung, Gruppierung und Verbindungen aufgehoben.
+- Anleitung: Menüpfade an die neuen Untermenüs angepasst, neue Funktionen beschrieben.
+signature: 13a13cdcef6dc58c8d80e0c63995d63d90dd1063feffbcf64783fc0b789e3f7a1c9c75449c9c01b44bbf9b6ec09990c1cfccf25efc084d052a0c6d13e8f1e508
