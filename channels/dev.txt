@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.534
+version: 0.7.535
 date: 2026-11-17
 host: 21
-commit: 085da1b1d831a758321b1b9e3c31965e4047f2b2
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.534/p2-0.7.534-mac.zip
-mac.sha512: 42246d5c2599f2af3bbfdbcc7ce896a6237d27f476441261f1c3e73fc7300f37f4d2275719f30aed6043a29f06b859f3d50b62c803a4a449cdb6b3bf320e74fe
+commit: 89d1eb89097e746ea22691af7203ab32e862ae44
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.535/p2-0.7.535-mac.zip
+mac.sha512: b257eedabde8990de033b0a72eb9cd18d4a8ef4c8f11c53b1be355b09acd82615b6089a89e4e1e698b7b0020562674465ce98853d8435cf95806222eeeebd6af
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Meldungen der bisherigen Ausgabe-Palette erscheinen jetzt als Hinweis-Dialog (gekürzt; vollständig in ausgabebericht.txt). Die Palette muss nicht mehr geöffnet sein.
+- Zusatzfelder mit # (Schema) lassen sich vorsorglich bis zu einer Nummer anlegen („# bis Nr.“, z. B. 150) – auch ohne passende Datenfelder in der aktuellen Quelle; eine spätere Quelle mit diesen Feldern greift automatisch.
