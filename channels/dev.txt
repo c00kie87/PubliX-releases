@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.537
+version: 0.7.538
 date: 2026-11-17
 host: 21
-commit: 9e37724d3a31d9f3d3e3a59e985db39bf915a1ee
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.537/p2-0.7.537-mac.zip
-mac.sha512: 5a56535584dca77c7417a9a27dfac5340a57c04e141264cd66f1ffd105dbcae592a4dd0770436187032e4a29347dd2aa3874b1928ac2bc37c12261ee9918b206
+commit: 954feba012f3c5e0d9eb776e72f36021478df54f
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.538/p2-0.7.538-mac.zip
+mac.sha512: daf6b1d8f25b17f5f4c92767b91f2a7992a3f0f56f5f50de2473d4f04f12311816cae33ddb8bd98a96688dde2f81df0a87d15764782c3d7e58db1e31d117c305
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Kreuztabellen-Dialog: Hat die aktive Quelle keine Kreuztabellen, übernimmt p2 beim Öffnen die Definitionen der übrigen Konfigurationen des Projekts (neueste zuerst).
+- Eine Konfiguration je Projekt: Alle Quellen eines Projekts nutzen dieselbe Konfiguration (Kreuztabellen, Feldoptionen, Zusatzfelder, Filter …); Quellen sind austauschbar. Bestehende getrennte Konfigurationen werden ergänzend zusammengeführt (nichts überschrieben, alte Ordner bleiben).
