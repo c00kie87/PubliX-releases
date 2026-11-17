@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.519
+version: 0.7.520
 date: 2026-11-17
 host: 21
-commit: 70f1b19a5ffca6a4b925c7e59c4586ac31966e1e
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.519/p2-0.7.519-mac.zip
-mac.sha512: 6a8c36432de390fde1cba115cb1dca26531637d7b66473b35a773b0f98dad302364f07a3e93c9864c37c94ac2cea0ddbb0d5fc8f5b2f99f6414fe8135e493233
+commit: 7781b20597687a19b8cc4ba1b41f22e5dec78ab5
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.520/p2-0.7.520-mac.zip
+mac.sha512: 97fb71512a6c6c8b6c1f4d5fdf785f63a9737004a3949466a6aa88c484c362d22a84a3d5fb15b2e2fdff2750554c9fdd491928603410713e3033214b7a80652f
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Diagnose: Statusfarben der Datenquelle protokollieren, wie viele platzierte Werte gefunden und warum welche verworfen werden.
-signature: a42ab9e52e69298be2dd9bd67abe50ed9c598946901f47cd6ad2e13afdb517cd58298c5d8e0bb2b08f41f2e640c9ec4b64ee654c919aac88fa8ef922cceecd08
+- QR-/Strichcodes: Klarschrift-Rahmen genau auf Textbreite (statt automatischer Anpassung, die den Rahmen auf null schrumpfen ließ).
+signature: c42b6966b3d720799d706271c8817ebe36186871ee2d37ac827975842e379b401371332734f890b379a411930e137935cdc3fadda57042b1be5eef472c9c1804
