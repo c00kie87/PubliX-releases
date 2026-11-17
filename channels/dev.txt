@@ -1,12 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.544
+version: 0.7.545
 date: 2026-11-17
 host: 21
-commit: b3e7919dba7e1e78b907cfc729c9d87b58a47c23
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.544/p2-0.7.544-mac.zip
-mac.sha512: a1ee4c02ef6b41e9bfbd6bea9e759c4a15e024334214ebc5bbd6e71517d58bdc3059ff876b42e703ce01d52baf6fbc2fccfa0fd64d56ec382818bbc05f2cc68c
+commit: ddc2f8bc7c4a84816f28c5961b73264567362b69
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.545/p2-0.7.545-mac.zip
+mac.sha512: fbf7285bc8b119bb287e567dbde23e845da6f74c29156ec038413ffd716110c39fe829c17c96dc13acd8e1a082c8c729ee1278707a827d7a9c76a7c521018fcd
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Verankerte Bildrahmen (z. B. Symbole im Tabellenkopf): bei leerem Bildwert wird der Rahmen mit „Leeren Rahmen löschen“ (am Bildrahmen oder am Textrahmen) entfernt, auch wenn ein Ersatzbild eingestellt ist; Protokoll je Rahmen mit Begründung.
+- Filter neu: erste Bedingung zählt, beliebig viele weitere (bis 8) mit „und“/„oder“, ausgewertet von oben nach unten; Vorkommnisse in Gruppen hinter eigenem Haken (Vorgabe aus), gezählt in der ganzen Gruppe; Live-Ergebnis im Dialog; verständliche Meldung, wenn der Filter nichts übrig lässt.
+- Hängenbleiben nach dem Ziehen: p2 beendet einen nicht abgeschlossenen Ziehvorgang (Menüs grau) sofort bzw. nach 2 s im Leerlauf.
