@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.549
+version: 0.7.550
 date: 2026-11-17
 host: 21
-commit: 7fe9719d38550c5f75017e74ca08f0817387c180
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.549/p2-0.7.549-mac.zip
-mac.sha512: ea5751745a87f8bb80cc291936a1de73e95d4d014fc28159973ec3cbde7b22610c7befcf137e6ce4b0ea71d5517fa46bcd293f5a1fb57f7e62a8b0e0431b456a
+commit: f7a4687a83503551995f1972018f356074427be4
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.550/p2-0.7.550-mac.zip
+mac.sha512: d75f751b10d479f15fd8ae12a7c7a48a070c8f7cca2580e3ec8c890b5208b05618a9f846525ba81f0950c5a6e002a47fb25f218d97f0af173692dab1539ef967
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Templates kopieren/verschieben: Zielbibliothek und Art im Dialog wählen; vorhandene Templates ersetzen oder überspringen; klare Meldung. Bisher scheiterte das Übertragen immer.
-signature: f2c08ee90dde4de096d619eca2772ba1e75f2a609f24458228c5f819a35c81f2a5a94b7ff6dedcd5ae5d2c526004c164f79b0418660b61997d1b0ad601185509
+- Neu: Kontextmenü p2 › Tabelle › „Markierte Zellen verbinden …“ (alle zu einer Zelle, zeilenweise, spaltenweise, gleiche Werte untereinander/nebeneinander) und „Zellverbindung aufheben (Werte aus der Quelle)“ – frei gewordene Zellen erhalten den Wert ihres Datensatzes aus der Quelle mit p2-Tag und bisheriger Formatierung.
+signature: f9cc5046285fcaeeb4e429d93273b38c47a9bc3d8dc04861e713c71d98aab819759fef18ba64291ca000f2c3c6710e1e62b43775e46b29d7b12d4e3dcc0a2602
