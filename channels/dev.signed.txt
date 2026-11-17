@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.512
+version: 0.7.513
 date: 2026-11-17
 host: 21
-commit: 9d418e24972b02fe665c744414eda04a43198375
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.512/p2-0.7.512-mac.zip
-mac.sha512: c614bdf5a1cdbeb7f94f8ef14db7d300542c6915795c614e086fefd6a77637ef8e0fbaa57817ec842fd1e7a8e46fc15664a93ebc85ad2598fc3022f24e856645
+commit: f5c20df832018d8abeeea32243a01f871a26f0a5
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.513/p2-0.7.513-mac.zip
+mac.sha512: 8cad2d59b667f0b38823771379f09b7b3fc19971fcd3eddb8e99e19c34386be123bfaa5ae335f7ad3117f8da43df3edc85a8eb4d14f218175478be3c0ee593ee
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Laufzeit Tabellen: Zelle im Übersatz wird zum Messen kurz verbreitert, damit die ganze Tabelle gesammelt gelesen wird. Diagnose: Nachlauf misst den Textsatz getrennt.
-signature: 2a9f0f83ece85e46973d45eec7e050894cadc64083610b985b115392c9d9cc89ac6baee6c1adddf877f233f573d5269d2cae5d2263c93609547a6d3516bda60f
+- Diagnose: Nachlauf nennt die Textabschnitte mit dem teuersten Textsatz.
+signature: 4834d7a738bb39035b5ee8ccf85c6da64c59a5e14511e317382944b3c71326c0eaf8dd07eae2d2ab158982741d24b4d2b51dabf13eba747152ca1bd3e328770f
