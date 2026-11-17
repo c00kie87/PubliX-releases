@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.506
+version: 0.7.507
 date: 2026-11-17
 host: 21
-commit: 051e0a224ddb2f59d8bb4e699b2e81bc128b21f5
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.506/p2-0.7.506-mac.zip
-mac.sha512: 8a085e4d8c5f6d6606e3116f57be828dff0ec09e6f08678562984d4bef131d4ce7fc6941231c70358cf37b782f3eae375d827a0ac2226cac688b77712d2ea893
+commit: 31b62eeb89b0f7a30b6c3f2f84a9a9733d691c27
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.507/p2-0.7.507-mac.zip
+mac.sha512: 9d2bdfd3d1b21ddcb338a52070f2e38280fd5321af7a7f6f4a0ce2bf876c1e5aa1cf67614f0a63e906fd98331b42aeb27772e1416ceba79baec6cf888accfa5b
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Selbsttest „projekt“: echter Projektlauf auf einer Kopie (aktive Quelle und Konfiguration) mit Schnappschuss und SOLL-Prüfung – für Prüfungen ohne Anwenderlauf.
+- Rückfrage „Template-Wahl unklar“ und Berichte nennen den Datensatz lesbar (Bestellnummer · Name) statt der technischen Kennung. Selbsttest beantwortet die Rückfrage automatisch und vermerkt sie im Bericht.
