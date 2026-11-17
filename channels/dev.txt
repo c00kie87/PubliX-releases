@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.532
+version: 0.7.533
 date: 2026-11-17
 host: 21
-commit: d0d3412545e6adf4d9cae87f5756208cdfa5c719
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.532/p2-0.7.532-mac.zip
-mac.sha512: f07fa8b9917ed494d5720550ef9483a602315d325c14c9fab92ea2e2d2454ddc4c49ec93d834997c8a6d89379e2ae03749067cb6320abe9106285fde1f92e8c1
+commit: 2b0328444c5bf5b8e615c6c210eceb5bade54d13
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.533/p2-0.7.533-mac.zip
+mac.sha512: 5c2f1b15fa6ecca10324de6501385600dbb722c76e512c6f5c497084075f2ba5a005ba00856f23e61eaf3a4c0fc551d22abc9ec9ff3e14b791e9c90b46c9e0c2
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Keine automatische Entfernung verwaister p2-Werte mehr beim Öffnen (0.7.531 blockierte InDesign bei großen Mengen). Neu: Automatisieren-Palette › Menü › Verwaiste p2-Werte entfernen … mit Anzahl, Fortschritt und Abbrechen. Am Ausgabeende still nur bis 2.000 Stück, darüber Hinweis im Bericht.
+- „In Datentabelle wiedergeben“: Tabelle ist so breit wie der Satzspiegel der aktiven Seite (vorher wurden Punkte als Dokumenteinheit gerechnet – Tabelle bis 1.488 mm breit); Spalten gleich breit, Umbrüche in Kauf.
