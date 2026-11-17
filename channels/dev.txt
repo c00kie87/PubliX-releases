@@ -1,12 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.520
+version: 0.7.521
 date: 2026-11-17
 host: 21
-commit: 7781b20597687a19b8cc4ba1b41f22e5dec78ab5
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.520/p2-0.7.520-mac.zip
-mac.sha512: 97fb71512a6c6c8b6c1f4d5fdf785f63a9737004a3949466a6aa88c484c362d22a84a3d5fb15b2e2fdff2750554c9fdd491928603410713e3033214b7a80652f
+commit: a15bead835d88638bdc7c3d803b6bd5cf595412d
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.521/p2-0.7.521-mac.zip
+mac.sha512: 87dfe6273763b348d4987729a1cbd56c85b9c959ed0bfcad7ce63c80f3f205364f593fa0f14f472b903693261271b1f5a47c971536e83ec8e44d35877d70b2cd
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- QR-/Strichcodes: Klarschrift-Rahmen genau auf Textbreite (statt automatischer Anpassung, die den Rahmen auf null schrumpfen ließ).
+- Datenquelle: Statusfarben (grün platziert, rot fehlender Bezug/Abweichung, Datensatz dezent grün) werten jetzt alle platzierten Werte – auch in Rahmen ohne eigene Datensatzmarke (Hilfstabellen, Kreuztabellen, Fortsetzungen).
+- QR-/Strichcodes: Code und Klarschrift werden nach dem Einsetzen einzeln an ihre Lage gesetzt (Gruppe wurde gestaucht).
