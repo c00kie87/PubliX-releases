@@ -1,13 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.545
+version: 0.7.546
 date: 2026-11-17
 host: 21
-commit: ddc2f8bc7c4a84816f28c5961b73264567362b69
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.545/p2-0.7.545-mac.zip
-mac.sha512: fbf7285bc8b119bb287e567dbde23e845da6f74c29156ec038413ffd716110c39fe829c17c96dc13acd8e1a082c8c729ee1278707a827d7a9c76a7c521018fcd
+commit: cf8956919429dedf71d06bbd144b203bb37a39eb
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.546/p2-0.7.546-mac.zip
+mac.sha512: 4188cf9d8d4e2028fd88590d8bf70786309ab0a46bf3cc229ce21f77c9c9cf283894e4bd3642954b63395cea2824eed267baacea2483a73a17fe053a60e20ef4
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Filter neu: erste Bedingung zählt, beliebig viele weitere (bis 8) mit „und“/„oder“, ausgewertet von oben nach unten; Vorkommnisse in Gruppen hinter eigenem Haken (Vorgabe aus), gezählt in der ganzen Gruppe; Live-Ergebnis im Dialog; verständliche Meldung, wenn der Filter nichts übrig lässt.
-- Hängenbleiben nach dem Ziehen: p2 beendet einen nicht abgeschlossenen Ziehvorgang (Menüs grau) sofort bzw. nach 2 s im Leerlauf.
+- Tag-Farben: „veraltet“ (orange) nur noch bei abweichendem Wortlaut – Leerraum, Absatz-/Zeilenumbrüche und weiche Trennungen zählen nicht; bisher fälschlich orange markierte formatierte Texte werden automatisch wieder grün.
