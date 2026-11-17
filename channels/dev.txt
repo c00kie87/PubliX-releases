@@ -1,12 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.538
+version: 0.7.539
 date: 2026-11-17
 host: 21
-commit: 954feba012f3c5e0d9eb776e72f36021478df54f
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.538/p2-0.7.538-mac.zip
-mac.sha512: daf6b1d8f25b17f5f4c92767b91f2a7992a3f0f56f5f50de2473d4f04f12311816cae33ddb8bd98a96688dde2f81df0a87d15764782c3d7e58db1e31d117c305
+commit: b64f1544a8d9f3a6f751e09297af9163a385be54
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.539/p2-0.7.539-mac.zip
+mac.sha512: 4f2131b633065431cac4f4b246e39e6d2bea394dcb9afa6719a4e76c1686502ef8d3c55f3f8f0cf33a5fdeb338f9bbba14d2e350747abfcfcb6672c9c5782f4e
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Eine Konfiguration je Projekt: Alle Quellen eines Projekts nutzen dieselbe Konfiguration (Kreuztabellen, Feldoptionen, Zusatzfelder, Filter …); Quellen sind austauschbar. Bestehende getrennte Konfigurationen werden ergänzend zusammengeführt (nichts überschrieben, alte Ordner bleiben).
+- Datenbankquellen laden primär nur die Hauptabfrage (MappedCatalogArticles) und bereits genutzte Tabellen; weitere über „Tabelle hinzufügen …“.
+- Beziehungen über Vater-/Sohnfeld (mehrfach, beliebige Tabellen) im Menü „Quelle laden und verwalten“; Datensätze mit Referenzen zeigen vorne „R“ – Klick zeigt die referenzierten Datensätze, „◂R“ im Kopf führt zurück; Knopf „R“ blendet referenzierte Datensätze ein/aus.
