@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.505
-date: 2026-11-16
+version: 0.7.506
+date: 2026-11-17
 host: 21
-commit: 9eff26ed8693f89484d9c9ed0b76a7e458bf0ff0
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.505/p2-0.7.505-mac.zip
-mac.sha512: 5355714a391c157b63b140a91f488a2ce3610879574a54106132603b3d71daabc929846a3dff053d1c2664ee9884cf7955da8be3458193821ed6b1c8927b741c
+commit: 051e0a224ddb2f59d8bb4e699b2e81bc128b21f5
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.506/p2-0.7.506-mac.zip
+mac.sha512: 8a085e4d8c5f6d6606e3116f57be828dff0ec09e6f08678562984d4bef131d4ce7fc6941231c70358cf37b782f3eae375d827a0ac2226cac688b77712d2ea893
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Rahmenfortsetzung: Verschiebt InDesign während der Textprobe einzelne Rahmen uneinheitlich, werden sie zurückgesetzt statt den Schnitt zu verlegen (mehrseitiger Rest wurde sonst mit Übersatz erzwungen).
+- Selbsttest „projekt“: echter Projektlauf auf einer Kopie (aktive Quelle und Konfiguration) mit Schnappschuss und SOLL-Prüfung – für Prüfungen ohne Anwenderlauf.
