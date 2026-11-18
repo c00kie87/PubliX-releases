@@ -1,14 +1,12 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.1
+version: 0.8.2
 date: 2026-11-18
 host: 21
-commit: 5589b1a0d0641eef6ca79766544bafabebe6bd35
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.1/publix-0.8.1-mac.zip
-mac.sha512: 989e69229565cdb9a3eb38b104bf4c08eef1b29e03cea050eda88b6ae962495c04b5f846ae8160db851488ce86037ea1d5f5d17cd7aab451de2710f64ada42db
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.0/publix-0.8.0-win.zip
-win.sha512: f7a7de7ce3ffcbdd0b5a75bb218a5b58c8ba73a240ac376e189734d5010b1924e634661963fffa14e2f5330e47263608b2cb260dd196c75e8507bc59fd61d93c
+commit: bff5d30109fdc7022d4a1ccf8ee657ddb2bb298d
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.2/publix-0.8.2-mac.zip
+mac.sha512: d3a7818a7c9c720e20c238563fcff7734f19252e78482bdecc9efea5a49a6f67b492a915b73b5ea7d4d936b12cd97ca1f2056beb6dcbaa8acb0e393a3cb62143
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.2/publix-0.8.2-win.zip
+win.sha512: c12dea537981af3efe018c0bb387af45b66d681308e906f072257b40059da4973ba92b66491c069dc6d8e26e4990d5dc25ea1fb01d97cd4cbbe6eec03ebb56dc
 notes:
-- Datenübernahme: stellt zusätzlich Zell-Etiketten in Template-Tabellen und die Namensräume der Einstellungsdateien auf PubliX um.
-- Neu: Automatisieren › Fluss › „Textumfluss nutzen“ – ein Rahmen rückt bis zur Oberkante des Objekts darüber hoch, wenn dieses einen Textumfluss hat (z. B. Logo); der Text läuft daneben vorbei. Nie über ein Objekt ohne Textumfluss hinaus.
-- Windows: Umlaute in Meldungen und Dialogen richtig. Template in die Bibliothek ziehen: Dateizugriff für Windows korrigiert, Fehlerursachen im Protokoll.
+- Windows: Neubau mit den Korrekturen aus 0.8.1 (Template in die Bibliothek ziehen, Umlaute in Dialogen, Textumfluss nutzen). Mac unverändert gegenüber 0.8.1.
