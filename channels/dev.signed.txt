@@ -1,18 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.553
+version: 0.7.554
 date: 2026-11-18
 host: 21
-commit: 65aa1ecae57b2df1fd9441b56a6f7ae5fccf3ed8
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.553/p2-0.7.553-mac.zip
-mac.sha512: 5b909caf4df4f93d49a8a6a76e30e43816a0241ec5a2b939669a2646d62ce821ccb097da90b5b495a2989ac158f9130632479aea4c9efbc158c8f34eeedd9fbb
-win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.553/p2-0.7.553-win.zip
-win.sha512: 8320b298206b7656162402a34b0c6b8b86bbfa75f82d4111441a5b2c1fa4bfdcf33ee8b1fe3ba386dd56390f44d0e3a4ec585e4de61d09a157fb37693b28ed2d
+commit: a3ab57e448a41390e43da79930662d3925f92614
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.554/p2-0.7.554-mac.zip
+mac.sha512: 4b2ff7cdf4cbf7e2bf093eb9a066508ef60b751f1732c19ccf3f15fed52afef51e4b749c970741b912aa109051a62a46ae4c8aebdd1b4da71891deae43f622c4
+win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.554/p2-0.7.554-win.zip
+win.sha512: 4f5610a984273cd43108a0ee34f25c481d14545776edbc3569eee9a709e8505e77db7be06c0ed359bf6f1ad9b79e42552127f14ddf13dfa236afffcb5c21eccd
 notes:
-- Neu: Ganze Dokumente aus einem Datenfeld platzieren (PDF, AI, INDD …): Feldoptionen › Bild › „Seiten“ (leer = Seite 1, „3“, „2-4“, „2-“, „alle“, Listen) und „Ebenen“ (sichtbare Ebenen); mehrere Seiten wiederholen das Template je Seite. PDF-Seitenzahl auch bei komprimierten und nachträglich gespeicherten PDFs.
-- Neu: Projekt exportieren (Mac/Windows) und Projekt importieren – komplettes Projekt als Paket (*.p2paket) mit Konfigurationen, Quellen und Bibliotheken; versioniertes Format, neuere Versionen lesen ältere Pakete.
-- Neu: Zellen verbinden – „Leere Zellen einbeziehen“ mit Leitspalte (z. B. Set-Inhalt über den ganzen Kalibrierart-Block); mehrdeutige Blöcke bleiben unverbunden und werden gemeldet.
-- Behoben: „Werte aktualisieren“ (alle, einzelne Datensätze/Felder, Bilder) erfasste nur grün markierte Werte – veraltete (hellrot) und fehlende blieben stehen, z. B. nach Löschen einer Ersetzung. Jetzt alle p2-Werte; nach dem Abgleich wieder grün.
-- Neu: „Werte aus dem Dokument in p2 übernehmen …“ (Kontextmenü p2, Templates-Palettenmenü) – im Dokument von Hand geänderte Werte werden geänderte Werte in p2 (orange), bei CSV/Excel zurückschreibbar.
-- Neu: Zurückschreiben auch in XML-Quellen (Unterelemente, Attribute; Sicherung der Originaldatei). In die Datenbank des Altsystems bewusst nicht; weitere Ziele (Webservice) vorbereitet.
-signature: aaca29dac17c69f9a0300e7b4ad81f56186d635b619dd9015d98aa705774a96fa34fda8d63596ec7268c120d7e15423958b138be37e36c30cc7531b076b7220f
+- Schneller: Wertstatus (Färbung der Datenquelle, veraltete Werte) prüft nur noch nach Änderungen an Dokument, Quelle oder Einstellungen – vorher lief bei jedem Leerlauf-Takt ein Durchlauf über alle Werte (z. B. 1,5 s für 6.860 Werte, wiederholt). Rahmen werden einmal je Rahmen geprüft, Vergleiche zwischengespeichert. Nach Änderungen reagiert die Färbung nach etwa einer halben Sekunde.
+signature: 7059af24f06f0569ded3673714ecf92b8a7e8c38209603e8dd379fde4e69aad1a55b801002bb8869fc067804aecf434c008423461372c2c2d1fde77e49c7bb05
