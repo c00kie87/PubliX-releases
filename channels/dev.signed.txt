@@ -1,13 +1,18 @@
-p2-manifest: 1
+publix-manifest: 1
 channel: dev
-version: 0.7.555
+version: 0.8.0
 date: 2026-11-18
 host: 21
-commit: bed83c09d4a32fca17ec617727dab9ec986e3768
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.555/p2-0.7.555-mac.zip
-mac.sha512: e04a7c48b7aa87f96ec61498c1ac51d75269773da7d1d79a67a44f11b1d9333b77fc3057d50dd77cb88473124a0eb88542e7f2db25dccb7f47dad922e217fbd6
-win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.555/p2-0.7.555-win.zip
-win.sha512: d7e9133635e6e6aaa765903be89165d662679f409512b568bfe98b48a51ef1234058106ef069e8adade2fcd396246752f07a5239464f679424296f8a2061b3ad
+commit: c9c19307daed5136de7a71844157a78492948053
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.0/publix-0.8.0-mac.zip
+mac.sha512: 778223e161fc53c5dcbbcc3034c2802cbade9080d81d5f848dff0429ec780eae3fb9ecdaf1b06c98027ef1677a1b5474aaec07b3c60c7f21a24fa7179c29c3db
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.0/publix-0.8.0-win.zip
+win.sha512: f7a7de7ce3ffcbdd0b5a75bb218a5b58c8ba73a240ac376e189734d5010b1924e634661963fffa14e2f5330e47263608b2cb260dd196c75e8507bc59fd61d93c
 notes:
-- Windows: p2ctl.exe lässt sich jetzt per Doppelklick bedienen – Auswahl „einrichten/aktualisieren“, „Version anzeigen“, „zur Vorversion“, „abschalten“; das Fenster bleibt bis zur Eingabetaste offen. Vorher zeigte p2ctl ohne Angaben nur eine Aufrufzeile und schloss sich sofort (wirkte, als passiere nichts). Umlaute in der Konsole werden richtig angezeigt.
-signature: 0005f7861d3f8679b477d168bd0a25a4342fc4ff59c55cc6ebd08ebc03ab9101af8e073c40364314085dd75edaccaf7eb4412133d3270091b82af5806332710a
+- Neuer Name: PubliX. Menüs, Paletten, Meldungen, Anleitung, Plugin-Datei, Installer, Ablage- und Projektordner heißen jetzt PubliX. Neu einrichten mit „PubliX installieren“ (Mac) bzw. publixctl.exe/„PubliX installieren.cmd“ (Windows).
+- Übernahme beim ersten Start bzw. bei der Einrichtung: Ablage, Quellen, Templates und Projekte der bisherigen Installation werden in die PubliX-Ordner verschoben, gespeicherte Pfade angepasst, der alte Plugin-Eintrag entfernt.
+- Ältere Dokumente und Templates werden automatisch umgestellt: Platzhalter-Tags, Ebenen- und Formatnamen werden umbenannt, Etiketten älterer Templates weiter gelesen. Ältere Projektpakete lassen sich weiter importieren (im Auswahldialog „Alle Dateien“).
+- Projekt exportieren/importieren jetzt auch in den Palettenmenüs Ausgabe und Templates (Projekt und Ablage).
+- Behoben: Entfällt ein Element über einem anderen (z. B. Piktogramm), rückt das darunterliegende jetzt auch dann heran, wenn daneben ein unverändertes Element (z. B. Herstellerlogo) steht – bis unter dieses mit dem Abstand aus dem Template.
+- Windows: Umlaute in Menüs, Paletten und Dialogen werden richtig angezeigt (Ressourcentexte im Windows-Zeichensatz).
+signature: 0ea51387fa72620eabed03ecfff7edaebb365c148b9f6d5e931d3271a14956035b84c9af771c8eb56eef38d1128b68ebf04378c70bc83e0a6d1532185edd770c
