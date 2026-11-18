@@ -1,15 +1,15 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.3
+version: 0.8.4
 date: 2026-11-18
 host: 21
-commit: 2a3b08e184b5cce3b1a7b4f028bd08264d0cf03f
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.3/publix-0.8.3-mac.zip
-mac.sha512: e90c589a6d5e3da5c5242bc2ab1cce6233b904953f0f30001fc942b06218044b574884eaa4aef50da1a55adeb0f33866dbb6ffb2eb0d22016ee16c9c46c8dc37
+commit: 2af6419dbbfcd549b94599ab3bc7b141e04b8727
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.4/publix-0.8.4-mac.zip
+mac.sha512: 266ecdf04b0b7e8b5ce6a9ea54f7b617d1925870ec62718255f291c9f73c290117b33c19d5fbeb215d1d4732cbae10f6eb8c78b32b594a77d1361064623c3704
 win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.2/publix-0.8.2-win.zip
 win.sha512: c12dea537981af3efe018c0bb387af45b66d681308e906f072257b40059da4973ba92b66491c069dc6d8e26e4990d5dc25ea1fb01d97cd4cbbe6eec03ebb56dc
 notes:
-- Hilfstabellen: Auflösen scheiterte, wenn ein Objekt mit Textumfluss (z. B. Logo) über der Tabelle liegt – die neuen Textrahmen beachten den Umfluss nur noch mit „Textumfluss nutzen“ und wachsen dann bei Bedarf.
-- Protokoll: Dynamik-Zeile mit waagerechter Lage und Umfluss-Angaben (Klärung Abstand nachfolgender Elemente).
-- Anleitung und Glossar: Stand aktualisiert.
-signature: fc9e1fad8c6793892b858fad5b72ae9924ff1e51041b05e8bb1f02466c141cc16ac27be369a8b3458cdf446afd674b9bb13ae85b6055e23391ccbeb884f45c0e
+- Textumfluss nutzen: Folgende Elemente (Bild, Tabelle) rücken nach, wenn ein Rahmen bis zur Oberkante eines Logos aufrückt; der Rahmen wird nicht mehr unter das Logo zurückgesetzt.
+- Hilfstabellen mit Textumfluss nutzen: Tabelle steht oben im Rahmen, die aufgelösten Rahmen fließen um das Logo; wachsen sie dabei, rücken die Objekte darunter um den Zuwachs nach.
+- Anleitung und Glossar: Strukturfehler behoben (Einträge und Changelog liefen übereinander), Strukturprüfung im Build.
+signature: c82ee8f476173060f2517b28e0f10ab297fafaf746830ea90d47d94c2a719a23baade36366a78e95d1d280edc41be9231abaad4c5e275c137c1dd730889c8308
