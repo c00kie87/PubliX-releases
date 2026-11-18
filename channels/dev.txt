@@ -1,17 +1,14 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.0
+version: 0.8.1
 date: 2026-11-18
 host: 21
-commit: c9c19307daed5136de7a71844157a78492948053
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.0/publix-0.8.0-mac.zip
-mac.sha512: 778223e161fc53c5dcbbcc3034c2802cbade9080d81d5f848dff0429ec780eae3fb9ecdaf1b06c98027ef1677a1b5474aaec07b3c60c7f21a24fa7179c29c3db
+commit: 5589b1a0d0641eef6ca79766544bafabebe6bd35
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.1/publix-0.8.1-mac.zip
+mac.sha512: 989e69229565cdb9a3eb38b104bf4c08eef1b29e03cea050eda88b6ae962495c04b5f846ae8160db851488ce86037ea1d5f5d17cd7aab451de2710f64ada42db
 win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.0/publix-0.8.0-win.zip
 win.sha512: f7a7de7ce3ffcbdd0b5a75bb218a5b58c8ba73a240ac376e189734d5010b1924e634661963fffa14e2f5330e47263608b2cb260dd196c75e8507bc59fd61d93c
 notes:
-- Neuer Name: PubliX. Menüs, Paletten, Meldungen, Anleitung, Plugin-Datei, Installer, Ablage- und Projektordner heißen jetzt PubliX. Neu einrichten mit „PubliX installieren“ (Mac) bzw. publixctl.exe/„PubliX installieren.cmd“ (Windows).
-- Übernahme beim ersten Start bzw. bei der Einrichtung: Ablage, Quellen, Templates und Projekte der bisherigen Installation werden in die PubliX-Ordner verschoben, gespeicherte Pfade angepasst, der alte Plugin-Eintrag entfernt.
-- Ältere Dokumente und Templates werden automatisch umgestellt: Platzhalter-Tags, Ebenen- und Formatnamen werden umbenannt, Etiketten älterer Templates weiter gelesen. Ältere Projektpakete lassen sich weiter importieren (im Auswahldialog „Alle Dateien“).
-- Projekt exportieren/importieren jetzt auch in den Palettenmenüs Ausgabe und Templates (Projekt und Ablage).
-- Behoben: Entfällt ein Element über einem anderen (z. B. Piktogramm), rückt das darunterliegende jetzt auch dann heran, wenn daneben ein unverändertes Element (z. B. Herstellerlogo) steht – bis unter dieses mit dem Abstand aus dem Template.
-- Windows: Umlaute in Menüs, Paletten und Dialogen werden richtig angezeigt (Ressourcentexte im Windows-Zeichensatz).
+- Datenübernahme: stellt zusätzlich Zell-Etiketten in Template-Tabellen und die Namensräume der Einstellungsdateien auf PubliX um.
+- Neu: Automatisieren › Fluss › „Textumfluss nutzen“ – ein Rahmen rückt bis zur Oberkante des Objekts darüber hoch, wenn dieses einen Textumfluss hat (z. B. Logo); der Text läuft daneben vorbei. Nie über ein Objekt ohne Textumfluss hinaus.
+- Windows: Umlaute in Meldungen und Dialogen richtig. Template in die Bibliothek ziehen: Dateizugriff für Windows korrigiert, Fehlerursachen im Protokoll.
