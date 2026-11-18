@@ -1,12 +1,14 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.2
+version: 0.8.3
 date: 2026-11-18
 host: 21
-commit: bff5d30109fdc7022d4a1ccf8ee657ddb2bb298d
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.2/publix-0.8.2-mac.zip
-mac.sha512: d3a7818a7c9c720e20c238563fcff7734f19252e78482bdecc9efea5a49a6f67b492a915b73b5ea7d4d936b12cd97ca1f2056beb6dcbaa8acb0e393a3cb62143
+commit: 2a3b08e184b5cce3b1a7b4f028bd08264d0cf03f
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.3/publix-0.8.3-mac.zip
+mac.sha512: e90c589a6d5e3da5c5242bc2ab1cce6233b904953f0f30001fc942b06218044b574884eaa4aef50da1a55adeb0f33866dbb6ffb2eb0d22016ee16c9c46c8dc37
 win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.2/publix-0.8.2-win.zip
 win.sha512: c12dea537981af3efe018c0bb387af45b66d681308e906f072257b40059da4973ba92b66491c069dc6d8e26e4990d5dc25ea1fb01d97cd4cbbe6eec03ebb56dc
 notes:
-- Windows: Neubau mit den Korrekturen aus 0.8.1 (Template in die Bibliothek ziehen, Umlaute in Dialogen, Textumfluss nutzen). Mac unverändert gegenüber 0.8.1.
+- Hilfstabellen: Auflösen scheiterte, wenn ein Objekt mit Textumfluss (z. B. Logo) über der Tabelle liegt – die neuen Textrahmen beachten den Umfluss nur noch mit „Textumfluss nutzen“ und wachsen dann bei Bedarf.
+- Protokoll: Dynamik-Zeile mit waagerechter Lage und Umfluss-Angaben (Klärung Abstand nachfolgender Elemente).
+- Anleitung und Glossar: Stand aktualisiert.
