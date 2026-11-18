@@ -1,16 +1,17 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.552
+version: 0.7.553
 date: 2026-11-18
 host: 21
-commit: acbad1a00893dc53ee00886266fde671e9c80c2f
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.552/p2-0.7.552-mac.zip
-mac.sha512: 17bbbd00c27c52f1ea88debb684cac23ad230482ee369c172485acbc84927ab9bec15199d4bee2c156ec3e17f26743919b6c06863a93eabef2af45e32bdaf61f
-win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.552/p2-0.7.552-win.zip
-win.sha512: 8ceb2d520395a3041abf3dda1a3fc2bbff8918cbe4e15676acf28442aab886c16b69538d368a9c1ca8dc4343b22a31da78060059069a499b1d6cc7945107eec3
+commit: 65aa1ecae57b2df1fd9441b56a6f7ae5fccf3ed8
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.553/p2-0.7.553-mac.zip
+mac.sha512: 5b909caf4df4f93d49a8a6a76e30e43816a0241ec5a2b939669a2646d62ce821ccb097da90b5b495a2989ac158f9130632479aea4c9efbc158c8f34eeedd9fbb
+win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.553/p2-0.7.553-win.zip
+win.sha512: 8320b298206b7656162402a34b0c6b8b86bbfa75f82d4111441a5b2c1fa4bfdcf33ee8b1fe3ba386dd56390f44d0e3a4ec585e4de61d09a157fb37693b28ed2d
 notes:
-- Windows nachgezogen: erstmals seit 0.7.52 wieder ein Windows-Paket mit vollem Funktionsstand (gleiche Version wie macOS). Windows: Template-Bibliotheken in der gemeinsamen Programmablage (%LOCALAPPDATA%\p2, bisheriger Ordner wird übernommen), Projektordner unter Dokumente, Anleitung und Code-Schrift im Paket. Auf Windows noch nicht laufzeitgeprüft.
-- Dialog „Beziehungen“: eigene Ressourcen-ID (vorher Überschneidung mit der Stringtabelle – Dialog öffnete womöglich nicht).
-- „In Datentabelle wiedergeben“: Ablegen über die Dokument-Methode (vorher „Exportformat nicht unterstützt“).
-- „Zellverbindung aufheben“: Meldung nennt Markierung und die verbundenen Zellen der Tabelle; Textcursor in der Zelle wird sicher erkannt.
-- Feldeinstellungen: zwischengespeicherte Einstellungen bleiben nach Änderungen gültig (Speicherfehler, unter Windows aufgefallen).
+- Neu: Ganze Dokumente aus einem Datenfeld platzieren (PDF, AI, INDD …): Feldoptionen › Bild › „Seiten“ (leer = Seite 1, „3“, „2-4“, „2-“, „alle“, Listen) und „Ebenen“ (sichtbare Ebenen); mehrere Seiten wiederholen das Template je Seite. PDF-Seitenzahl auch bei komprimierten und nachträglich gespeicherten PDFs.
+- Neu: Projekt exportieren (Mac/Windows) und Projekt importieren – komplettes Projekt als Paket (*.p2paket) mit Konfigurationen, Quellen und Bibliotheken; versioniertes Format, neuere Versionen lesen ältere Pakete.
+- Neu: Zellen verbinden – „Leere Zellen einbeziehen“ mit Leitspalte (z. B. Set-Inhalt über den ganzen Kalibrierart-Block); mehrdeutige Blöcke bleiben unverbunden und werden gemeldet.
+- Behoben: „Werte aktualisieren“ (alle, einzelne Datensätze/Felder, Bilder) erfasste nur grün markierte Werte – veraltete (hellrot) und fehlende blieben stehen, z. B. nach Löschen einer Ersetzung. Jetzt alle p2-Werte; nach dem Abgleich wieder grün.
+- Neu: „Werte aus dem Dokument in p2 übernehmen …“ (Kontextmenü p2, Templates-Palettenmenü) – im Dokument von Hand geänderte Werte werden geänderte Werte in p2 (orange), bei CSV/Excel zurückschreibbar.
+- Neu: Zurückschreiben auch in XML-Quellen (Unterelemente, Attribute; Sicherung der Originaldatei). In die Datenbank des Altsystems bewusst nicht; weitere Ziele (Webservice) vorbereitet.
