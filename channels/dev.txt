@@ -1,12 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.551
+version: 0.7.552
 date: 2026-11-18
 host: 21
-commit: 6f29da968cea60113dc57cde31409c4c956cff9a
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.551/p2-0.7.551-mac.zip
-mac.sha512: a80cb1957c660c31eeb01c559cc70008cc8d5d3c7b34aa5cc3029dfc85e98f8504f13e05fefd1fde80c6ce8e4a26f6fec4e7fe737ee35bf83c34180e6126d9b7
-win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
-win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
+commit: acbad1a00893dc53ee00886266fde671e9c80c2f
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.552/p2-0.7.552-mac.zip
+mac.sha512: 17bbbd00c27c52f1ea88debb684cac23ad230482ee369c172485acbc84927ab9bec15199d4bee2c156ec3e17f26743919b6c06863a93eabef2af45e32bdaf61f
+win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.552/p2-0.7.552-win.zip
+win.sha512: 8ceb2d520395a3041abf3dda1a3fc2bbff8918cbe4e15676acf28442aab886c16b69538d368a9c1ca8dc4343b22a31da78060059069a499b1d6cc7945107eec3
 notes:
-- Zellverbindung aufheben (Werte aus der Quelle): Zellen werden jetzt nativ über das Tabellenmodell zugeordnet (vorher blieben frei gewordene Zellen leer). Datensatz je Zeile = vorderster p2-Wert der Zeile (z. B. Bez.-Nr.), nicht mehr der häufigste – zuverlässig auch in Kreuztabellen. Protokoll je Zelle.
+- Windows nachgezogen: erstmals seit 0.7.52 wieder ein Windows-Paket mit vollem Funktionsstand (gleiche Version wie macOS). Windows: Template-Bibliotheken in der gemeinsamen Programmablage (%LOCALAPPDATA%\p2, bisheriger Ordner wird übernommen), Projektordner unter Dokumente, Anleitung und Code-Schrift im Paket. Auf Windows noch nicht laufzeitgeprüft.
+- Dialog „Beziehungen“: eigene Ressourcen-ID (vorher Überschneidung mit der Stringtabelle – Dialog öffnete womöglich nicht).
+- „In Datentabelle wiedergeben“: Ablegen über die Dokument-Methode (vorher „Exportformat nicht unterstützt“).
+- „Zellverbindung aufheben“: Meldung nennt Markierung und die verbundenen Zellen der Tabelle; Textcursor in der Zelle wird sicher erkannt.
+- Feldeinstellungen: zwischengespeicherte Einstellungen bleiben nach Änderungen gültig (Speicherfehler, unter Windows aufgefallen).
