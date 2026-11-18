@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.550
-date: 2026-11-17
+version: 0.7.551
+date: 2026-11-18
 host: 21
-commit: f7a4687a83503551995f1972018f356074427be4
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.550/p2-0.7.550-mac.zip
-mac.sha512: d75f751b10d479f15fd8ae12a7c7a48a070c8f7cca2580e3ec8c890b5208b05618a9f846525ba81f0950c5a6e002a47fb25f218d97f0af173692dab1539ef967
+commit: 6f29da968cea60113dc57cde31409c4c956cff9a
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.551/p2-0.7.551-mac.zip
+mac.sha512: a80cb1957c660c31eeb01c559cc70008cc8d5d3c7b34aa5cc3029dfc85e98f8504f13e05fefd1fde80c6ce8e4a26f6fec4e7fe737ee35bf83c34180e6126d9b7
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Neu: Kontextmenü p2 › Tabelle › „Markierte Zellen verbinden …“ (alle zu einer Zelle, zeilenweise, spaltenweise, gleiche Werte untereinander/nebeneinander) und „Zellverbindung aufheben (Werte aus der Quelle)“ – frei gewordene Zellen erhalten den Wert ihres Datensatzes aus der Quelle mit p2-Tag und bisheriger Formatierung.
-signature: f9cc5046285fcaeeb4e429d93273b38c47a9bc3d8dc04861e713c71d98aab819759fef18ba64291ca000f2c3c6710e1e62b43775e46b29d7b12d4e3dcc0a2602
+- Zellverbindung aufheben (Werte aus der Quelle): Zellen werden jetzt nativ über das Tabellenmodell zugeordnet (vorher blieben frei gewordene Zellen leer). Datensatz je Zeile = vorderster p2-Wert der Zeile (z. B. Bez.-Nr.), nicht mehr der häufigste – zuverlässig auch in Kreuztabellen. Protokoll je Zelle.
+signature: db0593402d4890cb5e9aef15d44199ad855d6af5dd46c02b33c082ff2728b075d92851da96585d5f8897152e1104369e72b3737b6c27fc49b04a377e2e41890c
