@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.554
+version: 0.7.555
 date: 2026-11-18
 host: 21
-commit: a3ab57e448a41390e43da79930662d3925f92614
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.554/p2-0.7.554-mac.zip
-mac.sha512: 4b2ff7cdf4cbf7e2bf093eb9a066508ef60b751f1732c19ccf3f15fed52afef51e4b749c970741b912aa109051a62a46ae4c8aebdd1b4da71891deae43f622c4
-win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.554/p2-0.7.554-win.zip
-win.sha512: 4f5610a984273cd43108a0ee34f25c481d14545776edbc3569eee9a709e8505e77db7be06c0ed359bf6f1ad9b79e42552127f14ddf13dfa236afffcb5c21eccd
+commit: bed83c09d4a32fca17ec617727dab9ec986e3768
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.555/p2-0.7.555-mac.zip
+mac.sha512: e04a7c48b7aa87f96ec61498c1ac51d75269773da7d1d79a67a44f11b1d9333b77fc3057d50dd77cb88473124a0eb88542e7f2db25dccb7f47dad922e217fbd6
+win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.555/p2-0.7.555-win.zip
+win.sha512: d7e9133635e6e6aaa765903be89165d662679f409512b568bfe98b48a51ef1234058106ef069e8adade2fcd396246752f07a5239464f679424296f8a2061b3ad
 notes:
-- Schneller: Wertstatus (Färbung der Datenquelle, veraltete Werte) prüft nur noch nach Änderungen an Dokument, Quelle oder Einstellungen – vorher lief bei jedem Leerlauf-Takt ein Durchlauf über alle Werte (z. B. 1,5 s für 6.860 Werte, wiederholt). Rahmen werden einmal je Rahmen geprüft, Vergleiche zwischengespeichert. Nach Änderungen reagiert die Färbung nach etwa einer halben Sekunde.
+- Windows: p2ctl.exe lässt sich jetzt per Doppelklick bedienen – Auswahl „einrichten/aktualisieren“, „Version anzeigen“, „zur Vorversion“, „abschalten“; das Fenster bleibt bis zur Eingabetaste offen. Vorher zeigte p2ctl ohne Angaben nur eine Aufrufzeile und schloss sich sofort (wirkte, als passiere nichts). Umlaute in der Konsole werden richtig angezeigt.
