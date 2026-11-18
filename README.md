@@ -1,3 +1,3 @@
-# p2-releases
+# PubliX-releases
 
-Veröffentlichte Builds von p2.
+Veröffentlichte Builds von PubliX.
