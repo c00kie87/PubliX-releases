@@ -1,16 +1,14 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.15
+version: 0.8.16
 date: 2026-11-19
 host: 21
-commit: 3b30f37f32ed71783cb350ca3d2e3201810b8906
-mac.version: 0.8.15
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.15/publix-0.8.15-mac.zip
-mac.sha512: 3be43bd6537465b7970e19df805932d39673ff9868a62e0f642f853659c9d5949834921196b105ef25af1610fd218a14d09f4c0b0587f37f7dac89a626ae5ef4
-win.version: 0.8.15
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.15/publix-0.8.15-win.zip
-win.sha512: 2649278ea6be96cc55cc4646122e82df7b2836e601384d1e89efcddce68affc24880cc63896a7befade5706a6a18b3f3aa4825e73a7243517d7cd154208bcae2
+commit: 514172806496375db7001e7a3c5860fab818858d
+mac.version: 0.8.16
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.16/publix-0.8.16-mac.zip
+mac.sha512: c025f96ca15bfa157c03b753a9ce8f3394a936b02715736f7a4da4dbdef86af145f9de00a2f019e782a3bc890bcedfe2129c37eeaf72a32b6ed5bad1dacc6731
+win.version: 0.8.16
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.16/publix-0.8.16-win.zip
+win.sha512: 9e7094e7a00733a95b0dd2bd9c47840e808174ab530d264241f26d10c531cadedb2dd208a0090556469ee60ca7aaaa5ada3ab9ba8cfdc829ded0f4396fb35a2f
 notes:
-- Kreuztabelle: Bilder in verankerten Rahmen (z. B. Produktgruppenbild im Tabellenkopf) werden jetzt eingesetzt. Ohne Bild: Rahmen entfällt nur mit „Leeren Rahmen löschen“ am Bildrahmen; die dann leere Kopf-/Fußzeile entfällt nur mit der neuen Tabellenoption „Leere Kopf-/Fußzeilen löschen“; „Kontur der Folgezeile beibehalten“ ist ebenfalls eine Tabellenoption.
-- Windows: Projektimport mit Umlauten/ß im Quellnamen findet die Projektkonfiguration.
-- Projekt exportieren/importieren: Fortschrittsbalken; beim Export können die geöffneten InDesign-Dokumente mit aktuellem Stand mitgenommen werden.
+- Neue Palette „Abgleich“ (Fenster › PubliX › Abgleich): Prüfliste aller Abweichungen zur Quelle (Wert weicht ab, Feld fehlt, Bild nicht gefunden, Übersatz) mit Vergleich, Hinspringen und Aktualisieren aus der Quelle; Statuszeichen an den Rahmen (Haken, Hinweis, Kreuz).
