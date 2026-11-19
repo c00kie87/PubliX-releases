@@ -1,15 +1,19 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.18
+version: 0.8.22
 date: 2026-11-19
 host: 21
-commit: f8f898ed2c0e55e6d00f1e3186dfa460458b4d70
-mac.version: 0.8.18
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.18/publix-0.8.18-mac.zip
-mac.sha512: 7be27c7d0e524e9924e920d2196abfaa79bf654732d541f6ecea67a007311fd0a01b3927a9256ab322db2419a47e5b378144e599496a162ffa2cddaa130a6fd7
-win.version: 0.8.18
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.18/publix-0.8.18-win.zip
-win.sha512: b5e0a0a1b6efbb8967b7a0cb381ab559b809a5ef4bb32b372b82d536a4eae1bc01bd5220afd9366ae31c360954c1c2e8ca892d1009102fda3b326d016e1b9f33
+commit: a28288ab6d188d5fa5daba1e2e3354956b9f4604
+mac.version: 0.8.22
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.22/publix-0.8.22-mac.zip
+mac.sha512: 1d7abb84a8375d3aa7c62fd7cc5b908fe4a115250292ece24993ee4842f5f8475849da3599ea6b135cafb6d2cd6f14fedfe88a93aea08d9b221e75a6a7c7ea7f
+win.version: 0.8.22
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.22/publix-0.8.22-win.zip
+win.sha512: a2bdcc4d45d5c316f2e328430e9f4bbc886dcb8e16d3352818cee79dbd148f1da5df19caea537bbbba07ee69928ccd518b71170dafb6f9199b0340ac924f19fd
 notes:
-- Abgleich: Statuszeichen je Platzhalter am Wertende (grün Haken stimmt, gelb Abweichung, rot fehlt), Hinspringen markiert genau den Wert; „Statuszeichen zeigen“ zum Ein-/Ausblenden (gemerkt).
-signature: 057e11f1f3c87c374db0e6c45d501a3d935fd12a56dd0879c0b3bcef68db3dd842177cc6a32a532d73d91c18133766539c3a1750da4cdfd2aadf326355885e01
+- Datenquelle: Auswahl von Konfiguration und Tabelle ins Palettenmenü „Quelle konfigurieren …“ verlegt; unten bleibt das Suchfeld. Feldnamen ohne Tabellennamen in Palette und Automatisieren.
+- Stabilität: Hintergrundprüfungen einzeln abgesichert; „Prüfen“ im Abgleich erzwingt eine vollständige Neuprüfung (mit Protokoll).
+- Dynamik: Entfällt ein Element in der Nachbarspalte, das den Abstand eines Rahmens darunter bestimmt (z. B. Pikto rechts), rückt der Rahmen jetzt verlässlich hoch.
+- Laufzeit: Teilen verbundener Tabellenzellen an Seitengrenzen bei langen Tabellen stark beschleunigt (Ausgabe stand zuvor minutenlang).
+- Abbrechen: wirkt jetzt auch während langer Arbeitsschritte (Zellteilung in kurzen Abschnitten, Abbruchprüfung nach jedem Skriptschritt); lange Schritte werden protokolliert.
+signature: 548f3351d1c133193ab8476ffa6d82564262e8565b56c3afb1da2c02a4941cb7b5c2930ae002eac14efb521772d740cbf6c81afc18a5ab311ca8843491a8f00c
