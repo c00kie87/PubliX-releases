@@ -1,15 +1,15 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.27
+version: 0.8.28
 date: 2026-11-19
 host: 21
-commit: 5da2aa1649c73b2590aa0585c8fc61532eb8d54b
-mac.version: 0.8.27
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.27/publix-0.8.27-mac.zip
-mac.sha512: e7d62ef24091b5eb5014a5aa91273d7f809a87dd7c3db9ef72b2c6b65ad71e8f48e7d640e308d7c5fe89d57d86e294499c317e2ea451f5c2e84a3cfbde35deb6
-win.version: 0.8.27
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.27/publix-0.8.27-win.zip
-win.sha512: 4f81dc12fc285f7efb3b012f8b3b01a0e15ad9a79f833eaed4a743ec91407b759622b575a1ac18b85f2b22101ba0d2d1546a8da7fa3b2cf3896df957ab27c880
+commit: ee01109344048d1cdba76b38e9979ed53bb22fd5
+mac.version: 0.8.28
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.28/publix-0.8.28-mac.zip
+mac.sha512: 25c5583fe487ab889eca775cbf8fe0bfd550bd4a44adac9ecce2d9691220edeee66a00f4030bb603dbd702d9940ec56476fbb9e622957dce6995c00a2a7d3f30
+win.version: 0.8.28
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.28/publix-0.8.28-win.zip
+win.sha512: 65c7f94909acd95f035b8933cf01ca2e83c84d2bc99ba9b8e8807cff19951195f9c8df670514ac719c3ef995ae15d31f8fb56a6dc11891ff4fcb824b52a80471
 notes:
-- Dokument aufteilen jetzt im Automatisieren-Dialog (eigener Abschnitt „Dokument aufteilen“) statt im Menü: wird mit der Automatisierung gespeichert und läuft am Ende jeder Ausgabe
-- Beispiel-Dateiname direkt im Dialog; entsteht nur ein Dokument, nennt PubliX den Grund (Seitenzahl, Ebene) und fragt nicht erst nach dem Ordner
+- Kollisionen behoben: aufgelöste Hilfstabellen in Template-Gruppen rücken jetzt mit ihrer Produktgruppe an den richtigen Platz (blieben vorher an der Aufbaustelle liegen)
+- Kreuztabellen: die Übersatz-Abschlussprüfung bricht nicht mehr ab und verteilt Spaltenbreite um (zu schmale Spalten mit Übersatz)
