@@ -1,19 +1,16 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.13
+version: 0.8.15
 date: 2026-11-19
 host: 21
-commit: 7db7af6c05d70b5ae61c3da8c2015f1ab3b277ee
-mac.version: 0.8.13
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.13/publix-0.8.13-mac.zip
-mac.sha512: d4fa09cf974799559bbe5ef7cfb5ee2a06b7a8797cc134ec3df5dea3af6966497935c2571632062c74c1507300bf1b0180438053428bccedb2052a1f9c9a8446
-win.version: 0.8.13
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.13/publix-0.8.13-win.zip
-win.sha512: 5c6edf253be4026cc628a76c8f8028287844952ef542dccc2a58da739e9f394aa63f19ce468e46d824d15b55d8c7472888e9e64faa66fc741c7227d939e8137b
+commit: 3b30f37f32ed71783cb350ca3d2e3201810b8906
+mac.version: 0.8.15
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.15/publix-0.8.15-mac.zip
+mac.sha512: 3be43bd6537465b7970e19df805932d39673ff9868a62e0f642f853659c9d5949834921196b105ef25af1610fd218a14d09f4c0b0587f37f7dac89a626ae5ef4
+win.version: 0.8.15
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.15/publix-0.8.15-win.zip
+win.sha512: 2649278ea6be96cc55cc4646122e82df7b2836e601384d1e89efcddce68affc24880cc63896a7befade5706a6a18b3f3aa4825e73a7243517d7cd154208bcae2
 notes:
-- Seitentemplate: neuer Template-Typ – ganzseitige Templates liegen immer an ihrer gemerkten Lage zur Seite, auch im Beschnitt (z. B. −3/−3 mm); beim Automatisieren eine eigene Seite je Datensatz.
-- Feldoptionen › Bild: Importeigenschaften – Beschneiden auf, transparenter Hintergrund, Freistellungspfad, Alphakanal, Ebenenkomposition; Ebenen auch für Photoshop/TIFF.
-- Kreuztabelle: Bilder im Tabellenkopf (z. B. Produktgruppenbild) werden eingesetzt – vorher blieb der Rahmen leer.
-- Projekt öffnen: ein gewähltes Projektpaket (*.pxpaket) wird automatisch importiert.
-- Montagebereich: ragt eine Vorlage hinaus, wird sie hineingeschoben (aus 0.8.10).
-- Templates-Palette: Überfahren einer Kachel zeigt die Beschreibung des Templates (wenn eine eingetragen ist).
+- Kreuztabelle: Bilder in verankerten Rahmen (z. B. Produktgruppenbild im Tabellenkopf) werden jetzt eingesetzt. Ohne Bild: Rahmen entfällt nur mit „Leeren Rahmen löschen“ am Bildrahmen; die dann leere Kopf-/Fußzeile entfällt nur mit der neuen Tabellenoption „Leere Kopf-/Fußzeilen löschen“; „Kontur der Folgezeile beibehalten“ ist ebenfalls eine Tabellenoption.
+- Windows: Projektimport mit Umlauten/ß im Quellnamen findet die Projektkonfiguration.
+- Projekt exportieren/importieren: Fortschrittsbalken; beim Export können die geöffneten InDesign-Dokumente mit aktuellem Stand mitgenommen werden.
