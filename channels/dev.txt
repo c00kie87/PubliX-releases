@@ -1,14 +1,14 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.9
+version: 0.8.10
 date: 2026-11-19
 host: 21
-commit: 367fb4e623b18e26fd5df55b373e40294c6c0456
-mac.version: 0.8.9
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.9/publix-0.8.9-mac.zip
-mac.sha512: 3f0d58e1bdc4548ad3478c6b6030bce215e624835eb2438ca5503f530cd48488c2cd205995cbed998add77a314a812304ef38bd2fe039ed95311f01b40392e66
-win.version: 0.8.9
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.9/publix-0.8.9-win.zip
-win.sha512: 16f9a6aaac630bca8f587bd9e4a5c76c1d578701f232c5dd068d77eb7b7a99494964abb1d3b42bed82ca5c5a74ac0d3d455204946815966576bdc53740fe5672
+commit: 9f3c0fcf4d9ecd6f59ba41f7d1ac58aec6aebd1e
+mac.version: 0.8.10
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.10/publix-0.8.10-mac.zip
+mac.sha512: 3def4b9c8a97b9d60fb5e16c571dfe44d6ebc5c80ea820f7be290abd00f051fb3a8993e6b298d5ddd9128607a8ddcf32893c862c03f2744c772273c104b40765
+win.version: 0.8.10
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.10/publix-0.8.10-win.zip
+win.sha512: 65c0c3994d11afba253682c8b822c64027626af2b973a571433f3fac8a37247038a83368fce93c28dd86c3fb75ecf643c52c522a6c1c2682632f7d0d8b2ea016
 notes:
-- Windows: Umlaute in Menüs, Beschriftungen und Hinweisen wieder richtig (Sprachtabellen werden nicht mehr umkodiert).
+- Templates überall frei positionierbar: ragt eine gezogene Vorlage über den Montagebereich, wird sie hineingeschoben statt abgelehnt (nur größer als der Montagebereich wird abgelehnt).
