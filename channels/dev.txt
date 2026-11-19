@@ -1,15 +1,15 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.26
+version: 0.8.27
 date: 2026-11-19
 host: 21
-commit: d48c22163b6d4df6154d499b8e446b11448a21ac
-mac.version: 0.8.26
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.26/publix-0.8.26-mac.zip
-mac.sha512: db5348145df479995f05556da27a0f88cc1d542fea8b81964d204effc394995bff5389830a47d39b17828a4d3035d001a81e95ed8fa8e1e867f148d11aa9c9a4
-win.version: 0.8.26
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.26/publix-0.8.26-win.zip
-win.sha512: db2945b7913397c7e3bbfea429677148d9f6fb6f8dc72339e9bbd2d5ed5204b344370636dee0d8f97c2b61435c1a6eb7ec1e86a7586fd45d7f31e19ad0b39383
+commit: 5da2aa1649c73b2590aa0585c8fc61532eb8d54b
+mac.version: 0.8.27
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.27/publix-0.8.27-mac.zip
+mac.sha512: e7d62ef24091b5eb5014a5aa91273d7f809a87dd7c3db9ef72b2c6b65ad71e8f48e7d640e308d7c5fe89d57d86e294499c317e2ea451f5c2e84a3cfbde35deb6
+win.version: 0.8.27
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.27/publix-0.8.27-win.zip
+win.sha512: 4f81dc12fc285f7efb3b012f8b3b01a0e15ad9a79f833eaed4a743ec91407b759622b575a1ac18b85f2b22101ba0d2d1546a8da7fa3b2cf3896df957ab27c880
 notes:
 - Dokument aufteilen jetzt im Automatisieren-Dialog (eigener Abschnitt „Dokument aufteilen“) statt im Menü: wird mit der Automatisierung gespeichert und läuft am Ende jeder Ausgabe
 - Beispiel-Dateiname direkt im Dialog; entsteht nur ein Dokument, nennt PubliX den Grund (Seitenzahl, Ebene) und fragt nicht erst nach dem Ordner
