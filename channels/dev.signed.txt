@@ -1,15 +1,20 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.32
+version: 0.8.34
 date: 2026-11-19
 host: 21
-commit: cfe2d84a61b39fe9a190bff650e8d097d5a2a511
-mac.version: 0.8.32
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.32/publix-0.8.32-mac.zip
-mac.sha512: 2e3e2efcc0c3333eed67b290c7b6f1adc0aa57efcfa025d5d33f32df7c45b08d84fc872f34987c1631fff6caf3c7ecd027bcf7a5e1aa98a5cdb1cc36518da7d0
-win.version: 0.8.32
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.32/publix-0.8.32-win.zip
-win.sha512: 8efbd01951f75bca71d827600fdcd737aee727390896750b954db917ec1d079caccc9811a121e7d5e430f0cb6fd7ca39553448796f2760d210998583d0e2b810
+commit: 4580df8b2b31bf8c6a648aa3daecd180b5926a32
+mac.version: 0.8.34
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.34/publix-0.8.34-mac.zip
+mac.sha512: 75e749d2f4d4fe9cba142ee9ecb56ce3ab5befec13416790ac4c53c7cfd9e7678bbf207ffd46feb479845b4c657746f0caacae7eb380810511cb070002543564
+win.version: 0.8.34
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.34/publix-0.8.34-win.zip
+win.sha512: 3a98fe827a865ed875d56d1249f484ae25260fd931b0b2633424aadddc483aa018ffc6e1c8e4a987cabae6598a8254b2950043bfad56620801d034c6001c00d1
 notes:
-- Hilfstabellen auflösen: mehrzeilige Zellen mit „Höhe und Breite anpassen“ wachsen wieder in der Höhe mit (kein Übersatz in Beschreibungen)
-signature: 1a02b800846fa08b338265a8d39228ca1b319b9313ad39399b439ca9d63d332ffb66020a3718bed05a09e04b37fd2fd070693ff3eaad30eb4dc076017389ce05
+- Aufteilen je Variationsgruppe (bedingte Verwendung): maßgeblich sind jetzt die Templates, die das Template-Feld der Daten nennt – nicht mehr das erste Template der Bibliothek (P_-Gruppen werden wieder je Variationsgruppe aufgebaut)
+- Abgleich: Übersatz in Tabellenzellen nur noch auf Dokumentseiten (nicht mehr auf Musterseiten), Eintrag ohne technischen Text
+- Dynamik: aufgelöste Hilfstabellen rücken eigenständig in frei gewordenen Platz auf (z. B. unter den Balken, wenn der Produktgruppentext entfällt)
+- Anordnung zeilenweise: gleich breite Produkte stehen nebeneinander, wenn sie mit Abstand bzw. Spaltensteg passen (Toleranz 3 pt); das breiteste Element bestimmt nicht mehr die Spaltenzahl
+- Neuer Template-Typ „Kopf-Template“: einmal je Gruppe (z. B. Produktgruppe) vor den Aufbauten, für die seine Bedingung zutrifft – z. B. gemeinsamer Balken über die volle Breite bei „P_“
+- Hilfstabellen: „Hohe Zeilen ab … mm“ – Zellen höherer Zeilen werden zu Textrahmen mit wählbaren Spalten, Steg und Breite; die aktuelle Zeilenhöhe der gewählten Zelle wird angezeigt
+signature: d9443812a3f9bce9dbc2a9a68999f58b018148097639c8fb79d5ef17702f788a37ecf407757f113bb418518bbe08e1b7c62c4c4cf9498f4c02d13be0a059a306
