@@ -1,14 +1,14 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.16
+version: 0.8.17
 date: 2026-11-19
 host: 21
-commit: 514172806496375db7001e7a3c5860fab818858d
-mac.version: 0.8.16
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.16/publix-0.8.16-mac.zip
-mac.sha512: c025f96ca15bfa157c03b753a9ce8f3394a936b02715736f7a4da4dbdef86af145f9de00a2f019e782a3bc890bcedfe2129c37eeaf72a32b6ed5bad1dacc6731
-win.version: 0.8.16
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.16/publix-0.8.16-win.zip
-win.sha512: 9e7094e7a00733a95b0dd2bd9c47840e808174ab530d264241f26d10c531cadedb2dd208a0090556469ee60ca7aaaa5ada3ab9ba8cfdc829ded0f4396fb35a2f
+commit: feeff73e015e3b4e320fade6b4ff706ca542a373
+mac.version: 0.8.17
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.17/publix-0.8.17-mac.zip
+mac.sha512: d961212b85e3a9f4992014cf45512da22a099aabcd119170db5652c33fd9baf50f335b386af200b3fa5ff9e83bdc32c572793f242d0d818939f001bfc128d6b2
+win.version: 0.8.17
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.17/publix-0.8.17-win.zip
+win.sha512: aabc447566b78b4a05388711d9761a43a55788122eaedc154744a3a84f77809bb660bc3f35b6a93c073d200c33ded37478001a2e691e7e77a5cc9a3afe0c85b4
 notes:
-- Neue Palette „Abgleich“ (Fenster › PubliX › Abgleich): Prüfliste aller Abweichungen zur Quelle (Wert weicht ab, Feld fehlt, Bild nicht gefunden, Übersatz) mit Vergleich, Hinspringen und Aktualisieren aus der Quelle; Statuszeichen an den Rahmen (Haken, Hinweis, Kreuz).
+- Abgleich: Filter (Befund, Bereich) gefüllt; Datensatz mit lesbarer Nummer statt Kennung; nach „Aktualisieren“ sofort wieder grün (Datenquelle, Liste, Statuszeichen).
