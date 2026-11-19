@@ -1,15 +1,20 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.10
+version: 0.8.13
 date: 2026-11-19
 host: 21
-commit: 9f3c0fcf4d9ecd6f59ba41f7d1ac58aec6aebd1e
-mac.version: 0.8.10
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.10/publix-0.8.10-mac.zip
-mac.sha512: 3def4b9c8a97b9d60fb5e16c571dfe44d6ebc5c80ea820f7be290abd00f051fb3a8993e6b298d5ddd9128607a8ddcf32893c862c03f2744c772273c104b40765
-win.version: 0.8.10
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.10/publix-0.8.10-win.zip
-win.sha512: 65c0c3994d11afba253682c8b822c64027626af2b973a571433f3fac8a37247038a83368fce93c28dd86c3fb75ecf643c52c522a6c1c2682632f7d0d8b2ea016
+commit: 7db7af6c05d70b5ae61c3da8c2015f1ab3b277ee
+mac.version: 0.8.13
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.13/publix-0.8.13-mac.zip
+mac.sha512: d4fa09cf974799559bbe5ef7cfb5ee2a06b7a8797cc134ec3df5dea3af6966497935c2571632062c74c1507300bf1b0180438053428bccedb2052a1f9c9a8446
+win.version: 0.8.13
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.13/publix-0.8.13-win.zip
+win.sha512: 5c6edf253be4026cc628a76c8f8028287844952ef542dccc2a58da739e9f394aa63f19ce468e46d824d15b55d8c7472888e9e64faa66fc741c7227d939e8137b
 notes:
-- Templates überall frei positionierbar: ragt eine gezogene Vorlage über den Montagebereich, wird sie hineingeschoben statt abgelehnt (nur größer als der Montagebereich wird abgelehnt).
-signature: 091bced656a50f309778615018e2760561df521a2f879ae04667462284fc298a517e1d5bee699839a307573f2fd3c7ad06d11f6e12516eca163c6b954683dc07
+- Seitentemplate: neuer Template-Typ – ganzseitige Templates liegen immer an ihrer gemerkten Lage zur Seite, auch im Beschnitt (z. B. −3/−3 mm); beim Automatisieren eine eigene Seite je Datensatz.
+- Feldoptionen › Bild: Importeigenschaften – Beschneiden auf, transparenter Hintergrund, Freistellungspfad, Alphakanal, Ebenenkomposition; Ebenen auch für Photoshop/TIFF.
+- Kreuztabelle: Bilder im Tabellenkopf (z. B. Produktgruppenbild) werden eingesetzt – vorher blieb der Rahmen leer.
+- Projekt öffnen: ein gewähltes Projektpaket (*.pxpaket) wird automatisch importiert.
+- Montagebereich: ragt eine Vorlage hinaus, wird sie hineingeschoben (aus 0.8.10).
+- Templates-Palette: Überfahren einer Kachel zeigt die Beschreibung des Templates (wenn eine eingetragen ist).
+signature: 30aa028cb77651541aa53ce53d3547a4622e3e8b9f6ebaa2a9a416b405d241d4a8ee8436d1fb4bc331ae59faeb797eb72de63764fac50abec2bea0936fc73f0d
