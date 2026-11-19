@@ -1,16 +1,14 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.8
+version: 0.8.9
 date: 2026-11-19
 host: 21
-commit: 32f5f50e4196ccf050e1c38ba7960a381beab6a2
-mac.version: 0.8.8
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.8/publix-0.8.8-mac.zip
-mac.sha512: 12b9922c6f38eca38194682e7487913fa540461c4c2079694efa27f2845bb801aeccf70e6c36278c4f4a85e2ac24fcee79da683db76b7b5f6573411b3550ef48
-win.version: 0.8.8
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.8/publix-0.8.8-win.zip
-win.sha512: f23b2b97e16ad4ac87d2c62d2db80ffefe5e510623037f6e01552ade9fc1e2a063cfbcdc562ccd7f1a0045d29927e4e86eabaaf0534a68cb3a2c9ebf4002a29c
+commit: 367fb4e623b18e26fd5df55b373e40294c6c0456
+mac.version: 0.8.9
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.9/publix-0.8.9-mac.zip
+mac.sha512: 3f0d58e1bdc4548ad3478c6b6030bce215e624835eb2438ca5503f530cd48488c2cd205995cbed998add77a314a812304ef38bd2fe039ed95311f01b40392e66
+win.version: 0.8.9
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.9/publix-0.8.9-win.zip
+win.sha512: 16f9a6aaac630bca8f587bd9e4a5c76c1d578701f232c5dd068d77eb7b7a99494964abb1d3b42bed82ca5c5a74ac0d3d455204946815966576bdc53740fe5672
 notes:
-- Datentabelle: senkrechte Spaltenlinien laufen nicht mehr durch Gruppenzeilen (Beschriftung bleibt ununterbrochen).
-- Windows: Template in die Bibliothek ziehen scheiterte auf frischen Rechnern (lokaler Template-Ordner fehlte, wenn die Bibliothek im Projektordner liegt) – Ordner wird angelegt; alle Abbruchstellen beim Speichern schreiben jetzt eine Protokollzeile.
-- Windows: Template in die Bibliothek ziehen – die Zwischendatei war beim Umbenennen noch geöffnet („von einem anderen Prozess verwendet“); Datei wird jetzt vorher freigegeben, bei kurzer Sperre (Virenscanner) wiederholt bzw. kopiert.
+- Windows: Umlaute in Menüs, Beschriftungen und Hinweisen wieder richtig (Sprachtabellen werden nicht mehr umkodiert).
