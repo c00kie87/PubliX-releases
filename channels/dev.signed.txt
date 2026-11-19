@@ -1,15 +1,16 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.4
-date: 2026-11-18
+version: 0.8.5
+date: 2026-11-19
 host: 21
-commit: 2af6419dbbfcd549b94599ab3bc7b141e04b8727
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.4/publix-0.8.4-mac.zip
-mac.sha512: 266ecdf04b0b7e8b5ce6a9ea54f7b617d1925870ec62718255f291c9f73c290117b33c19d5fbeb215d1d4732cbae10f6eb8c78b32b594a77d1361064623c3704
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.2/publix-0.8.2-win.zip
-win.sha512: c12dea537981af3efe018c0bb387af45b66d681308e906f072257b40059da4973ba92b66491c069dc6d8e26e4990d5dc25ea1fb01d97cd4cbbe6eec03ebb56dc
+commit: e5dbd15fa897738c46ef1db5f758df48ec3e92ee
+mac.version: 0.8.5
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.5/publix-0.8.5-mac.zip
+mac.sha512: b2c3effb6d93395d02d558e4ae41c768d88ac1644d0fb74ab9fb0ceb4ad3745d4ef3224614216375d0af8af7c765b3f2bf921eebb0ddadadcbda6a41b9a1b7d4
+win.version: 0.8.5
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.5/publix-0.8.5-win.zip
+win.sha512: 2c717d33d215b2fd43e28671ca6ad760fd69d79e51bfcc51357ac405a936b68a6c526b0da8a8e122c03f1ae8f2bd616f3e2be87b3544936a57698ae6c380b7a1
 notes:
-- Textumfluss nutzen: Folgende Elemente (Bild, Tabelle) rücken nach, wenn ein Rahmen bis zur Oberkante eines Logos aufrückt; der Rahmen wird nicht mehr unter das Logo zurückgesetzt.
-- Hilfstabellen mit Textumfluss nutzen: Tabelle steht oben im Rahmen, die aufgelösten Rahmen fließen um das Logo; wachsen sie dabei, rücken die Objekte darunter um den Zuwachs nach.
-- Anleitung und Glossar: Strukturfehler behoben (Einträge und Changelog liefen übereinander), Strukturprüfung im Build.
-signature: c82ee8f476173060f2517b28e0f10ab297fafaf746830ea90d47d94c2a719a23baade36366a78e95d1d280edc41be9231abaad4c5e275c137c1dd730889c8308
+- Windows: Neubau mit allen Mac-Neuerungen seit 0.8.2 (Hilfstabellen trotz Textumfluss, Textumfluss nutzen mit nachrückenden Elementen, Anleitung).
+- Update: Kanal nennt die Version je System – Windows zeigte nach einem reinen Mac-Update fälschlich die Mac-Version an.
+signature: 5412139ddef323fb779aa89bc992b9fee4f56d84ba224d64c1ac32a4e47f172009ba9016201a7febbff16ad2707b110cad000fe1aea43704bb6580aba8ad5f00
