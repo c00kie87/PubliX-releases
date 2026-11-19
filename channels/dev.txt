@@ -1,14 +1,19 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.29
+version: 0.8.30
 date: 2026-11-19
 host: 21
-commit: ff7a7c26bc23026d6a2fe5d2eb8ddaa393f925b7
-mac.version: 0.8.29
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.29/publix-0.8.29-mac.zip
-mac.sha512: 54ddbc2347de3904e6ca728814f47c42aa5d9b485ff27988860a3246e138b740e418113e4b901f55a408195fde53d6718c5f8dce583b679890d2c0004aed8f3b
-win.version: 0.8.28
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.28/publix-0.8.28-win.zip
-win.sha512: 65c7f94909acd95f035b8933cf01ca2e83c84d2bc99ba9b8e8807cff19951195f9c8df670514ac719c3ef995ae15d31f8fb56a6dc11891ff4fcb824b52a80471
+commit: 47cc07add88c46fb171ab82db7bd337834009674
+mac.version: 0.8.30
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.30/publix-0.8.30-mac.zip
+mac.sha512: ec912477a3eaf6490bea3fddc2a1702db1324c1658f5a71317546240523e4f575bdeaaa990bea4b1eb10fc46fe9a4d9fdb7c75fa19444d4aeb2c907d310e1365
+win.version: 0.8.30
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.30/publix-0.8.30-win.zip
+win.sha512: 70e71881336b9d3bbb98d9d7d372b6798b7f661e816f110d115a801a7e750f6f49d2b7a771a0941e490dc6d022dd0d267381d37489eb6ed2ac6f31ec2b5e1c1e
 notes:
-- Abbrechen der Ausgabe wird nicht mehr fälschlich als „Bedingungsaktion fehlgeschlagen“ gemeldet
+- Abgleich: stimmende Werte zeigen wieder einen grünen Haken (vorher rotes !); gelb nur bei echter Abweichung, rot nur bei Fehlern
+- Abgleich: gerade und typografische Anführungs-/Zollzeichen gelten als gleich (1/4"-28 = 1/4“-28)
+- Abgleich: Übersatz in Tabellenzellen wird mitgezählt; Rahmen auf der Montagefläche nennen die Seite daneben
+- Abgleich erkennt fehlende Bilder: „Bildrahmen da, Bild fehlt“ und „Bildrahmen fehlt“ – jeweils mit Grund (z. B. kein Bildordner/Basisbildpfad hinterlegt)
+- Hilfstabellen auflösen: senkrecht mittige Zellen, „Höhe und Breite anpassen“ und Konturen innen/außen werden wieder richtig übernommen
+- Kapitelnummerierung: Quelle der Kapitelnummer wird richtig gesetzt und angezeigt
