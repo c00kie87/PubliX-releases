@@ -1,14 +1,14 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.31
+version: 0.8.32
 date: 2026-11-19
 host: 21
-commit: bdf79b87a56f48f5771531799322155f33cab101
-mac.version: 0.8.31
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.31/publix-0.8.31-mac.zip
-mac.sha512: 39124cbe08edb4d45a0ab2079d55b1a1d8a4c02ed5578bb90bca907c9d5e37b6f159d62e75b18eb69e6c0ac5bec8f751ec7ed6a963645ea3c72c089a0723e33d
-win.version: 0.8.30
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.30/publix-0.8.30-win.zip
-win.sha512: 70e71881336b9d3bbb98d9d7d372b6798b7f661e816f110d115a801a7e750f6f49d2b7a771a0941e490dc6d022dd0d267381d37489eb6ed2ac6f31ec2b5e1c1e
+commit: cfe2d84a61b39fe9a190bff650e8d097d5a2a511
+mac.version: 0.8.32
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.32/publix-0.8.32-mac.zip
+mac.sha512: 2e3e2efcc0c3333eed67b290c7b6f1adc0aa57efcfa025d5d33f32df7c45b08d84fc872f34987c1631fff6caf3c7ecd027bcf7a5e1aa98a5cdb1cc36518da7d0
+win.version: 0.8.32
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.32/publix-0.8.32-win.zip
+win.sha512: 8efbd01951f75bca71d827600fdcd737aee727390896750b954db917ec1d079caccc9811a121e7d5e430f0cb6fd7ca39553448796f2760d210998583d0e2b810
 notes:
-- Selbsttest „Projektlauf“ kann das Ergebnis unter einem Namen speichern (für Belastungstests)
+- Hilfstabellen auflösen: mehrzeilige Zellen mit „Höhe und Breite anpassen“ wachsen wieder in der Höhe mit (kein Übersatz in Beschreibungen)
