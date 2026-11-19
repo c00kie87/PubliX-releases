@@ -1,16 +1,17 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.23
+version: 0.8.25
 date: 2026-11-19
 host: 21
-commit: 240e79131a51ada7f8def213475c1f04279594ae
-mac.version: 0.8.23
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.23/publix-0.8.23-mac.zip
-mac.sha512: e11066addd4ab5285d64de3fe80bab1cafa657483a753b7491adb5b0b1995ca06d9ee52209fba1bc5c21a9843d3000e9f14ae8a4244f60c7636696df7dd02cc7
-win.version: 0.8.23
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.23/publix-0.8.23-win.zip
-win.sha512: 15ceb62b2565cdb1e23600d907b354bf471eac7e818325319df6f8826531ddcfaf8359f162a3b20c90a12191166922f204e93b8ced65d0750571ea9dde703eab
+commit: d182a207e79e4f24a21fd3175318b7737f52657c
+mac.version: 0.8.25
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.25/publix-0.8.25-mac.zip
+mac.sha512: 12e6da0fd263ef6ada6d96a95ea25444ebb3334ea0cbbaf2cbb9be92609e0f7c4bc568252672f1b2fff5645fe5551087c7e7f4ac415d8d95074201e7ece56cb2
+win.version: 0.8.25
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.25/publix-0.8.25-win.zip
+win.sha512: f6a74680d7f0a799d8f11affa9e8ec68281fd19a56b66ef2e1b5e9a6298d6c092743baefd236f8624435b10e3ccc774af6db549e7c91023dbf53c79eb8a60c05
 notes:
-- Hilfstabellen: Auflösen deutlich schneller (mehrere Tabellen je Schritt, ohne Zwischensicherung je Tabelle); Dauer je Tabelle im Protokoll.
-- Abbrechen: hält an und behält das bisher Ausgegebene. „Alles verwerfen“ bzw. Zurücknehmen bei Fehlern lädt in Sekunden den vor der Ausgabe gespeicherten Stand (Dokument vor großen Ausgaben speichern).
-signature: e050db2155f711d01972aa69a1ecb82a81c3689b00199e073eee3047f33d95c717237a23611f6244759854d54b3ee7ef92cea07b4d22f0e84ecbc458c3863207
+- Absturz beim Auflösen der Hilfstabellen behoben: Auflösen in Paketen läuft jetzt in einem sicheren Modus
+- Hilfstabellen werden je Einheit direkt vor der Dynamik aufgelöst: Verdrängen und Heranziehen rechnen mit den echten Rahmen
+- Ausgabe in mehrere Dokumente aufteilen (Automatisieren): nach Gruppenebene und/oder höchster Seitenzahl, Ordner und Name wählbar, Buch optional
+signature: 584c8920fd953df3d788b5b166d3a2842e4ee7c2bc0dbe5b137055bbd8abc8b84f34bbbd0c37d2339c273c60634dbd768becd997773b2b75d7d07e844f041b0a
