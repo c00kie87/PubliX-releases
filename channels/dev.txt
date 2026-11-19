@@ -1,14 +1,14 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.17
+version: 0.8.18
 date: 2026-11-19
 host: 21
-commit: feeff73e015e3b4e320fade6b4ff706ca542a373
-mac.version: 0.8.17
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.17/publix-0.8.17-mac.zip
-mac.sha512: d961212b85e3a9f4992014cf45512da22a099aabcd119170db5652c33fd9baf50f335b386af200b3fa5ff9e83bdc32c572793f242d0d818939f001bfc128d6b2
-win.version: 0.8.17
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.17/publix-0.8.17-win.zip
-win.sha512: aabc447566b78b4a05388711d9761a43a55788122eaedc154744a3a84f77809bb660bc3f35b6a93c073d200c33ded37478001a2e691e7e77a5cc9a3afe0c85b4
+commit: f8f898ed2c0e55e6d00f1e3186dfa460458b4d70
+mac.version: 0.8.18
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.18/publix-0.8.18-mac.zip
+mac.sha512: 7be27c7d0e524e9924e920d2196abfaa79bf654732d541f6ecea67a007311fd0a01b3927a9256ab322db2419a47e5b378144e599496a162ffa2cddaa130a6fd7
+win.version: 0.8.18
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.18/publix-0.8.18-win.zip
+win.sha512: b5e0a0a1b6efbb8967b7a0cb381ab559b809a5ef4bb32b372b82d536a4eae1bc01bd5220afd9366ae31c360954c1c2e8ca892d1009102fda3b326d016e1b9f33
 notes:
-- Abgleich: Filter (Befund, Bereich) gefüllt; Datensatz mit lesbarer Nummer statt Kennung; nach „Aktualisieren“ sofort wieder grün (Datenquelle, Liste, Statuszeichen).
+- Abgleich: Statuszeichen je Platzhalter am Wertende (grün Haken stimmt, gelb Abweichung, rot fehlt), Hinspringen markiert genau den Wert; „Statuszeichen zeigen“ zum Ein-/Ausblenden (gemerkt).
