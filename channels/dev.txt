@@ -1,16 +1,15 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.25
+version: 0.8.26
 date: 2026-11-19
 host: 21
-commit: d182a207e79e4f24a21fd3175318b7737f52657c
-mac.version: 0.8.25
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.25/publix-0.8.25-mac.zip
-mac.sha512: 12e6da0fd263ef6ada6d96a95ea25444ebb3334ea0cbbaf2cbb9be92609e0f7c4bc568252672f1b2fff5645fe5551087c7e7f4ac415d8d95074201e7ece56cb2
-win.version: 0.8.25
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.25/publix-0.8.25-win.zip
-win.sha512: f6a74680d7f0a799d8f11affa9e8ec68281fd19a56b66ef2e1b5e9a6298d6c092743baefd236f8624435b10e3ccc774af6db549e7c91023dbf53c79eb8a60c05
+commit: d48c22163b6d4df6154d499b8e446b11448a21ac
+mac.version: 0.8.26
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.26/publix-0.8.26-mac.zip
+mac.sha512: db5348145df479995f05556da27a0f88cc1d542fea8b81964d204effc394995bff5389830a47d39b17828a4d3035d001a81e95ed8fa8e1e867f148d11aa9c9a4
+win.version: 0.8.26
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.26/publix-0.8.26-win.zip
+win.sha512: db2945b7913397c7e3bbfea429677148d9f6fb6f8dc72339e9bbd2d5ed5204b344370636dee0d8f97c2b61435c1a6eb7ec1e86a7586fd45d7f31e19ad0b39383
 notes:
-- Absturz beim Auflösen der Hilfstabellen behoben: Auflösen in Paketen läuft jetzt in einem sicheren Modus
-- Hilfstabellen werden je Einheit direkt vor der Dynamik aufgelöst: Verdrängen und Heranziehen rechnen mit den echten Rahmen
-- Ausgabe in mehrere Dokumente aufteilen (Automatisieren): nach Gruppenebene und/oder höchster Seitenzahl, Ordner und Name wählbar, Buch optional
+- Dokument aufteilen jetzt im Automatisieren-Dialog (eigener Abschnitt „Dokument aufteilen“) statt im Menü: wird mit der Automatisierung gespeichert und läuft am Ende jeder Ausgabe
+- Beispiel-Dateiname direkt im Dialog; entsteht nur ein Dokument, nennt PubliX den Grund (Seitenzahl, Ebene) und fragt nicht erst nach dem Ordner
