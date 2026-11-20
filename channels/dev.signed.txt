@@ -1,17 +1,18 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.38
+version: 0.8.39
 date: 2026-11-20
 host: 21
-commit: bc2640f60dc06422c65be731efd804e2a7408fda
-mac.version: 0.8.38
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.38/publix-0.8.38-mac.zip
-mac.sha512: a1b78d5dbe6b4dc764486b02e5939e4869ac0707c524532180b5730c5584c825fa61b4c3ea8ab4ad6405fe4a3b005f766ace28122e0c7e263cd16a2ab90f1a25
-win.version: 0.8.38
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.38/publix-0.8.38-win.zip
-win.sha512: 9cba502bd4c6a6c73dcfa6c57b38d0b61a957d4c3c261bf6957322e0e866b4cbbc32347c0792aca307f949727d288b0757bab8729e1d5e9c2ac12eb050767cf9
+commit: eeba147b4e3f04240dfc5db35745c8dbaba7c5dc
+mac.version: 0.8.39
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.39/publix-0.8.39-mac.zip
+mac.sha512: 5bee331cf732a3b32dfa2dc1208df1ebcd9c69f1fc68eb9fa9d0344e536a9ba2ccce9c5bdf5af2ad025d2392c89fb1d5a58bfb98bbd7987c43bbce6add179345
+win.version: 0.8.39
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.39/publix-0.8.39-win.zip
+win.sha512: aeca84ce2f1b378ca4e2041384cf19f247d01584c224c7671aa72c7a3cfadde0cbeb621cbb26304aca0fe1786c75acc91ddffe45634629fce7279e712ce8d455
 notes:
-- Aufgelöste Hilfstabellen ziehen die Elemente darunter wieder heran, wie es die Template-Gruppe vorgibt: Die Kreuztabelle steht 7,3 mm statt 25,9 mm unter dem Text.
-- Abstandsprüfung: vergleicht nur mit direkt darüberliegenden Elementen und nennt, wenn ein Element im Template nicht heranzieht.
-- Windows erhält mit dieser Version auch alle Neuerungen aus 0.8.36 und 0.8.37 (Abstandsprüfung, Filter „Passende Werte“, Auswertungsprotokoll, Hilfstabellen-Abstände).
-signature: bfda4b28e252fc85376273d46ff7c64c4c38beaaf20e21035d796279f55321222d0272d463e93a251ab90ec25fd021f184f216a2e823dffc40bb0556b1feec0f
+- Template-Details: Neue Einstellung „Anordnung“ – erst nebeneinander, dann untereinander, oder nur untereinander. Gilt beim Automatisieren und beim Ablegen.
+- Verwaiste PubliX-Werte werden nach jeder Ausgabe und sofort nach jeder Änderung entfernt, im selben Rückgängig-Schritt.
+- Datenquelle und Abgleich reagieren zuverlässig auf Änderungen. Die Rahmenprüfung (Bild fehlt, Übersatz) läuft automatisch mit.
+- Abgleich: Umbrüche und Leerzeichen mitten im Wort gelten als Abweichung. Felder erscheinen als „Alias (Originalname)“.
+signature: 49f5a3ad45c93d5bfa8984749b7128fd941d9d2241c0bf1926d2a460b0be6871d44d4155713897e64639d505c891968333aff7a07c6d94271501e3d58c88170f
