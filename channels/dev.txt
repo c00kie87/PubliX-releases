@@ -1,19 +1,16 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.34
-date: 2026-11-19
+version: 0.8.35
+date: 2026-11-20
 host: 21
-commit: 4580df8b2b31bf8c6a648aa3daecd180b5926a32
-mac.version: 0.8.34
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.34/publix-0.8.34-mac.zip
-mac.sha512: 75e749d2f4d4fe9cba142ee9ecb56ce3ab5befec13416790ac4c53c7cfd9e7678bbf207ffd46feb479845b4c657746f0caacae7eb380810511cb070002543564
-win.version: 0.8.34
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.34/publix-0.8.34-win.zip
-win.sha512: 3a98fe827a865ed875d56d1249f484ae25260fd931b0b2633424aadddc483aa018ffc6e1c8e4a987cabae6598a8254b2950043bfad56620801d034c6001c00d1
+commit: 7e15d5ca4f494ba6b23140eba34bc3f176c220c0
+mac.version: 0.8.35
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.35/publix-0.8.35-mac.zip
+mac.sha512: 437678eb147c0a0943c004a1441942d3e2c83b36f446fda2d38ef018e424ce509bde38b66962685edc26937396eda07de9a1bd49239f12ea58c5a12a02ab1a27
+win.version: 0.8.35
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.35/publix-0.8.35-win.zip
+win.sha512: ac4dfd7a2726d458b859da4073247ab340f67952708fe379627f5e706cf0d58e7a2da76c12d8df81e9fa4a786c10a4d9b94e6ec732b952319206162a4d9d9ed9
 notes:
-- Aufteilen je Variationsgruppe (bedingte Verwendung): maßgeblich sind jetzt die Templates, die das Template-Feld der Daten nennt – nicht mehr das erste Template der Bibliothek (P_-Gruppen werden wieder je Variationsgruppe aufgebaut)
-- Abgleich: Übersatz in Tabellenzellen nur noch auf Dokumentseiten (nicht mehr auf Musterseiten), Eintrag ohne technischen Text
-- Dynamik: aufgelöste Hilfstabellen rücken eigenständig in frei gewordenen Platz auf (z. B. unter den Balken, wenn der Produktgruppentext entfällt)
-- Anordnung zeilenweise: gleich breite Produkte stehen nebeneinander, wenn sie mit Abstand bzw. Spaltensteg passen (Toleranz 3 pt); das breiteste Element bestimmt nicht mehr die Spaltenzahl
-- Neuer Template-Typ „Kopf-Template“: einmal je Gruppe (z. B. Produktgruppe) vor den Aufbauten, für die seine Bedingung zutrifft – z. B. gemeinsamer Balken über die volle Breite bei „P_“
-- Hilfstabellen: „Hohe Zeilen ab … mm“ – Zellen höherer Zeilen werden zu Textrahmen mit wählbaren Spalten, Steg und Breite; die aktuelle Zeilenhöhe der gewählten Zelle wird angezeigt
+- Kopf-Template: Produkte nach einem Kopf erhalten wieder ihr eigenes Template. Vorher verschob sich die Zuordnung, z. B. wurde ein halbseitiges Produkt ganzseitig gebaut (Belastungstest 05: falsche Abstände, Aufrücken, Kollisionen).
+- Kreuztabellen: Spalten mit Übersatz erhalten zuerst den freien Platz im Rahmen, erst danach Breite von Nachbarspalten.
+- Kopf-Template: mehrzeilige Bedingungen werden nach dem Speichern wieder richtig gelesen.
