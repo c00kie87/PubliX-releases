@@ -1,18 +1,15 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.48
+version: 0.8.49
 date: 2026-11-20
 host: 21
-commit: 93d496249d20eb297a2c3d4a223f0b58b44794d6
-mac.version: 0.8.48
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.48/publix-0.8.48-mac.zip
-mac.sha512: e7aa780227932e38d3068069d242c96afa71f3bdfe147eb8b605e64d05ccad288728777e35cbbed043cd35b657409312b7f39b5fe7512832d5a75eb773420e42
-win.version: 0.8.48
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.48/publix-0.8.48-win.zip
-win.sha512: a018d4947176c3357ad67be83b45ab8b2aba868ad4130ae4627ff679d831c3f927f07885c720025e6fb6b5f017b895da097a0d270045363102d4a09e0f1cae83
+commit: 8cb1cad0b8f6536a5824dbb0be8d60ae100cdde1
+mac.version: 0.8.49
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.49/publix-0.8.49-mac.zip
+mac.sha512: d4a981ba3e316b2e425a6cc698a3cc6a00c4b8feef76575a24b7317fb8460059b94b4bbeee9773eb18b4cd5d6997fca4821afda732394b9b6283ac1f4e2393f3
+win.version: 0.8.49
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.49/publix-0.8.49-win.zip
+win.sha512: 8ddb1d6e28e1d467c633847213c8c45dfc745caca30e9c1fc425a9a2a83f611d49370e52b745f3eb9b5fecc12e94592d3a21560276f22d312c3a1c43749d5a17
 notes:
-- Schlüsselprüfung: Beim Laden und Neuladen einer Quelle prüft PubliX, ob der Schlüssel jeden Datensatz eindeutig erkennt. Ist er nicht eindeutig (doppelte oder leere Schlüssel) oder gibt es nur die Zeilenposition, erscheint eine Warnung mit Zahlen und dem direkten Weg zu den Schlüsselfeldern.
-- Widersprüchliche Schlüssel: Bezüge im Dokument, deren Schlüssel auf mehrere Datensätze passt, ordnet PubliX nie still dem ersten Datensatz zu. Aktualisieren lässt sie unverändert und meldet die Anzahl; die Palette Abgleich zeigt sie unter „Schlüssel mehrdeutig“ (rot), Wertvergleiche entfallen dort.
-- Vor dem Publizieren und Ablegen warnt PubliX, wenn Datensätze mit mehrdeutigem Schlüssel oder eine Quelle ohne eindeutigen Schlüssel beteiligt sind.
-- Windows erhält mit dieser Version alle Änderungen seit 0.8.44 (Templateaufteilung, Schlüsselfelder für XML, Datensatzpfad).
-signature: ba49b38a3f34f2f10b655a11ac2d9f0ec165ae4172f635eba3fe3ba22d7721682ce7185164e97f1d15b58f202d5abd095c618ef903d482f047db0e912e84c101
+- Dynamik „bei Kontakt“: Auch statische Elemente direkt darüber gelten als Kontaktfläche. Vervielfältigte Zeilen (z. B. Bestellnummer und Kurztext aus einer Hilfstabelle) stapeln sich unter einem gewachsenen Text, statt alle an derselben Stelle zu landen (Belastungstest 06: 20 der 38 Überschneidungen).
+signature: 5e8e5b22437c512116a583f6541f835f0cc4dcc8ed030897f911fea8500b4e7fe82cdf518bfea262fa9ff2171a3813e59638ec7b760a71827752e8058573420c
