@@ -1,15 +1,18 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.47
+version: 0.8.48
 date: 2026-11-20
 host: 21
-commit: 3d6b92c49be9cfc7417930ccc2d4693eed86e2c7
-mac.version: 0.8.47
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.47/publix-0.8.47-mac.zip
-mac.sha512: b7b4f0f186a43b408f908fb87d1f51f001123f3ac6c93358b3aa1ec1e18693c86667dffb0368328c5f275871e1e94cd4950583519b8a368b44b70f258329cebe
-win.version: 0.8.44
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.44/publix-0.8.44-win.zip
-win.sha512: a9cb7ac571c337b720c881d0ff9cbee442efb4e69a59ac29856502328518b81714db909391ef22928ff8deeac6d4cfa793375915fb53f9b19b7aa22f5f243f7e
+commit: 93d496249d20eb297a2c3d4a223f0b58b44794d6
+mac.version: 0.8.48
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.48/publix-0.8.48-mac.zip
+mac.sha512: e7aa780227932e38d3068069d242c96afa71f3bdfe147eb8b605e64d05ccad288728777e35cbbed043cd35b657409312b7f39b5fe7512832d5a75eb773420e42
+win.version: 0.8.48
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.48/publix-0.8.48-win.zip
+win.sha512: a018d4947176c3357ad67be83b45ab8b2aba868ad4130ae4627ff679d831c3f927f07885c720025e6fb6b5f017b895da097a0d270045363102d4a09e0f1cae83
 notes:
-- Templateaufteilung: Wird ein ganzer Teil zum Angleichen nach unten gesetzt (z. B. rechter Teil ohne Kopf), merkt PubliX sich den Abstand zur Reihenoberkante; Seitenplan und Endplatzierung rechnen ihn ein. Behebt in 0.8.46 den viel zu weit nach unten gerutschten rechten Teil und in 0.8.44 den Teil, der wieder unter den Balken sprang.
-signature: 1ee057631705ce75372e3c7dc3e03a99c4a02f781e6c11ac9a3886059d709bef148587e85ea27a995f77a0567d4a123c400feb32bce6c0cff2176bd0d646110a
+- Schlüsselprüfung: Beim Laden und Neuladen einer Quelle prüft PubliX, ob der Schlüssel jeden Datensatz eindeutig erkennt. Ist er nicht eindeutig (doppelte oder leere Schlüssel) oder gibt es nur die Zeilenposition, erscheint eine Warnung mit Zahlen und dem direkten Weg zu den Schlüsselfeldern.
+- Widersprüchliche Schlüssel: Bezüge im Dokument, deren Schlüssel auf mehrere Datensätze passt, ordnet PubliX nie still dem ersten Datensatz zu. Aktualisieren lässt sie unverändert und meldet die Anzahl; die Palette Abgleich zeigt sie unter „Schlüssel mehrdeutig“ (rot), Wertvergleiche entfallen dort.
+- Vor dem Publizieren und Ablegen warnt PubliX, wenn Datensätze mit mehrdeutigem Schlüssel oder eine Quelle ohne eindeutigen Schlüssel beteiligt sind.
+- Windows erhält mit dieser Version alle Änderungen seit 0.8.44 (Templateaufteilung, Schlüsselfelder für XML, Datensatzpfad).
+signature: ba49b38a3f34f2f10b655a11ac2d9f0ec165ae4172f635eba3fe3ba22d7721682ce7185164e97f1d15b58f202d5abd095c618ef903d482f047db0e912e84c101
