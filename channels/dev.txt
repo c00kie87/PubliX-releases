@@ -1,16 +1,18 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.35
+version: 0.8.37
 date: 2026-11-20
 host: 21
-commit: 7e15d5ca4f494ba6b23140eba34bc3f176c220c0
-mac.version: 0.8.35
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.35/publix-0.8.35-mac.zip
-mac.sha512: 437678eb147c0a0943c004a1441942d3e2c83b36f446fda2d38ef018e424ce509bde38b66962685edc26937396eda07de9a1bd49239f12ea58c5a12a02ab1a27
+commit: 5d8903b44ecbe423ea2963a870a94439e0f88d7e
+mac.version: 0.8.37
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.37/publix-0.8.37-mac.zip
+mac.sha512: c9a04706be410d0a40652b1ecd0b220c79447942c87248530ca5306caa5a8af252a5905ebe14573b4eca2437a826abdab45f654ba1fc6861dce14d2f22d80cd2
 win.version: 0.8.35
 win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.35/publix-0.8.35-win.zip
 win.sha512: ac4dfd7a2726d458b859da4073247ab340f67952708fe379627f5e706cf0d58e7a2da76c12d8df81e9fa4a786c10a4d9b94e6ec732b952319206162a4d9d9ed9
 notes:
-- Kopf-Template: Produkte nach einem Kopf erhalten wieder ihr eigenes Template. Vorher verschob sich die Zuordnung, z. B. wurde ein halbseitiges Produkt ganzseitig gebaut (Belastungstest 05: falsche Abstände, Aufrücken, Kollisionen).
-- Kreuztabellen: Spalten mit Übersatz erhalten zuerst den freien Platz im Rahmen, erst danach Breite von Nachbarspalten.
-- Kopf-Template: mehrzeilige Bedingungen werden nach dem Speichern wieder richtig gelesen.
+- Abstandsprüfung nach jedem Aufbau: Steht ein Element nach Aufrücken/Verdrängen tiefer als im Template, erscheint es im Abgleich (Filter „Abstand“) mit beiden Abständen.
+- Abgleich: Der neue Filter „Passende Werte“ zeigt alle Werte, die mit der Quelle übereinstimmen.
+- Jede Auswertung der Werte steht im Protokoll, auch ohne geladene Quelle (mit Grund).
+- Aufgelöste Hilfstabellen in Template-Gruppen: Die Abstände darunter gelten wieder ab der Lage im Template. Vorher stand die Kreuztabelle 26 mm statt 7 mm unter dem Text.
+- Templates K1/2/3: Den Kopfbereich bei P_ steuert jetzt eine Bedingung (nicht P_ oder ID_Produktgruppe wechselt).
