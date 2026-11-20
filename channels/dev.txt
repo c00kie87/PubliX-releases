@@ -1,14 +1,14 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.49
+version: 0.8.50
 date: 2026-11-20
 host: 21
-commit: 8cb1cad0b8f6536a5824dbb0be8d60ae100cdde1
-mac.version: 0.8.49
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.49/publix-0.8.49-mac.zip
-mac.sha512: d4a981ba3e316b2e425a6cc698a3cc6a00c4b8feef76575a24b7317fb8460059b94b4bbeee9773eb18b4cd5d6997fca4821afda732394b9b6283ac1f4e2393f3
+commit: e8bf6f9b47f5469d4931cc178d784efd3c5d25fa
+mac.version: 0.8.50
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.50/publix-0.8.50-mac.zip
+mac.sha512: 4bd9c94f102f25b9e04ee2b1ebcd1870d10fad6c405e9d1e0a47f59f37bc716651e411d35c8e3f3607d5ff148294376273e2867ca4e1e9e15f53b969c8727a39
 win.version: 0.8.49
 win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.49/publix-0.8.49-win.zip
 win.sha512: 8ddb1d6e28e1d467c633847213c8c45dfc745caca30e9c1fc425a9a2a83f611d49370e52b745f3eb9b5fecc12e94592d3a21560276f22d312c3a1c43749d5a17
 notes:
-- Dynamik „bei Kontakt“: Auch statische Elemente direkt darüber gelten als Kontaktfläche. Vervielfältigte Zeilen (z. B. Bestellnummer und Kurztext aus einer Hilfstabelle) stapeln sich unter einem gewachsenen Text, statt alle an derselben Stelle zu landen (Belastungstest 06: 20 der 38 Überschneidungen).
+- Hilfstabellen mit sehr viel Text: Passt der Text nicht mehr in die Zelle (Übersatz), wird die Zelle mit der Regel „hohe Zeilen“ (Automatisieren › Tabelle) jetzt zu einem Textrahmen mit Spalten und Höhe an Inhalt, statt dass die Hilfstabelle mit Übersatz stehen bleibt (Belastungstest 06, Seite 7: 1853 Zeichen in einer 209-mm-Zeile). Ohne die Regel bleibt es wie bisher.
