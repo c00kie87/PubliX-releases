@@ -1,19 +1,17 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.37
+version: 0.8.38
 date: 2026-11-20
 host: 21
-commit: 5d8903b44ecbe423ea2963a870a94439e0f88d7e
-mac.version: 0.8.37
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.37/publix-0.8.37-mac.zip
-mac.sha512: c9a04706be410d0a40652b1ecd0b220c79447942c87248530ca5306caa5a8af252a5905ebe14573b4eca2437a826abdab45f654ba1fc6861dce14d2f22d80cd2
-win.version: 0.8.35
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.35/publix-0.8.35-win.zip
-win.sha512: ac4dfd7a2726d458b859da4073247ab340f67952708fe379627f5e706cf0d58e7a2da76c12d8df81e9fa4a786c10a4d9b94e6ec732b952319206162a4d9d9ed9
+commit: bc2640f60dc06422c65be731efd804e2a7408fda
+mac.version: 0.8.38
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.38/publix-0.8.38-mac.zip
+mac.sha512: a1b78d5dbe6b4dc764486b02e5939e4869ac0707c524532180b5730c5584c825fa61b4c3ea8ab4ad6405fe4a3b005f766ace28122e0c7e263cd16a2ab90f1a25
+win.version: 0.8.38
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.38/publix-0.8.38-win.zip
+win.sha512: 9cba502bd4c6a6c73dcfa6c57b38d0b61a957d4c3c261bf6957322e0e866b4cbbc32347c0792aca307f949727d288b0757bab8729e1d5e9c2ac12eb050767cf9
 notes:
-- Abstandsprüfung nach jedem Aufbau: Steht ein Element nach Aufrücken/Verdrängen tiefer als im Template, erscheint es im Abgleich (Filter „Abstand“) mit beiden Abständen.
-- Abgleich: Der neue Filter „Passende Werte“ zeigt alle Werte, die mit der Quelle übereinstimmen.
-- Jede Auswertung der Werte steht im Protokoll, auch ohne geladene Quelle (mit Grund).
-- Aufgelöste Hilfstabellen in Template-Gruppen: Die Abstände darunter gelten wieder ab der Lage im Template. Vorher stand die Kreuztabelle 26 mm statt 7 mm unter dem Text.
-- Templates K1/2/3: Den Kopfbereich bei P_ steuert jetzt eine Bedingung (nicht P_ oder ID_Produktgruppe wechselt).
-signature: 28454a60806a9501ade392b7da01c4db81e6ef53f7bf3011ba0ba72e3a17d760eafdd74a0587471eceb622e0cae8cddbf7b6affc1b230f2490e769271f74da07
+- Aufgelöste Hilfstabellen ziehen die Elemente darunter wieder heran, wie es die Template-Gruppe vorgibt: Die Kreuztabelle steht 7,3 mm statt 25,9 mm unter dem Text.
+- Abstandsprüfung: vergleicht nur mit direkt darüberliegenden Elementen und nennt, wenn ein Element im Template nicht heranzieht.
+- Windows erhält mit dieser Version auch alle Neuerungen aus 0.8.36 und 0.8.37 (Abstandsprüfung, Filter „Passende Werte“, Auswertungsprotokoll, Hilfstabellen-Abstände).
+signature: bfda4b28e252fc85376273d46ff7c64c4c38beaaf20e21035d796279f55321222d0272d463e93a251ab90ec25fd021f184f216a2e823dffc40bb0556b1feec0f
