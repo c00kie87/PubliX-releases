@@ -1,21 +1,19 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.44
+version: 0.8.46
 date: 2026-11-20
 host: 21
-commit: 15da420ef4bb427e69cb3b89885ea556fe264c1d
-mac.version: 0.8.44
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.44/publix-0.8.44-mac.zip
-mac.sha512: e629ffca409f137f149cb07d104723a9570ff2979ed5c9935a49ef7dff210d25da2750c88c837aacdc5307fe588a1e6facfcf738dbb96456694122fae1f11e1a
+commit: 63d8d1a059517be0492fdbc5e206bd9884e6757e
+mac.version: 0.8.46
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.46/publix-0.8.46-mac.zip
+mac.sha512: 6976b67fb86ab0df596654a5fd377835ac4bbd1112f695f9b3fb5d960137e29efd7d4e69cacd99cf30fb746d8ff1fbca77ead74ac42ff6613d4bdf07339e2f26
 win.version: 0.8.44
 win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.44/publix-0.8.44-win.zip
 win.sha512: a9cb7ac571c337b720c881d0ff9cbee442efb4e69a59ac29856502328518b81714db909391ef22928ff8deeac6d4cfa793375915fb53f9b19b7aa22f5f243f7e
 notes:
-- Neues Projekt: Projektdatei „Name.px“, Bibliothek wählbar (neu und leer, Kopie einer vorhandenen oder gemeinsam mit einem anderen Projekt – sie bleibt beim Ausgangsprojekt), Quelle ist Pflicht und startet mit der Standardkonfiguration; keine Sicherung bei der Neuanlage.
-- Projekt löschen: Der Projektordner wandert nach „Gelöschte Projekte“; Projekte, die eine Bibliothek mitnutzen, erhalten vorher eine eigene Kopie.
-- XML mit Ebenen: Verschachtelte XML-Dateien (z. B. Kapitel › Produkt › Variante) werden als Ebenen gelesen – flache Haupttabelle je Variante mit den Feldern der übergeordneten Ebenen, Ebenen vorbelegt, Merkmale als Spalten („Attribut.farbe“), nummerierte Listen, Tabellen und Kreuztabellen getrennt. Flache XML-Dateien lesen sich wie bisher.
-- Abgleich: Suchfeld, Bereich „Auswahl“ und „Element neu aufbauen“. Werte in Kreuztabellen: Neuaufbau nur, wenn sich durch die Wertänderung die Pivotierung ändert, sonst wird nur der Wert getauscht.
-- Kontextmenü PubliX deutlich erweitert: Aus Quelle aktualisieren, Neu aufbauen, Datensatz zeigen, Rahmen des Datensatzes, Nächstes Vorkommen, Template in der Bibliothek zeigen, Rahmenregeln, Abgleich für Auswahl, Produktversion (nur bei Template und Datensatz der Quelle), Nacharbeit sichern.
-- Datenquelle: Doppelklick springt bei Wiederholung durch alle Vorkommen eines Werts (Hinweis „Vorkommen n von m“).
-- Windows erhält mit dieser Version auch die Änderungen aus 0.8.43.
-signature: 1d3f87fb869bec5f481283b469d8fed55dc9af96a45894ca5369e74c0ffe7ec58ced5b910b76682ee71283dbc6fea5db10a4c2e527cb67964b18b9bcee55f50d
+- Templateaufteilung: „Oberkante angleichen“ greift jetzt auch bei aufgelösten Hilfstabellen (z. B. Beschreibung mit Bestellnummer) – die Regel wird vom Template-Rahmen gleicher Kennung übernommen. Der rechte Teil einer P_-Gruppe beginnt dadurch unter dem Balken auf Höhe des linken Teils.
+- Nach dem Verbreitern bzw. Verschieben (z. B. Logo mit Textumfluss an die rechte Kante der Reihe) wendet PubliX die Dynamik der betroffenen Teile erneut an und gleicht die Oberkanten danach noch einmal an: länger gewordener Text schiebt Bild und Tabelle nach unten statt sie zu überlappen.
+- Templateaufteilung: Lage der Teile zueinander wird mehrfach geprüft – Dynamik und Angleichen wiederholen sich, bis nichts mehr wandert (auch wenn der zweite Teil andere Höhen hat).
+- Schlüsselfelder: Der Dialog bietet auch Felder mit Punkt im Namen an (z. B. „Kapitel.@id“ aus XML) und prüft die gewählte Kombination sofort auf Eindeutigkeit (doppelte und leere Schlüssel). Die Datenquelle warnt in der Statuszeile, wenn kein eindeutiger Schlüssel vorhanden ist. Ohne Kennungsspalte nimmt PubliX eine schlüsselartige Spalte (id, Nr, Nummer, Code, SKU …), die überall gefüllt und eindeutig ist; ältere Bezüge über die Position bleiben lesbar.
+- XML mit Ebenen: neue Spalte „Datensatzpfad“ (Kennungen der Ebenen, z. B. „K01 › P101 › P101-V0101“) als eindeutiger Schlüssel der Haupttabelle – auch für Produkte ohne Variante. Bereits geladene XML-Quellen dafür einmal neu laden.
+signature: f0ffdee0367fe68bc0d97e94c17fa4905782bc8871a09472726093620cb6dbf9deb6a9fdaeafa3baefc54293697649fd31a153ecaf02f2f88cc697af16be3e03
