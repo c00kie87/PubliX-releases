@@ -1,15 +1,16 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.41
+version: 0.8.43
 date: 2026-11-20
 host: 21
-commit: da3ef640257f55b7fb33fe49f93f05b988e424f6
-mac.version: 0.8.41
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.41/publix-0.8.41-mac.zip
-mac.sha512: 356c9330afa6cc7764029d7167b6b24bde2ce2e9d7ab2124aa476ba5027defa5940c2b8851a20b54fc11ea23b2bde38c13951121f5fcbe92adf73ea9690e66db
+commit: bd98ab8602cce15a14e08cad7bbfc39f3a4a5284
+mac.version: 0.8.43
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.43/publix-0.8.43-mac.zip
+mac.sha512: e61a8dbefad7260b4428aaf787152aa0af8c4fd44e7d858d76ecd9d2f6b158cfbd2941e4488451be2546e4a1328ba22993afcdec9d56f2707d691f4fca2a02a4
 win.version: 0.8.41
 win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.41/publix-0.8.41-win.zip
 win.sha512: f988730174e3c6f278408048f8586f3ddaa48176358ebe9502cd75dda42c533383be3b355c8ea0235a085ddfd8ec7a97aebf8aa7dde87b7af8ca2ed4acb4b6c0
 notes:
-- Automatisieren-Palette, neue Rubrik „Templateaufteilung“ für die nebeneinanderstehenden Teile eines aufgeteilten Templates: Ein Rahmen lässt sich über die Reihe verbreitern (z. B. grauer Balken), an die linke oder rechte Kante der Reihe setzen (z. B. Logo) und mit gleichen Rahmen auf Ober- oder Unterkante angleichen (z. B. Bild, Tabelle).
-- Templates K1, 2 und 3 sind dafür eingestellt.
+- Ablegen eines aufgeteilten Templates (z. B. P_-Gruppe mit zwei Variationsgruppen): Die Teile stehen jetzt nebeneinander, wenn sie mit dem Spaltensteg der Seite in den Satzspiegel passen. Bisher verhinderte der größere horizontale Abstand der Automatisierung das Nebeneinander. Die Teile docken an der nächsten senkrechten Hilfslinie bzw. dem Spaltenanfang an.
+- Produktversionen: Die Version eines Teils eines aufgeteilten Templates gilt nur in derselben Zusammenstellung der Teile. Wird derselbe Teil allein oder mit anderen Teilen publiziert, baut PubliX ihn neu auf, statt die Version einzusetzen (Hinweis im Protokoll).
+- Datenquelle: Bei gewählter Spalte ist der ganze Spaltenkopf in der Auswahlfarbe hinterlegt.
