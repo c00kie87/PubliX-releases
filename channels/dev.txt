@@ -1,15 +1,15 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.40
+version: 0.8.41
 date: 2026-11-20
 host: 21
-commit: 05983d2efd890bc1a2fb54a194f335abdfa5dbc6
-mac.version: 0.8.40
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.40/publix-0.8.40-mac.zip
-mac.sha512: bf10ed5989b34697ac10118bde7e670764c4907e541ad13e6b06a23ce92611eba021a7a8ba37aee74d31e4f7bf28b63f39dbc8860a1ec5234724c30a88c6274a
-win.version: 0.8.40
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.40/publix-0.8.40-win.zip
-win.sha512: a3d567f7abb8eee2fc139f34c855bfd522ee3f42087313a8442bdfcd933a3da2fc3a2d95f978b7f2bebf7febf3464357a13ea71491372ae0b00a6099128f9f30
+commit: da3ef640257f55b7fb33fe49f93f05b988e424f6
+mac.version: 0.8.41
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.41/publix-0.8.41-mac.zip
+mac.sha512: 356c9330afa6cc7764029d7167b6b24bde2ce2e9d7ab2124aa476ba5027defa5940c2b8851a20b54fc11ea23b2bde38c13951121f5fcbe92adf73ea9690e66db
+win.version: 0.8.41
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.41/publix-0.8.41-win.zip
+win.sha512: f988730174e3c6f278408048f8586f3ddaa48176358ebe9502cd75dda42c533383be3b355c8ea0235a085ddfd8ec7a97aebf8aa7dde87b7af8ca2ed4acb4b6c0
 notes:
-- Datenquelle und Abgleich reagieren sofort, wenn Rahmen angelegt oder gelöscht werden (Beobachter am Dokument).
-- Template-Anordnung: Sie gilt nur für die Teile eines aufgeteilten Templates (z. B. die Variationsgruppen einer P_-Gruppe) und dort auch beim Ablegen. Sonst gilt die Anordnung der Automatisierung.
+- Automatisieren-Palette, neue Rubrik „Templateaufteilung“ für die nebeneinanderstehenden Teile eines aufgeteilten Templates: Ein Rahmen lässt sich über die Reihe verbreitern (z. B. grauer Balken), an die linke oder rechte Kante der Reihe setzen (z. B. Logo) und mit gleichen Rahmen auf Ober- oder Unterkante angleichen (z. B. Bild, Tabelle).
+- Templates K1, 2 und 3 sind dafür eingestellt.
