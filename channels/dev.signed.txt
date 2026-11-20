@@ -1,17 +1,21 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.43
+version: 0.8.44
 date: 2026-11-20
 host: 21
-commit: bd98ab8602cce15a14e08cad7bbfc39f3a4a5284
-mac.version: 0.8.43
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.43/publix-0.8.43-mac.zip
-mac.sha512: e61a8dbefad7260b4428aaf787152aa0af8c4fd44e7d858d76ecd9d2f6b158cfbd2941e4488451be2546e4a1328ba22993afcdec9d56f2707d691f4fca2a02a4
-win.version: 0.8.41
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.41/publix-0.8.41-win.zip
-win.sha512: f988730174e3c6f278408048f8586f3ddaa48176358ebe9502cd75dda42c533383be3b355c8ea0235a085ddfd8ec7a97aebf8aa7dde87b7af8ca2ed4acb4b6c0
+commit: 15da420ef4bb427e69cb3b89885ea556fe264c1d
+mac.version: 0.8.44
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.44/publix-0.8.44-mac.zip
+mac.sha512: e629ffca409f137f149cb07d104723a9570ff2979ed5c9935a49ef7dff210d25da2750c88c837aacdc5307fe588a1e6facfcf738dbb96456694122fae1f11e1a
+win.version: 0.8.44
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.44/publix-0.8.44-win.zip
+win.sha512: a9cb7ac571c337b720c881d0ff9cbee442efb4e69a59ac29856502328518b81714db909391ef22928ff8deeac6d4cfa793375915fb53f9b19b7aa22f5f243f7e
 notes:
-- Ablegen eines aufgeteilten Templates (z. B. P_-Gruppe mit zwei Variationsgruppen): Die Teile stehen jetzt nebeneinander, wenn sie mit dem Spaltensteg der Seite in den Satzspiegel passen. Bisher verhinderte der größere horizontale Abstand der Automatisierung das Nebeneinander. Die Teile docken an der nächsten senkrechten Hilfslinie bzw. dem Spaltenanfang an.
-- Produktversionen: Die Version eines Teils eines aufgeteilten Templates gilt nur in derselben Zusammenstellung der Teile. Wird derselbe Teil allein oder mit anderen Teilen publiziert, baut PubliX ihn neu auf, statt die Version einzusetzen (Hinweis im Protokoll).
-- Datenquelle: Bei gewählter Spalte ist der ganze Spaltenkopf in der Auswahlfarbe hinterlegt.
-signature: 57cd621407c3e58ffd6c814e4b1f3b346eb10748699c53dd336487d4a6841e3f1d4551e34643ddbfe5cebabde237622a2332b1c3c3d74289f620aa89e5afe303
+- Neues Projekt: Projektdatei „Name.px“, Bibliothek wählbar (neu und leer, Kopie einer vorhandenen oder gemeinsam mit einem anderen Projekt – sie bleibt beim Ausgangsprojekt), Quelle ist Pflicht und startet mit der Standardkonfiguration; keine Sicherung bei der Neuanlage.
+- Projekt löschen: Der Projektordner wandert nach „Gelöschte Projekte“; Projekte, die eine Bibliothek mitnutzen, erhalten vorher eine eigene Kopie.
+- XML mit Ebenen: Verschachtelte XML-Dateien (z. B. Kapitel › Produkt › Variante) werden als Ebenen gelesen – flache Haupttabelle je Variante mit den Feldern der übergeordneten Ebenen, Ebenen vorbelegt, Merkmale als Spalten („Attribut.farbe“), nummerierte Listen, Tabellen und Kreuztabellen getrennt. Flache XML-Dateien lesen sich wie bisher.
+- Abgleich: Suchfeld, Bereich „Auswahl“ und „Element neu aufbauen“. Werte in Kreuztabellen: Neuaufbau nur, wenn sich durch die Wertänderung die Pivotierung ändert, sonst wird nur der Wert getauscht.
+- Kontextmenü PubliX deutlich erweitert: Aus Quelle aktualisieren, Neu aufbauen, Datensatz zeigen, Rahmen des Datensatzes, Nächstes Vorkommen, Template in der Bibliothek zeigen, Rahmenregeln, Abgleich für Auswahl, Produktversion (nur bei Template und Datensatz der Quelle), Nacharbeit sichern.
+- Datenquelle: Doppelklick springt bei Wiederholung durch alle Vorkommen eines Werts (Hinweis „Vorkommen n von m“).
+- Windows erhält mit dieser Version auch die Änderungen aus 0.8.43.
+signature: 1d3f87fb869bec5f481283b469d8fed55dc9af96a45894ca5369e74c0ffe7ec58ced5b910b76682ee71283dbc6fea5db10a4c2e527cb67964b18b9bcee55f50d
