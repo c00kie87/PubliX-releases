@@ -1,16 +1,15 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.51
+version: 0.8.52
 date: 2026-11-21
 host: 21
-commit: 7d61c8d67439bd95b4c758d1d1ee0280b1052c93
-mac.version: 0.8.51
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.51/publix-0.8.51-mac.zip
-mac.sha512: 6334913b5a3b85f50a98cce2754dcde6abcad9ec957efdc6e02a9a150bd53f7a0df1ec0c0d856d996c1ed3abe1a5842d4ef4c1f4f1301d82cd39c029b1854b50
+commit: 169284511956d4b94e839ae8bdc9313e55d81404
+mac.version: 0.8.52
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.52/publix-0.8.52-mac.zip
+mac.sha512: f49d24455fa27b441940050ff69829467fbc660144d1abc23407d97fe8f08baeb0658a0d70b20e50a5093cdfc2d13418f3bd1e1641c064d7a44ca8fa98e7f4d8
 win.version: 0.8.49
 win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.49/publix-0.8.49-win.zip
 win.sha512: 8ddb1d6e28e1d467c633847213c8c45dfc745caca30e9c1fc425a9a2a83f611d49370e52b745f3eb9b5fecc12e94592d3a21560276f22d312c3a1c43749d5a17
 notes:
-- Vervielfältigte Hilfstabellen (z. B. Zeilen „Bestellnummer + Kurztext“ je Variante): Jede Kopie behält beim Verdrängen ihren eigenen Versatz – wächst der Text darüber, rücken die Zeilen gemeinsam nach unten, statt an derselben Stelle übereinander zu landen (Belastungstest 07: 20 Überschneidungen).
-- Regel „hohe Zeilen“: Die Zeilenhöhe wird vor dem Umsetzen gemessen; eine Zelle im Übersatz erhält immer die eingestellten Spalten (Belastungstest 07, Seite 7: einspaltiger Rahmen mit Übersatz).
-signature: 16c3e32bb1779d7bf0b796b8bfb6dcd2e4847c466726c5a62b5a8f1a4bc0384024363c71c5c0e508d8e3d2c97b138c6e855a9405fe864b2852175abd9a30d205
+- Regel „hohe Zeilen“ (Hilfstabellen): Die eingestellten Spalten werden jetzt tatsächlich gesetzt – ein Skriptfehler verhinderte das bisher (Belastungstest 08).
+signature: 715d0525f4dc7bdcb7aca3a8a0f3c83b29d90f9bda31af42d61eff62c9907c42809a1b3560857beca942eb8a94b6c8b1297ff2202d1ee9d3d9b27878b2d79d01
