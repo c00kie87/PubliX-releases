@@ -1,16 +1,16 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.56
+version: 0.8.57
 date: 2026-11-21
 host: 21
-commit: 91a2d557870200e7e9df7cbfb8c0f9b9783f6e88
-mac.version: 0.8.56
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.56/publix-0.8.56-mac.zip
-mac.sha512: 81b937657fa2683a96bc6fa2b08f2bbccf105706744183c9f8e259157d04213be9945ca2472fef2272a84855c9076060d75280debdf5f3d2b372b2c1de884b81
-win.version: 0.8.56
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.56/publix-0.8.56-win.zip
-win.sha512: f3bffb25a7e34b04ab50812791ccd5de76764d1e8bb6292fff6ebceb3383f979cd2ea294f775ca986177e78c913b734e99b52093348cd1871988ab57f9b3bcae
+commit: 156adb8c82f8b14208ba067d4fd288ed696311f4
+mac.version: 0.8.57
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.57/publix-0.8.57-mac.zip
+mac.sha512: 126f724edf78d077daea57312e1c9efa740c2222f1055ddfbf1a7d99ad296a8daab530bbdc9d585c96dfc8800c13da38e04ada2081ddff1592734989328c2aaa
+win.version: 0.8.57
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.57/publix-0.8.57-win.zip
+win.sha512: aff875c31eba50efc510ed0a3edbac59d82d3b1c0e85c8eb9ee168ec59c9a4aac97c8c8af796d6cfbe5a8a5e5ca1e8a6967d5c5ff9bba912c141dba1b510a069
 notes:
-- Aufgelöste Tabellen rücken mit dem Bild ihrer Template-Gruppe in den freien Raum nach oben (Text und Bild beginnen wieder auf gleicher Höhe).
-- Selbsttest schließt das gespeicherte Testdokument (Absturz nach Netzlaufwerk-Verlust im Ruhezustand).
-signature: 4eac7572e7a9c9ef596b4793312c5d7da4adb159759ec55836824af44c06e707777fab18f273801c2295c8d319b7e9fd06a775b60fe94038b65b25c60ecf4908
+- Bestellnummer und Text einer aufgelösten Tabellenzeile bleiben beim Verdichten der Abstände auf gleicher Höhe.
+- Bei vervielfältigten Gruppen rückt der aufgelöste Text nicht mehr in die Nachbarkopie.
+signature: c670c1d9ab2fd721faa533384b0756cb0a7d737d58534138f212fa06badc1ddc02a5a2b5ac879987280766a8f7f9fa6e1349b7b666a901014343777c4451970a
