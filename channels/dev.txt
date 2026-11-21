@@ -1,14 +1,14 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.54
+version: 0.8.55
 date: 2026-11-21
 host: 21
-commit: 761f47e30ddd26c7b47dd4952674c690ae0b1c03
-mac.version: 0.8.54
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.54/publix-0.8.54-mac.zip
-mac.sha512: ebc5d8e8654ba896b6cc61b8a049d9e4a083e92aa243d2e5481a433489a5ffc9f66dc8779021d4e982397992ac3f47bef6dd2fa9fcf4b467961384caa859b252
+commit: 793b23da3cddce2f27a0e128e506cd80232e5bf6
+mac.version: 0.8.55
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.55/publix-0.8.55-mac.zip
+mac.sha512: a536f2a8323479ff6c24959a6e205e054b077b3ea0333427605405149669f8103ead0ab43792bd62bfd75e508e1e04e1d955a6ea02beb960f7730a342ba0c120
 win.version: 0.8.49
 win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.49/publix-0.8.49-win.zip
 win.sha512: 8ddb1d6e28e1d467c633847213c8c45dfc745caca30e9c1fc425a9a2a83f611d49370e52b745f3eb9b5fecc12e94592d3a21560276f22d312c3a1c43749d5a17
 notes:
-- Regel „hohe Zeilen“ (Hilfstabellen): Nur Zellen, deren eigener Text höher als der Grenzwert ist, werden mehrspaltig – schmale Nachbarzellen derselben Zeile (z. B. Bestellnummer) bleiben einspaltig. Die Höhe passt sich nach dem Setzen der Spalten neu an.
+- Regel „hohe Zeilen“ (Automatisieren › Tabelle, bei „Auflösen“): neu „Nur Tabellenspalten“ (z. B. „2“ – die Bestellnummer links bleibt immer einspaltig) und „Rahmenbreite bis zum rechten Satzspiegelrand“ als Alternative zur festen Breite in mm. Liegt dort ein Bild, braucht es Textumfluss (im Template).
