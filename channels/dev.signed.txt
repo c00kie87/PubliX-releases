@@ -1,16 +1,15 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.57
+version: 0.8.58
 date: 2026-11-21
 host: 21
-commit: 156adb8c82f8b14208ba067d4fd288ed696311f4
-mac.version: 0.8.57
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.57/publix-0.8.57-mac.zip
-mac.sha512: 126f724edf78d077daea57312e1c9efa740c2222f1055ddfbf1a7d99ad296a8daab530bbdc9d585c96dfc8800c13da38e04ada2081ddff1592734989328c2aaa
-win.version: 0.8.57
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.57/publix-0.8.57-win.zip
-win.sha512: aff875c31eba50efc510ed0a3edbac59d82d3b1c0e85c8eb9ee168ec59c9a4aac97c8c8af796d6cfbe5a8a5e5ca1e8a6967d5c5ff9bba912c141dba1b510a069
+commit: 0a8acdf0703af8d820f4b53d8851306a4ebc4e2f
+mac.version: 0.8.58
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.58/publix-0.8.58-mac.zip
+mac.sha512: 0fb2b438fc7ef50ecd2cfe4b4dbcf908061c7cb82c0fd68c73578cdc18ea9fd11111d8e1373f59fc9c4c9ed3ad8a9a4c6db5c756d2b2a5350ca2d4a31a60199f
+win.version: 0.8.58
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.58/publix-0.8.58-win.zip
+win.sha512: e0d1f8d403de8d3b09b68f2bbb477f45c026969a928f5046155104ac79537e0788030e9c70b55a265c6d41839a721c0da9c763adb66312820a229473d952c38b
 notes:
-- Bestellnummer und Text einer aufgelösten Tabellenzeile bleiben beim Verdichten der Abstände auf gleicher Höhe.
-- Bei vervielfältigten Gruppen rückt der aufgelöste Text nicht mehr in die Nachbarkopie.
-signature: c670c1d9ab2fd721faa533384b0756cb0a7d737d58534138f212fa06badc1ddc02a5a2b5ac879987280766a8f7f9fa6e1349b7b666a901014343777c4451970a
+- Aufgelöste Tabellen aus Kopien derselben Gruppe werden beim Verdrängen nicht mehr übereinander geschoben.
+signature: 63e38ff72e6a58ab3af7e03519a2927f2022a1799c3d6e781dc2d449a16ff031bb9b97cae76904926c76eb085074cb436d4f2b38afc28862a8458b389a66200b
