@@ -1,15 +1,16 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.55
+version: 0.8.56
 date: 2026-11-21
 host: 21
-commit: 793b23da3cddce2f27a0e128e506cd80232e5bf6
-mac.version: 0.8.55
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.55/publix-0.8.55-mac.zip
-mac.sha512: a536f2a8323479ff6c24959a6e205e054b077b3ea0333427605405149669f8103ead0ab43792bd62bfd75e508e1e04e1d955a6ea02beb960f7730a342ba0c120
-win.version: 0.8.49
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.49/publix-0.8.49-win.zip
-win.sha512: 8ddb1d6e28e1d467c633847213c8c45dfc745caca30e9c1fc425a9a2a83f611d49370e52b745f3eb9b5fecc12e94592d3a21560276f22d312c3a1c43749d5a17
+commit: 91a2d557870200e7e9df7cbfb8c0f9b9783f6e88
+mac.version: 0.8.56
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.56/publix-0.8.56-mac.zip
+mac.sha512: 81b937657fa2683a96bc6fa2b08f2bbccf105706744183c9f8e259157d04213be9945ca2472fef2272a84855c9076060d75280debdf5f3d2b372b2c1de884b81
+win.version: 0.8.56
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.56/publix-0.8.56-win.zip
+win.sha512: f3bffb25a7e34b04ab50812791ccd5de76764d1e8bb6292fff6ebceb3383f979cd2ea294f775ca986177e78c913b734e99b52093348cd1871988ab57f9b3bcae
 notes:
-- Regel „hohe Zeilen“ (Automatisieren › Tabelle, bei „Auflösen“): neu „Nur Tabellenspalten“ (z. B. „2“ – die Bestellnummer links bleibt immer einspaltig) und „Rahmenbreite bis zum rechten Satzspiegelrand“ als Alternative zur festen Breite in mm. Liegt dort ein Bild, braucht es Textumfluss (im Template).
-signature: 5f9f1cd1954972d049583e2537e4eaa119351145ec30dee6424e10a24f8a9147dc56d84500720dacc3affc93f8083011898329ebd866d906a98c8e90bdc2b801
+- Aufgelöste Tabellen rücken mit dem Bild ihrer Template-Gruppe in den freien Raum nach oben (Text und Bild beginnen wieder auf gleicher Höhe).
+- Selbsttest schließt das gespeicherte Testdokument (Absturz nach Netzlaufwerk-Verlust im Ruhezustand).
+signature: 4eac7572e7a9c9ef596b4793312c5d7da4adb159759ec55836824af44c06e707777fab18f273801c2295c8d319b7e9fd06a775b60fe94038b65b25c60ecf4908
