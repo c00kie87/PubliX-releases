@@ -1,14 +1,14 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.53
+version: 0.8.54
 date: 2026-11-21
 host: 21
-commit: 13cf01aba7fcf3880d65e23c4bc436adc385170b
-mac.version: 0.8.53
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.53/publix-0.8.53-mac.zip
-mac.sha512: f438a957a52667d3e82eefe95aed9567083e2be6a3d0753293c5c952c7340127db07446ac1aed5f5ececa24cc7ad578ab14a15f58054a13110ac0c5a250c1473
+commit: 761f47e30ddd26c7b47dd4952674c690ae0b1c03
+mac.version: 0.8.54
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.54/publix-0.8.54-mac.zip
+mac.sha512: ebc5d8e8654ba896b6cc61b8a049d9e4a083e92aa243d2e5481a433489a5ffc9f66dc8779021d4e982397992ac3f47bef6dd2fa9fcf4b467961384caa859b252
 win.version: 0.8.49
 win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.49/publix-0.8.49-win.zip
 win.sha512: 8ddb1d6e28e1d467c633847213c8c45dfc745caca30e9c1fc425a9a2a83f611d49370e52b745f3eb9b5fecc12e94592d3a21560276f22d312c3a1c43749d5a17
 notes:
-- Neue Rahmenregel für Textrahmen „Mehrspaltig ab Höhe“ (Automatisieren › Einpassen): Wird der Text nach dem Befüllen höher als der Wert, setzt PubliX den Rahmen auf die eingestellten Spalten mit eigenem Spaltenabstand, gleicht sie aus und passt die Höhe an den Inhalt an; „Höchstens Spalten“ erlaubt bei Bedarf weitere Spalten. Ohne Wert aus.
+- Regel „hohe Zeilen“ (Hilfstabellen): Nur Zellen, deren eigener Text höher als der Grenzwert ist, werden mehrspaltig – schmale Nachbarzellen derselben Zeile (z. B. Bestellnummer) bleiben einspaltig. Die Höhe passt sich nach dem Setzen der Spalten neu an.
