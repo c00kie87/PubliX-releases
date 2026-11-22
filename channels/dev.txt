@@ -1,20 +1,20 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.66
+version: 0.8.67
 date: 2026-11-22
 host: 21 22
-commit: 97fedf134eca3a7cbfa8e837f79f642a242c6eba
-mac.version: 0.8.66
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.66/publix-0.8.66-mac.zip
-mac.sha512: d90ef9e5243e3a4c99f8cf6ed034ef7ba2870b8275c016d05327b46f347d2c3a83b777db27aa2f171ccaa44f9fec2255115c86328fb1233b939ae6605bf60e9a
+commit: cbbcb4511e75dbb9b3d1f573bfb44fc39b6a051e
+mac.version: 0.8.67
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.67/publix-0.8.67-mac.zip
+mac.sha512: a07e43a33c7654c2a462f288d8479e750a404b72a5c5a45274c2ee34b1d39034eff86627c481b13d864c416337b3ef86efa80002f26ac5612023869a3b67e73f
 win.version: 0.8.65
 win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win.zip
 win.sha512: 02685a06c1de212c9ce9870561ede63420642297613d650859976f6a8032965e939c1f7a82570f19da55d5cb6b8f705ca1f583fd52318eebbcc1d249831d092b
-mac.22.version: 0.8.66
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.66/publix-0.8.66-mac-id22.zip
-mac.22.sha512: dd89037e6f8ee626eb3d299a587bb586423f8047b02c3f24b250785d621e7e512b6433a1e931d9f920325e7f9910c2639aadd81b7e4a8bb87bdb39fc98d901a5
+mac.22.version: 0.8.67
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.67/publix-0.8.67-mac-id22.zip
+mac.22.sha512: c65029e81efeb8c631ca313188b131bb405e90a7a0685e924d1740592ba1fe54312b50dfb47788f8ffc2d566154dc24bb74f107366ce1c53e046033a265588df
 win.22.version: 0.8.65
 win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win-id22.zip
 win.22.sha512: 70f58634f5f8ffed59fb4ca02c1d8b4d9d50e031fa7e37b2c2d4e0d5818a54d165f9d6b595c8dd4ea49f24d28d02ccb36d73d760045308d20e999ab754d7e5da
 notes:
-- Neu aufbauen über das Kontextmenü hängt nicht mehr an der Meldung „gesperrte Inhalte“ (die Hilfsebene des Neuaufbaus bleibt sichtbar).
+- Neu aufbauen über das Kontextmenü und Ablegen: der Aufbau entsteht oben im Satzspiegel und wird dann an seine Stelle gesetzt – kein Hängenbleiben an „gesperrte Inhalte“ mehr bei Aufbauten weit unten auf der Seite.
