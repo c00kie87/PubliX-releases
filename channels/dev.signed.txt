@@ -1,22 +1,21 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.62
+version: 0.8.63
 date: 2026-11-22
 host: 21 22
-commit: 5377d1e20819228f12bd5f2cd6c7fe0ab6dcb19c
-mac.version: 0.8.62
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.62/publix-0.8.62-mac.zip
-mac.sha512: bf157afc7a8d8d01420ef2b31cbbba03e6ebf596a1f98253196378384d81358a8b0a4e6d765774c13475e961fe33cd937c425ffa85dfe24a67f0e214ea91fd6c
-win.version: 0.8.62
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.62/publix-0.8.62-win.zip
-win.sha512: 2cc7b36a6f2b3f679b6ce9333b4288e287c82dc644b38a2197322cc89fc8da9c35069a21d4c7b935b65d8cbf2b32444510c025e39be073a2cc3fb3197f8d4622
-mac.22.version: 0.8.62
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.62/publix-0.8.62-mac-id22.zip
-mac.22.sha512: 50dfd1441b1f55f0fa258f9591b2f3b466f2d909c6a4fcdfb2fdd5401b6fc4078c059160df1d51fd7817f62540146daea84ac117fdeeccfbc075058807f7d2e4
-win.22.version: 0.8.62
-win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.62/publix-0.8.62-win-id22.zip
-win.22.sha512: 3df8e612250522b344a916bd3337b39fa6096bb93a5420ae15577ba372eaf4986b29526522c89ee540288e8bf1460818614fc20686d4ab6b920dc20bbfa47c8e
+commit: edd0b04d3e81ff9029040a5f8ad020cc50aa2f94
+mac.version: 0.8.63
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.63/publix-0.8.63-mac.zip
+mac.sha512: 028b5760c4bf44227e5e84e277278b9ea5e82940368955a38f1efa9762796ac5b68d5bbfdfcaf38260c0c9927f4e111a960251340941b8f9fb2fc6424bc69f74
+win.version: 0.8.63
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.63/publix-0.8.63-win.zip
+win.sha512: ef1ac4a44a34e3b1d9b8e72251e09960c2f3d5dc4792902c10e61ae73cbeb53678e81ecab74724f526c969c110887f7471968eb1227f5c0b16dc87e006813316
+mac.22.version: 0.8.63
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.63/publix-0.8.63-mac-id22.zip
+mac.22.sha512: 0ad9eb5ca62ed57666f28a9f11efa7fa56f5983c7cacf2a97008c6eb3fd9e48de6a832154e6225f7ce65559137fe951e54bda7ac8e86656fdafeb9f007de2c66
+win.22.version: 0.8.63
+win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.63/publix-0.8.63-win-id22.zip
+win.22.sha512: f94fb300ae9b44d05c0a770e2c766e70727c04ee83b96c4ea467be656169d044adf2d0bdf8e1a0074c32f717e0f2cf22a58bac0e9b6b9a08675d5ef70db497f1
 notes:
-- Aufbauten werden nicht mehr nur zwischen ganzen Rahmen geteilt, wenn sie vollständig auf eine leere Seite passen – sie wandern dann ganz auf die nächste Seite (kein Kopf ohne Tabelle, keine unnötige „Fortsetzung“).
-- Bestellnummern und Texte aus aufgelösten Tabellen bleiben in vervielfältigten Bildgruppen neben dem Bild ihrer eigenen Kopie.
-signature: 4d0ef96d0296c12acb1011a5743566ebf188132cfc35fa5087b4c8616b6eb80c15bda8fd0f7b805ce3f42a296f901e07726e2b539cb6e92846096349fee46e03
+- Bestellnummern und Texte bleiben neben dem Bild ihrer eigenen Kopie – sie werden nicht mehr nachträglich unter die Tabelle gesetzt; entstünde dadurch eine Überschneidung, bleibt die bisherige Lage.
+signature: a3b3fa6188cd2b6a891a73c6fef638664d2d8f2185b1ede5507075f2d3bc3576ca71e1abb6984232a2ef55f249bac555314bfa9a0d03535a76567f5351b25300
