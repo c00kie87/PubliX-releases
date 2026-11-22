@@ -1,22 +1,21 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.69
+version: 0.8.70
 date: 2026-11-22
 host: 21 22
-commit: be351efe1590067e45e3b68e73619d411602ea25
-mac.version: 0.8.69
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.69/publix-0.8.69-mac.zip
-mac.sha512: 066592d5584cc270a807ec33a75bb788b9dc147940791ca84f8b9900f55a037b6de769ff263b787750387dd5a52f99e05743fb1ab1a770ad9adfa06808f6758f
+commit: 576fa2675381c81be05b38a5511f2f68256aeef2
+mac.version: 0.8.70
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.70/publix-0.8.70-mac.zip
+mac.sha512: 5776fea6081d88858038ec7a9d05a265d24596e31ef2f92495da70d4c5ec6f1be05d068cc7ca9b69267e9fadd0079b4db5db5bee600528a4e2b5e2bbcc07d795
 win.version: 0.8.65
 win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win.zip
 win.sha512: 02685a06c1de212c9ce9870561ede63420642297613d650859976f6a8032965e939c1f7a82570f19da55d5cb6b8f705ca1f583fd52318eebbcc1d249831d092b
-mac.22.version: 0.8.69
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.69/publix-0.8.69-mac-id22.zip
-mac.22.sha512: b6b4e58548d0f9c69209b2938e3402eb7d489a9956733ef1e6ecf5026d09f841759f60f472a51e5aed2b07f1a18500270a0f0ab85da2878e6afe9884711d87ab
+mac.22.version: 0.8.70
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.70/publix-0.8.70-mac-id22.zip
+mac.22.sha512: af99666bcbc273a391c274571ff4b8da63157ecce0250182ecc50dc32a79d7aba3b3a820a96dc944bb0ce8466e3685327eeba8faa0699e16ae7663532e6e6765
 win.22.version: 0.8.65
 win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win-id22.zip
 win.22.sha512: 70f58634f5f8ffed59fb4ca02c1d8b4d9d50e031fa7e37b2c2d4e0d5818a54d165f9d6b595c8dd4ea49f24d28d02ccb36d73d760045308d20e999ab754d7e5da
 notes:
-- Neue Einstellung unter Automatisieren: „Seiten optimieren“ – knapp zu hohe Aufbauten nutzen Lücken (z. B. Tabelle neben dem Bild), damit sie noch auf die Seite passen.
-- Neu aufbauen: Bilder, deren Import fehlschlägt, werden auf einem zweiten Weg eingesetzt.
-signature: e0b62a6ed73d9162676bef677b1df0ea9626b6c6845774ecc25a749774a0ae1f85a534ac4d1afbc288b26b7784667356a1f1a8824118f36b064a45c03d80f200
+- Neu aufbauen/Aktualisieren: Bilder, die im Dokument schon verknüpft sind, werden aus der vorhandenen Verknüpfung übernommen (InDesign meldete sonst „Datei bereits geöffnet“).
+signature: 9e92099068d116e0e527936ca008fd1e360644388bcbe4e4ab53500b2e949ad59f52fd17e9d79ef25eae4aa4df02e50bc81143371b3f8eafae95b8b6ecfcea02
