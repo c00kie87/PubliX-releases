@@ -1,21 +1,21 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.70
+version: 0.8.71
 date: 2026-11-22
 host: 21 22
-commit: 576fa2675381c81be05b38a5511f2f68256aeef2
-mac.version: 0.8.70
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.70/publix-0.8.70-mac.zip
-mac.sha512: 5776fea6081d88858038ec7a9d05a265d24596e31ef2f92495da70d4c5ec6f1be05d068cc7ca9b69267e9fadd0079b4db5db5bee600528a4e2b5e2bbcc07d795
+commit: ba6f0a1c88ffc1f6ccf78b095a8e2140b8883082
+mac.version: 0.8.71
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.71/publix-0.8.71-mac.zip
+mac.sha512: 0025b983718946aef3306a47080bb09cbb5e2d2c26b3bdd0636403eceaab3954b106a9f492666a2f1aae622e588f74aee76a0e968a71564a7efd2c5acb88816f
 win.version: 0.8.65
 win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win.zip
 win.sha512: 02685a06c1de212c9ce9870561ede63420642297613d650859976f6a8032965e939c1f7a82570f19da55d5cb6b8f705ca1f583fd52318eebbcc1d249831d092b
-mac.22.version: 0.8.70
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.70/publix-0.8.70-mac-id22.zip
-mac.22.sha512: af99666bcbc273a391c274571ff4b8da63157ecce0250182ecc50dc32a79d7aba3b3a820a96dc944bb0ce8466e3685327eeba8faa0699e16ae7663532e6e6765
+mac.22.version: 0.8.71
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.71/publix-0.8.71-mac-id22.zip
+mac.22.sha512: ce9833f5fcfd6621dd82de14e3380a976aef73a33339dabe876b08f34ede1f84fc1548a94812d4fd1c3014544c1efd2c66bd9f64959531353c3def0e22e83790
 win.22.version: 0.8.65
 win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win-id22.zip
 win.22.sha512: 70f58634f5f8ffed59fb4ca02c1d8b4d9d50e031fa7e37b2c2d4e0d5818a54d165f9d6b595c8dd4ea49f24d28d02ccb36d73d760045308d20e999ab754d7e5da
 notes:
-- Neu aufbauen/Aktualisieren: Bilder, die im Dokument schon verknüpft sind, werden aus der vorhandenen Verknüpfung übernommen (InDesign meldete sonst „Datei bereits geöffnet“).
-signature: 9e92099068d116e0e527936ca008fd1e360644388bcbe4e4ab53500b2e949ad59f52fd17e9d79ef25eae4aa4df02e50bc81143371b3f8eafae95b8b6ecfcea02
+- Seiten optimieren: Elemente rücken bis zum ersten Hindernis in ihrer Spalte auf (kleinster Abstand), damit Lücken neben Bildern tatsächlich genutzt werden.
+signature: 2e72c5e7466aed895ce1cddbdf1b726a51313658c8eb8cd690de73a967428aa456151a7c2578eb65801cffa41285a90ca63e92bd7e5ed7498e1972da0660360d
