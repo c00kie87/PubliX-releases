@@ -1,21 +1,22 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.68
+version: 0.8.69
 date: 2026-11-22
 host: 21 22
-commit: c8d350f6afe7b3add7372e17cea0b84c90048f6f
-mac.version: 0.8.68
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.68/publix-0.8.68-mac.zip
-mac.sha512: ea4c532e34a21e31c5afc291d84466160c9824e0c2f35dec0f5b7e96229ca45920f3521858451199ad3df720898e2a3c0c5d6ffca72425c7a489632f650ee3ab
+commit: be351efe1590067e45e3b68e73619d411602ea25
+mac.version: 0.8.69
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.69/publix-0.8.69-mac.zip
+mac.sha512: 066592d5584cc270a807ec33a75bb788b9dc147940791ca84f8b9900f55a037b6de769ff263b787750387dd5a52f99e05743fb1ab1a770ad9adfa06808f6758f
 win.version: 0.8.65
 win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win.zip
 win.sha512: 02685a06c1de212c9ce9870561ede63420642297613d650859976f6a8032965e939c1f7a82570f19da55d5cb6b8f705ca1f583fd52318eebbcc1d249831d092b
-mac.22.version: 0.8.68
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.68/publix-0.8.68-mac-id22.zip
-mac.22.sha512: 788952a4da36f0874b11cd93fcf7472ebc7d456ed078b8eb90bcfec032f99a0613bb6d352cd8b469f6a814edc317e04ce729e80f56cc0211608f58aba2191525
+mac.22.version: 0.8.69
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.69/publix-0.8.69-mac-id22.zip
+mac.22.sha512: b6b4e58548d0f9c69209b2938e3402eb7d489a9956733ef1e6ecf5026d09f841759f60f472a51e5aed2b07f1a18500270a0f0ab85da2878e6afe9884711d87ab
 win.22.version: 0.8.65
 win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win-id22.zip
 win.22.sha512: 70f58634f5f8ffed59fb4ca02c1d8b4d9d50e031fa7e37b2c2d4e0d5818a54d165f9d6b595c8dd4ea49f24d28d02ccb36d73d760045308d20e999ab754d7e5da
 notes:
-- Neu aufbauen über das Kontextmenü: Hilfsebene bleibt während des Aufbaus sichtbar (ausgeblendete Inhalte gelten für InDesign als gesperrt).
-signature: 379c2392c01b625e3e4f814e61a68f1e9c3a58e61c279bb674a7f22494c9146e6d4bfccff506a0223d0b708453bfc1fb3057b0939c9f1f18c0aae0842a6b570b
+- Neue Einstellung unter Automatisieren: „Seiten optimieren“ – knapp zu hohe Aufbauten nutzen Lücken (z. B. Tabelle neben dem Bild), damit sie noch auf die Seite passen.
+- Neu aufbauen: Bilder, deren Import fehlschlägt, werden auf einem zweiten Weg eingesetzt.
+signature: e0b62a6ed73d9162676bef677b1df0ea9626b6c6845774ecc25a749774a0ae1f85a534ac4d1afbc288b26b7784667356a1f1a8824118f36b064a45c03d80f200
