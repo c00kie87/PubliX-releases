@@ -1,22 +1,21 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.64
+version: 0.8.65
 date: 2026-11-22
 host: 21 22
-commit: 9a0576f6f0142647acd0d7b51023967301565a9b
-mac.version: 0.8.64
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.64/publix-0.8.64-mac.zip
-mac.sha512: f885e067b8b59ad2c9f7ffd36945ce944355a2e0f8e4b38a677c9054368e6f98f1f168d2f8cfd50d2a280ebe0ede29a7580566c43cbad06d66e2741452ad2274
-win.version: 0.8.64
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.64/publix-0.8.64-win.zip
-win.sha512: d13893662a8f9b5ec3c7d1e23b2922fc1aef24d30ba02f47190b32ae2b06d47eb9c24909973d506a431c204e2095cc80b5eeb77981f10416f63e594762d20dd4
-mac.22.version: 0.8.64
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.64/publix-0.8.64-mac-id22.zip
-mac.22.sha512: 84d40f0072e249d52f0f401290deddf674a326d10a4dd092e9c93f342c4fb7360cdc9dc2408fe7b8715e6c5e346fc34f0bf06b9898d40f64403d279310318428
-win.22.version: 0.8.64
-win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.64/publix-0.8.64-win-id22.zip
-win.22.sha512: eb5ac9ed14ca32ab8ab0598aa626d8b400eb7695903a44cdb236beadd679c5c3f4cc1c977b8d419f64bb63a4e40b9a90f8500ea3622d1199acc095aa7b9f0ac9
+commit: 3c0d5491369a2a96a7cc8190e03f5bfe04504e25
+mac.version: 0.8.65
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-mac.zip
+mac.sha512: bf5d39f8659925484f2eeb7ad14a368aaadac94006733c93d7daa2fe42c7d6503c2a7587f7251bb8b01566660d00fec332081bf5a5ac4ed3ecd5a6b436dbbe46
+win.version: 0.8.65
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win.zip
+win.sha512: 02685a06c1de212c9ce9870561ede63420642297613d650859976f6a8032965e939c1f7a82570f19da55d5cb6b8f705ca1f583fd52318eebbcc1d249831d092b
+mac.22.version: 0.8.65
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-mac-id22.zip
+mac.22.sha512: 610fb269e102e208dfba7e9b5f334c9462b1a0d61b7ca6b80bfa9407bcbb5367df2453ce7a48b42893381dc702e59ef4ce41f19415f7c0c59a8450269d110e04
+win.22.version: 0.8.65
+win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win-id22.zip
+win.22.sha512: 70f58634f5f8ffed59fb4ca02c1d8b4d9d50e031fa7e37b2c2d4e0d5818a54d165f9d6b595c8dd4ea49f24d28d02ccb36d73d760045308d20e999ab754d7e5da
 notes:
-- Bilder rücken auch dann bis neben das Logo auf, wenn der eigene zweispaltige Beschreibungstext darunter liegt oder das Bild knapp neben dem Logo steht.
-- Geteilte Templates, deren Angleichen die Seite sprengen würde, kommen gleich auf die nächste Seite.
-signature: ddd27f586453eab05832abf0bb249d5c8aa62c9a546fcaf54348ebd1ace204fe407b54120b27401e4fbd4f2aff4a4af13f96fec00147f9b861ab7134eab35503
+- Geteilte Templates: Angleichen wird auch beim Umbruch eingerechnet.
+signature: a2e2d67fb8fc199dc72b7674d6985dd36a83746741713eed3ad5d13433a60343d1cc21702a7c113630e577cf72f38577d3f4e970c951641832551c97244f9b07
