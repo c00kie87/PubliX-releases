@@ -1,20 +1,21 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.61
+version: 0.8.62
 date: 2026-11-22
 host: 21 22
-commit: de66b949781be56daaa1b73f7994a90013e2b1e6
-mac.version: 0.8.61
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.61/publix-0.8.61-mac.zip
-mac.sha512: ed7508358d7ec4c1060bc901bb9401158bec7afdb55166b084302f2fdf3a401785d618df25a04735139c404c567f3027af3cb47bbf004f5e2b29d391de91dd5a
-win.version: 0.8.61
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.61/publix-0.8.61-win.zip
-win.sha512: 977e9aa324a08c3e5241861ef01fb4ca6510bb366f08a0ce093455f41ce4c852753a73b5818b63840227a966a69909ed62d214abce176157f4aca33374e97587
-mac.22.version: 0.8.61
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.61/publix-0.8.61-mac-id22.zip
-mac.22.sha512: 03ff93e78ee6d71de02a100af8c0c233e5c7e39b346c3544a11946f739c652ef6cb97b0ee858c4cbf68891ee01c62220883cf9a27bc43ff008c208ffd452e566
-win.22.version: 0.8.61
-win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.61/publix-0.8.61-win-id22.zip
-win.22.sha512: f0ecff2008fdd2d693462dcfcef30bfb093838c11760711bf1baf4d2aa0ca76e20cccb407641aef697c906f7f6951c9a195532cae5f9d91f287015bcda411dee
+commit: 5377d1e20819228f12bd5f2cd6c7fe0ab6dcb19c
+mac.version: 0.8.62
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.62/publix-0.8.62-mac.zip
+mac.sha512: bf157afc7a8d8d01420ef2b31cbbba03e6ebf596a1f98253196378384d81358a8b0a4e6d765774c13475e961fe33cd937c425ffa85dfe24a67f0e214ea91fd6c
+win.version: 0.8.62
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.62/publix-0.8.62-win.zip
+win.sha512: 2cc7b36a6f2b3f679b6ce9333b4288e287c82dc644b38a2197322cc89fc8da9c35069a21d4c7b935b65d8cbf2b32444510c025e39be073a2cc3fb3197f8d4622
+mac.22.version: 0.8.62
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.62/publix-0.8.62-mac-id22.zip
+mac.22.sha512: 50dfd1441b1f55f0fa258f9591b2f3b466f2d909c6a4fcdfb2fdd5401b6fc4078c059160df1d51fd7817f62540146daea84ac117fdeeccfbc075058807f7d2e4
+win.22.version: 0.8.62
+win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.62/publix-0.8.62-win-id22.zip
+win.22.sha512: 3df8e612250522b344a916bd3337b39fa6096bb93a5420ae15577ba372eaf4986b29526522c89ee540288e8bf1460818614fc20686d4ab6b920dc20bbfa47c8e
 notes:
-- InDesign 2027: Update ersetzt die bisherige PubliX-Zeile (kein Startkonflikt „zwei Zusatzmodule“ mehr).
+- Aufbauten werden nicht mehr nur zwischen ganzen Rahmen geteilt, wenn sie vollständig auf eine leere Seite passen – sie wandern dann ganz auf die nächste Seite (kein Kopf ohne Tabelle, keine unnötige „Fortsetzung“).
+- Bestellnummern und Texte aus aufgelösten Tabellen bleiben in vervielfältigten Bildgruppen neben dem Bild ihrer eigenen Kopie.
