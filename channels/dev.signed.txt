@@ -1,21 +1,23 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.77
+version: 0.8.78
 date: 2026-11-23
 host: 21 22
-commit: 24345cfc4cf6533989fe9a02206c899a931092db
-mac.version: 0.8.77
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.77/publix-0.8.77-mac.zip
-mac.sha512: ad615de6c7d429138d3171764b6f41b37bb0a9f96a25553f51f7a47118746c832eb72bb6cae3562d7133066078daf29c32dc57c31de7d98fef879787ab775b57
+commit: 3841bb797041d50f343aca2fd8af53b6e4512095
+mac.version: 0.8.78
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.78/publix-0.8.78-mac.zip
+mac.sha512: 1d901f87c759fd17de26c9ed60cf6377c71dde2f582b95de7a1f238a735e8aa3c0feb55edf0cb816af8a7e71a85f83da64a4192f7da40feec1186ff8259e957e
 win.version: 0.8.65
 win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win.zip
 win.sha512: 02685a06c1de212c9ce9870561ede63420642297613d650859976f6a8032965e939c1f7a82570f19da55d5cb6b8f705ca1f583fd52318eebbcc1d249831d092b
-mac.22.version: 0.8.77
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.77/publix-0.8.77-mac-id22.zip
-mac.22.sha512: fd5cafb374dd9c3a28960156b684660118dd0ab0eaff4fcbe2e6ac67104e5cf4ada70aa64e25f37a1af98d0623e720c6170479db65595a66562df9c72e93296f
+mac.22.version: 0.8.78
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.78/publix-0.8.78-mac-id22.zip
+mac.22.sha512: dea324a7ceade720a4c3d3773b2958b819ece650fdc7efabfcfb50b7b3dc4899ecbf84b444f2dc75602063957da444759f268f882bd9ccd4098507b267d03696
 win.22.version: 0.8.65
 win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win-id22.zip
 win.22.sha512: 70f58634f5f8ffed59fb4ca02c1d8b4d9d50e031fa7e37b2c2d4e0d5818a54d165f9d6b595c8dd4ea49f24d28d02ccb36d73d760045308d20e999ab754d7e5da
 notes:
-- „Konfiguration wählen“: Tabelle optional (Standard automatisch); Hinweise zu Tabellen halten das Platzieren nie an.
-signature: 74e9efa3e37784f478265d25c519a3346539233362d37c76e085950e34ead3606092157a3f9fd0b3300594d08299e3e6180ad9ef5bb18bdf1df7ec4195a26608
+- Zusatzfelder: der Trenner wird gespeichert und bei Vorlagen zwischen kombinierten Feldern eingesetzt (leere Felder entfallen); Liste mit leerem Trenner = Absatz.
+- Neuer Knopf „Trennzeichen …“: alle InDesign-Trennzeichen zur Mehrfachauswahl; „Zeichen …“ an Präfix/Suffix.
+- Statuszeichen erscheinen auch bei Werten im Übersatz; Rahmen mit Übersatz zeigen ein gelbes Zeichen.
+signature: ba56dc01853eeb834ef38e5723391ed292b62a871a4afa1b2cd759fd7762d6b02185901a13bb57eb2153df05f185a2ac8d1bdbe652ac49f1ddc42f931ada6708
