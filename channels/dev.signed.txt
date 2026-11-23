@@ -1,22 +1,21 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.80
+version: 0.8.81
 date: 2026-11-23
 host: 21 22
-commit: 709661a0c2967d4566a45bca85e933e04e886356
-mac.version: 0.8.80
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.80/publix-0.8.80-mac.zip
-mac.sha512: 8ea21a744f841bb59678be4e42d7c5ac3fecda17ec425d8ccba240300359f1d892ff8f048956406242c84bdff0e3f428d9d476342b6b39aea543d1fc80fe0db0
+commit: 9d65cf4b9fb7861a40173f7d1b5aa923dd9c538a
+mac.version: 0.8.81
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.81/publix-0.8.81-mac.zip
+mac.sha512: 62ab41bb8e83e2dbea7637af0750c9dd15b06dbf7ac85deb766d93d26c804489d7a0e881f130e715b47cb3f9712cbd7450d16b56a64bb2033a387f3ee80ef3c5
 win.version: 0.8.65
 win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win.zip
 win.sha512: 02685a06c1de212c9ce9870561ede63420642297613d650859976f6a8032965e939c1f7a82570f19da55d5cb6b8f705ca1f583fd52318eebbcc1d249831d092b
-mac.22.version: 0.8.80
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.80/publix-0.8.80-mac-id22.zip
-mac.22.sha512: 330c273a680ed6e5c264858354e69dafb858a6ef52651127f70175dd4631f5f74a557fbcfd9eef42242def4c737dd5cb511d9215adfc94be2a5fbc2a905f11e6
+mac.22.version: 0.8.81
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.81/publix-0.8.81-mac-id22.zip
+mac.22.sha512: 8571aa4ec5aea8624516bedb83865466261b8baaf4f4a5b534bb4a7fd3e8ebf05ff07cab17959007f9625623707d6560054a7629ba2a31754994ccba31bd2331
 win.22.version: 0.8.65
 win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win-id22.zip
 win.22.sha512: 70f58634f5f8ffed59fb4ca02c1d8b4d9d50e031fa7e37b2c2d4e0d5818a54d165f9d6b595c8dd4ea49f24d28d02ccb36d73d760045308d20e999ab754d7e5da
 notes:
-- Datentabelle zeigt Werte wie im Ergebnis: Tabulator, Umbrüche und geschützte Leerzeichen als verborgene Zeichen (» ¬ ¶ °); ^-Codes auch in Präfix/Suffix.
-- Statuszeichen in Textrahmen nur am betroffenen Wert, grüne Haken bleiben an den übrigen Platzhaltern.
-signature: 937d91160063e139f0b7d333bd168313b86083e7e82c7d566b24439c0cb8e83fa588eee278e92d5520b031ed25f7eaaf86b554ce629fe5d10ecbf0461d951e02
+- Zusatzfeld: Präfix/Suffix einmal um das Ergebnis, je Wert oder nur bei Wechsel (z. B. „Vorteil:“ vor jedem Vorteil).
+signature: 944268716b8210aceee347a57a7dd1ae3a1cff0fd8f7a7afdc27df1d974c08de06b739c1f326d3bf8b742ad99d918e4d9a736747ca0b613a25cb39da17ddc00f
