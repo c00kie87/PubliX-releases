@@ -1,21 +1,22 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.81
+version: 0.8.82
 date: 2026-11-23
 host: 21 22
-commit: 9d65cf4b9fb7861a40173f7d1b5aa923dd9c538a
-mac.version: 0.8.81
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.81/publix-0.8.81-mac.zip
-mac.sha512: 62ab41bb8e83e2dbea7637af0750c9dd15b06dbf7ac85deb766d93d26c804489d7a0e881f130e715b47cb3f9712cbd7450d16b56a64bb2033a387f3ee80ef3c5
+commit: fc67b0dd6d6842563dd9e3da7f9453c01ea07b70
+mac.version: 0.8.82
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.82/publix-0.8.82-mac.zip
+mac.sha512: 7479445e784c21a06ee8d077ec9a714fc2cdb18175880d118a683aa7320a13b567027a1720202076d40d70e9faeae904c724592b42367ecfda33cbc8bddbe550
 win.version: 0.8.65
 win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win.zip
 win.sha512: 02685a06c1de212c9ce9870561ede63420642297613d650859976f6a8032965e939c1f7a82570f19da55d5cb6b8f705ca1f583fd52318eebbcc1d249831d092b
-mac.22.version: 0.8.81
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.81/publix-0.8.81-mac-id22.zip
-mac.22.sha512: 8571aa4ec5aea8624516bedb83865466261b8baaf4f4a5b534bb4a7fd3e8ebf05ff07cab17959007f9625623707d6560054a7629ba2a31754994ccba31bd2331
+mac.22.version: 0.8.82
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.82/publix-0.8.82-mac-id22.zip
+mac.22.sha512: 5aa8385f14ff9e004d4d0932be3e6a9de668570ee1aa606753ce67d649833558b3960cc672d5db6ce39b7b3bc1e311b60a73175cb26980c51f4d1494bf891711
 win.22.version: 0.8.65
 win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win-id22.zip
 win.22.sha512: 70f58634f5f8ffed59fb4ca02c1d8b4d9d50e031fa7e37b2c2d4e0d5818a54d165f9d6b595c8dd4ea49f24d28d02ccb36d73d760045308d20e999ab754d7e5da
 notes:
-- Zusatzfeld: Präfix/Suffix einmal um das Ergebnis, je Wert oder nur bei Wechsel (z. B. „Vorteil:“ vor jedem Vorteil).
-signature: 944268716b8210aceee347a57a7dd1ae3a1cff0fd8f7a7afdc27df1d974c08de06b739c1f326d3bf8b742ad99d918e4d9a736747ca0b613a25cb39da17ddc00f
+- Suchen und Ersetzen zeigt bedingte Umbrüche, Tabulatoren, Leerzeichen und weitere InDesign-Sonderzeichen als lesbare Codes. Beide Eingabefelder bieten ein Zeichenmenü.
+- Globale Textregeln berücksichtigen statische Texte in der Ausgabe. Abgleich zeigt betroffene Texte und Tabellenzellen und kann die Ersetzung anwenden.
+signature: 1c695ca670a87ae34799550038ca11ec60b35b72a033686e45cf5e30a7b3451849fc5b2fc071f045bc7a8149b3513a5c6ad5e4f5425d43bff200bfb57456c40d
