@@ -1,21 +1,22 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.73
+version: 0.8.74
 date: 2026-11-23
 host: 21 22
-commit: e3f7371eea395c74a7fac17c56dff7314db4248b
-mac.version: 0.8.73
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.73/publix-0.8.73-mac.zip
-mac.sha512: 18c420a20fa2fbd02cef1f51f01683f4a74ab1d59c8fa5fb6261f1ce4cdea1fe2982a3ae0b91802d643b9bcdc69bbb17a66a3f6112b5e96748230fd39bd389f8
+commit: 2a32291d2c1c07e7dd46e705f79f3f8aa9532aef
+mac.version: 0.8.74
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.74/publix-0.8.74-mac.zip
+mac.sha512: 8a6d5296b6c71a19b9d805ae417d5f2c3b7224e554c8492390732a6fabd80a86a5761bdf1f2d55933ed9a886d0326d544c23003e730a238a29e0e9ce8cbefcc5
 win.version: 0.8.65
 win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win.zip
 win.sha512: 02685a06c1de212c9ce9870561ede63420642297613d650859976f6a8032965e939c1f7a82570f19da55d5cb6b8f705ca1f583fd52318eebbcc1d249831d092b
-mac.22.version: 0.8.73
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.73/publix-0.8.73-mac-id22.zip
-mac.22.sha512: f7c9c094e881b65719ca353e0defcd9e12d3dc31a075efe2d73a6ac546fd4c5416de59a3133a10ee2ed3523420e1973522ae741149c9a14831c7e2d6082bf861
+mac.22.version: 0.8.74
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.74/publix-0.8.74-mac-id22.zip
+mac.22.sha512: 7c1e6b37b36b903fd798ee63330c8ca26ce84f6bae6636a7088d223e2e6f225212bd623b29e7ef55afa6e82d490909e146e22f7b9a65419476b14ba0c284e780
 win.22.version: 0.8.65
 win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win-id22.zip
 win.22.sha512: 70f58634f5f8ffed59fb4ca02c1d8b4d9d50e031fa7e37b2c2d4e0d5818a54d165f9d6b595c8dd4ea49f24d28d02ccb36d73d760045308d20e999ab754d7e5da
 notes:
-- Templates bleiben nutzbar, wenn ihre Ebenen im Dokument gelöscht wurden (Elemente auf die aktive Ebene, keine gelöschte Ebene neu angelegt); vorhandene Ebenen werden je Element wiederhergestellt.
-signature: 3d01eb2688d163a0210ca2744e0042e4ef2bc975b43fe492c626182174d7a44465241383b8093088aba53c21ef1ad1d637fb829ce265138e67b9fd0e5e836d03
+- Neuer Datentyp „Währung“ (z. B. 1.234,50 €; anderes Zeichen über Einheit oder Format).
+- Feldoptionen: vordefinierte Formate passend zum Datentyp neben dem Formatfeld – Auswahl trägt das Muster ein, es bleibt editierbar.
+signature: 998f07ff3cf31ab5276f1f9993bf78c6c7e01b59b91f7bfa766689755892b518c0b01cccb35d1a065e59aaca32e38e78f00b9e2b49f9b2605d0381cd0a2e130c
