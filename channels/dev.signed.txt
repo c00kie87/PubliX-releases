@@ -1,24 +1,21 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.85
+version: 0.8.86
 date: 2026-11-23
 host: 21 22
-commit: 76797f1f83f10436d23236bcb3c0eff492e5134e
-mac.version: 0.8.85
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.85/publix-0.8.85-mac.zip
-mac.sha512: 88d4760da6305dd3735b9547d1069793269349d34794dc63b334dbbe2bea44ea5c994f35bb864c1b2c34864cea3167ae5a61ed9ab8a4279cddecb993e55acca3
+commit: 04c07677aa38efa79bb1a09d6a7be34827f43850
+mac.version: 0.8.86
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.86/publix-0.8.86-mac.zip
+mac.sha512: 62bea7925bdda05a12f71d28ccaaa3a9a1f78ddc487084bdcd8c966f50594393ac0c02cda0f75d4e69b3394c7a03a2364c00d057ff5b45f0061e1444afb5679a
 win.version: 0.8.65
 win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win.zip
 win.sha512: 02685a06c1de212c9ce9870561ede63420642297613d650859976f6a8032965e939c1f7a82570f19da55d5cb6b8f705ca1f583fd52318eebbcc1d249831d092b
-mac.22.version: 0.8.85
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.85/publix-0.8.85-mac-id22.zip
-mac.22.sha512: c99df3923f5602cc861658d44c01cd51034230dc9d5cc0907e7df302d27e4621761919fe1d705af7bb9fe7564e303c66806dd22f5db9d53e8a93dcfd32ecd693
+mac.22.version: 0.8.86
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.86/publix-0.8.86-mac-id22.zip
+mac.22.sha512: 0f460d8a5c598d1218bcf7c668a24f8860b050ad684e58d074a3ba511d15c96e5528a60521a2fb5f4e81c32c2a7fdf723b86af0b6aebe3829f6178cd012ed69d
 win.22.version: 0.8.65
 win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win-id22.zip
 win.22.sha512: 70f58634f5f8ffed59fb4ca02c1d8b4d9d50e031fa7e37b2c2d4e0d5818a54d165f9d6b595c8dd4ea49f24d28d02ccb36d73d760045308d20e999ab754d7e5da
 notes:
-- Tabellen prüfen Worttrennungen im tatsächlichen InDesign-Satz. Kurze Köpfe, Prüfumfang und zulässige Mehrhöhe sind einstellbar. Über das PubliX-Kontextmenü für die Auswahl oder das ganze Dokument neu berechnen und in einem Schritt rückgängig machen.
-- Automatisieren › Seitenbeschriftungen › Neu laden ersetzt vorhandene, auch abgelöste PubliX-Beschriftungen durch Kopien von der Musterseite.
-- Die Übersetzungsliste hat eine eigene Dialogressource. Feldtypen werden als „Text“, „Ganzzahl“, „Dezimalzahl“ und „Währung“ angezeigt. „ja/nein“ bleibt kleingeschrieben.
-- Abgleich markiert fehlenden statischen Text, zum Beispiel einen geleerten Tabellenkopf, mit einem roten X und zeigt den erwarteten Text.
-signature: 5649919e952d8b5ac6f7848ec49c7d189b43bf8154e8d6c3b21742b4b5c4221f86b85d4af73a7fc4b5086906c42b27825443f00d4a03ee99d9c49f61d5ee6509
+- Beim Live-Verfolgen des Aufbaus zeigt PubliX die gerade bearbeitete Seite zentriert im Einzelseitenzoom. Die Ansicht aktualisiert sich beim Aufbau und folgt den Seitenwechseln.
+signature: 0cf26705a457e176ec7d589e8200282ddad4ca0c01e41876ae9eac5550481232f6345d03ded15a5ca02cd16c37e7a45ec3622de34e224db3681e425834ff5701
