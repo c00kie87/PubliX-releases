@@ -1,23 +1,21 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.78
+version: 0.8.79
 date: 2026-11-23
 host: 21 22
-commit: 3841bb797041d50f343aca2fd8af53b6e4512095
-mac.version: 0.8.78
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.78/publix-0.8.78-mac.zip
-mac.sha512: 1d901f87c759fd17de26c9ed60cf6377c71dde2f582b95de7a1f238a735e8aa3c0feb55edf0cb816af8a7e71a85f83da64a4192f7da40feec1186ff8259e957e
+commit: e0c8855c50a0316925cac6551eb2c1766c17c9b8
+mac.version: 0.8.79
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.79/publix-0.8.79-mac.zip
+mac.sha512: 0111b1df0370d89a193a0db83f865e65f01785e0387aa37701c600f22ec2014b981842cfa5d4b535ed67f61e377fab725d546ae6b761ad9c445a01ca8010478c
 win.version: 0.8.65
 win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win.zip
 win.sha512: 02685a06c1de212c9ce9870561ede63420642297613d650859976f6a8032965e939c1f7a82570f19da55d5cb6b8f705ca1f583fd52318eebbcc1d249831d092b
-mac.22.version: 0.8.78
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.78/publix-0.8.78-mac-id22.zip
-mac.22.sha512: dea324a7ceade720a4c3d3773b2958b819ece650fdc7efabfcfb50b7b3dc4899ecbf84b444f2dc75602063957da444759f268f882bd9ccd4098507b267d03696
+mac.22.version: 0.8.79
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.79/publix-0.8.79-mac-id22.zip
+mac.22.sha512: fdca0997b29309b94b404ba7aa5a2b7cd997f975936a92a1a6788620a186b0f592cbbdd41c19a9c1921d7c79422374aa3a0eae55628c8d659574c23f68044c4c
 win.22.version: 0.8.65
 win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win-id22.zip
 win.22.sha512: 70f58634f5f8ffed59fb4ca02c1d8b4d9d50e031fa7e37b2c2d4e0d5818a54d165f9d6b595c8dd4ea49f24d28d02ccb36d73d760045308d20e999ab754d7e5da
 notes:
-- Zusatzfelder: der Trenner wird gespeichert und bei Vorlagen zwischen kombinierten Feldern eingesetzt (leere Felder entfallen); Liste mit leerem Trenner = Absatz.
-- Neuer Knopf „Trennzeichen …“: alle InDesign-Trennzeichen zur Mehrfachauswahl; „Zeichen …“ an Präfix/Suffix.
-- Statuszeichen erscheinen auch bei Werten im Übersatz; Rahmen mit Übersatz zeigen ein gelbes Zeichen.
-signature: ba56dc01853eeb834ef38e5723391ed292b62a871a4afa1b2cd759fd7762d6b02185901a13bb57eb2153df05f185a2ac8d1bdbe652ac49f1ddc42f931ada6708
+- Zusatzfeld: Trennzeichen-Auswahl als Liste direkt im Dialog (behebt graue Menüs nach der Auswahl in 0.8.78); hängende Ziehvorgänge werden zuverlässiger beendet.
+signature: c4d374a428d18eec6adf644941d1deac29c638b68133f135f53d24c4deea731c41bf2397d0c605c1bee9b9c2136bbc35d1fb4bac5a473405e2da4fc4ae218201
