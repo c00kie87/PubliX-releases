@@ -1,22 +1,23 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.82
+version: 0.8.83
 date: 2026-11-23
 host: 21 22
-commit: fc67b0dd6d6842563dd9e3da7f9453c01ea07b70
-mac.version: 0.8.82
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.82/publix-0.8.82-mac.zip
-mac.sha512: 7479445e784c21a06ee8d077ec9a714fc2cdb18175880d118a683aa7320a13b567027a1720202076d40d70e9faeae904c724592b42367ecfda33cbc8bddbe550
+commit: 60fb3db15f4dbb294f2dadee354233fc6bcc8dcb
+mac.version: 0.8.83
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.83/publix-0.8.83-mac.zip
+mac.sha512: 85840b376945880d041d0408772dd7c94a8e8ff3bc576355ed359a80416ce1bacf37efd5d18230794924e1cf569a74a092583e6c5e462d37cbe8f4949a43d6ca
 win.version: 0.8.65
 win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win.zip
 win.sha512: 02685a06c1de212c9ce9870561ede63420642297613d650859976f6a8032965e939c1f7a82570f19da55d5cb6b8f705ca1f583fd52318eebbcc1d249831d092b
-mac.22.version: 0.8.82
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.82/publix-0.8.82-mac-id22.zip
-mac.22.sha512: 5aa8385f14ff9e004d4d0932be3e6a9de668570ee1aa606753ce67d649833558b3960cc672d5db6ce39b7b3bc1e311b60a73175cb26980c51f4d1494bf891711
+mac.22.version: 0.8.83
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.83/publix-0.8.83-mac-id22.zip
+mac.22.sha512: a2b7af10f5318a45934b4ae3d649a6bd982503afb4e57538c1cc3e227eacba6a0d3aec685935c6da4b5ebf67179cd2665a6a1ea8df022e03fdbf71ab2ae72680
 win.22.version: 0.8.65
 win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win-id22.zip
 win.22.sha512: 70f58634f5f8ffed59fb4ca02c1d8b4d9d50e031fa7e37b2c2d4e0d5818a54d165f9d6b595c8dd4ea49f24d28d02ccb36d73d760045308d20e999ab754d7e5da
 notes:
-- Suchen und Ersetzen zeigt bedingte Umbrüche, Tabulatoren, Leerzeichen und weitere InDesign-Sonderzeichen als lesbare Codes. Beide Eingabefelder bieten ein Zeichenmenü.
-- Globale Textregeln berücksichtigen statische Texte in der Ausgabe. Abgleich zeigt betroffene Texte und Tabellenzellen und kann die Ersetzung anwenden.
-signature: 1c695ca670a87ae34799550038ca11ec60b35b72a033686e45cf5e30a7b3451849fc5b2fc071f045bc7a8149b3513a5c6ad5e4f5425d43bff200bfb57456c40d
+- Abgleich erkennt geänderte statische Texte dokumentweit, auch in Templates, Seitenbeschriftungen und Tabellen.
+- Eine eigene Übersetzungsliste verwaltet vollständige statische Texte je Ausgabesprache. Abgleich kann vorhandene Texte an die gewählte Sprache anpassen.
+- Datenfeldoptionen unterstützen feste Übersetzungen oder verknüpfte Übersetzungen über eine zweite Datenquelle mit Vater- und Sohnfeld.
+signature: 0a66c64e00e7a52aeb05d40cd86d5004e67d885eeb3ad5ddebdc66b2a11430cd985161efbbefdf75f939b9c305ad33fe2f38d1efc5ede56c49e1b93ba460f40f
