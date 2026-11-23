@@ -1,21 +1,23 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.84
+version: 0.8.85
 date: 2026-11-23
 host: 21 22
-commit: 21c1433318a73f29104c098946cf00760b971c0c
-mac.version: 0.8.84
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.84/publix-0.8.84-mac.zip
-mac.sha512: 7413e9cad1a0fd65c5b0742936251414da6ce6a12616a0798dbd72ab48880da5bfc9da29f55dfacf72e4d167459c3d5c77185c8cb7bcace84e7f055fa87dc345
+commit: 76797f1f83f10436d23236bcb3c0eff492e5134e
+mac.version: 0.8.85
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.85/publix-0.8.85-mac.zip
+mac.sha512: 88d4760da6305dd3735b9547d1069793269349d34794dc63b334dbbe2bea44ea5c994f35bb864c1b2c34864cea3167ae5a61ed9ab8a4279cddecb993e55acca3
 win.version: 0.8.65
 win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win.zip
 win.sha512: 02685a06c1de212c9ce9870561ede63420642297613d650859976f6a8032965e939c1f7a82570f19da55d5cb6b8f705ca1f583fd52318eebbcc1d249831d092b
-mac.22.version: 0.8.84
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.84/publix-0.8.84-mac-id22.zip
-mac.22.sha512: 0271c9c0754380aaa88301b60a916088a9480bffc3ec7957950051666fc69f896f014bf0aa0eb5e558b25ba16b822edc1499834dd7e11ed211c33d7254cf8aca
+mac.22.version: 0.8.85
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.85/publix-0.8.85-mac-id22.zip
+mac.22.sha512: c99df3923f5602cc861658d44c01cd51034230dc9d5cc0907e7df302d27e4621761919fe1d705af7bb9fe7564e303c66806dd22f5db9d53e8a93dcfd32ecd693
 win.22.version: 0.8.65
 win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win-id22.zip
 win.22.sha512: 70f58634f5f8ffed59fb4ca02c1d8b4d9d50e031fa7e37b2c2d4e0d5818a54d165f9d6b595c8dd4ea49f24d28d02ccb36d73d760045308d20e999ab754d7e5da
 notes:
-- Tabellen werden mit dem fertigen Inhalt gemessen. PubliX setzt Ersetzungen und Übersetzungen vor der Berechnung der Spaltenbreiten ein.
-- Die Hilfetexte der Tabellenautomatik erklären die Einstellungen an konkreten Beispielen, darunter Gewichtung, Breitenverteilung, Leerprüfung und Wiederholung.
+- Tabellen prüfen Worttrennungen im tatsächlichen InDesign-Satz. Kurze Köpfe, Prüfumfang und zulässige Mehrhöhe sind einstellbar. Über das PubliX-Kontextmenü für die Auswahl oder das ganze Dokument neu berechnen und in einem Schritt rückgängig machen.
+- Automatisieren › Seitenbeschriftungen › Neu laden ersetzt vorhandene, auch abgelöste PubliX-Beschriftungen durch Kopien von der Musterseite.
+- Die Übersetzungsliste hat eine eigene Dialogressource. Feldtypen werden als „Text“, „Ganzzahl“, „Dezimalzahl“ und „Währung“ angezeigt. „ja/nein“ bleibt kleingeschrieben.
+- Abgleich markiert fehlenden statischen Text, zum Beispiel einen geleerten Tabellenkopf, mit einem roten X und zeigt den erwarteten Text.
