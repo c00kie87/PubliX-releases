@@ -1,20 +1,21 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.75
+version: 0.8.76
 date: 2026-11-23
 host: 21 22
-commit: cedbe98f8faf82adff91fc062416aac6f78e5705
-mac.version: 0.8.75
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.75/publix-0.8.75-mac.zip
-mac.sha512: e28c0448e2f9e23257d864d5c8f54e28281b23a5b0cee31dd297eba39ae9ffedda401d2dd28c86cac309f7075a729809df32bf00b29e560325586456fbc1501b
+commit: c6e258ea7d9b5bec43588a07b545b7f43c73d16e
+mac.version: 0.8.76
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.76/publix-0.8.76-mac.zip
+mac.sha512: b5ff485c3c03389bdd6bf84180838c9409dcb18097710190b6170957cb2f4c8696bf89e76c1bcab06c8dba2d3245bb32a487273f48fb03552188adfa9dba1a61
 win.version: 0.8.65
 win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win.zip
 win.sha512: 02685a06c1de212c9ce9870561ede63420642297613d650859976f6a8032965e939c1f7a82570f19da55d5cb6b8f705ca1f583fd52318eebbcc1d249831d092b
-mac.22.version: 0.8.75
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.75/publix-0.8.75-mac-id22.zip
-mac.22.sha512: 1f7d79e6258a5e33455c3cb059ec95a862e2d66972a08001d473393623ddcb7fb49931e084659e6dac999d02b1991fe0216f24e307a29a9936ab55c938df1ce7
+mac.22.version: 0.8.76
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.76/publix-0.8.76-mac-id22.zip
+mac.22.sha512: d18d4e3c93e2c89c9d3332d9143db5fa09e1098df33d1d2b436d59b9f79a31bca0e15817e5084633314869aae7f96f82a9920bea64e3b9097dc6c4f214c551a0
 win.22.version: 0.8.65
 win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win-id22.zip
 win.22.sha512: 70f58634f5f8ffed59fb4ca02c1d8b4d9d50e031fa7e37b2c2d4e0d5818a54d165f9d6b595c8dd4ea49f24d28d02ccb36d73d760045308d20e999ab754d7e5da
 notes:
-- Gruppierung und Sortierung: eigene Bezeichnung je Ebene (z. B. „Produkt“ statt „Name“).
+- Publizieren mit XML-Quellen: die Prüfung vor der Ausgabe meldet keine erfundenen „fehlenden Tabellen“ mehr (Feldpfade mit Punkten).
+- „Konfiguration wählen“ statt „Quelle konfigurieren“: keine Tabellenwahl mehr – die Konfiguration bestimmt ihre Daten selbst, sonst die Haupttabelle der Quelle.
