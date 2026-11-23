@@ -1,21 +1,22 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.79
+version: 0.8.80
 date: 2026-11-23
 host: 21 22
-commit: e0c8855c50a0316925cac6551eb2c1766c17c9b8
-mac.version: 0.8.79
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.79/publix-0.8.79-mac.zip
-mac.sha512: 0111b1df0370d89a193a0db83f865e65f01785e0387aa37701c600f22ec2014b981842cfa5d4b535ed67f61e377fab725d546ae6b761ad9c445a01ca8010478c
+commit: 709661a0c2967d4566a45bca85e933e04e886356
+mac.version: 0.8.80
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.80/publix-0.8.80-mac.zip
+mac.sha512: 8ea21a744f841bb59678be4e42d7c5ac3fecda17ec425d8ccba240300359f1d892ff8f048956406242c84bdff0e3f428d9d476342b6b39aea543d1fc80fe0db0
 win.version: 0.8.65
 win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win.zip
 win.sha512: 02685a06c1de212c9ce9870561ede63420642297613d650859976f6a8032965e939c1f7a82570f19da55d5cb6b8f705ca1f583fd52318eebbcc1d249831d092b
-mac.22.version: 0.8.79
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.79/publix-0.8.79-mac-id22.zip
-mac.22.sha512: fdca0997b29309b94b404ba7aa5a2b7cd997f975936a92a1a6788620a186b0f592cbbdd41c19a9c1921d7c79422374aa3a0eae55628c8d659574c23f68044c4c
+mac.22.version: 0.8.80
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.80/publix-0.8.80-mac-id22.zip
+mac.22.sha512: 330c273a680ed6e5c264858354e69dafb858a6ef52651127f70175dd4631f5f74a557fbcfd9eef42242def4c737dd5cb511d9215adfc94be2a5fbc2a905f11e6
 win.22.version: 0.8.65
 win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win-id22.zip
 win.22.sha512: 70f58634f5f8ffed59fb4ca02c1d8b4d9d50e031fa7e37b2c2d4e0d5818a54d165f9d6b595c8dd4ea49f24d28d02ccb36d73d760045308d20e999ab754d7e5da
 notes:
-- Zusatzfeld: Trennzeichen-Auswahl als Liste direkt im Dialog (behebt graue Menüs nach der Auswahl in 0.8.78); hängende Ziehvorgänge werden zuverlässiger beendet.
-signature: c4d374a428d18eec6adf644941d1deac29c638b68133f135f53d24c4deea731c41bf2397d0c605c1bee9b9c2136bbc35d1fb4bac5a473405e2da4fc4ae218201
+- Datentabelle zeigt Werte wie im Ergebnis: Tabulator, Umbrüche und geschützte Leerzeichen als verborgene Zeichen (» ¬ ¶ °); ^-Codes auch in Präfix/Suffix.
+- Statuszeichen in Textrahmen nur am betroffenen Wert, grüne Haken bleiben an den übrigen Platzhaltern.
+signature: 937d91160063e139f0b7d333bd168313b86083e7e82c7d566b24439c0cb8e83fa588eee278e92d5520b031ed25f7eaaf86b554ce629fe5d10ecbf0461d951e02
