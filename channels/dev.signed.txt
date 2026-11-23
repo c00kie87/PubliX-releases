@@ -1,21 +1,23 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.86
+version: 0.8.87
 date: 2026-11-23
 host: 21 22
-commit: 04c07677aa38efa79bb1a09d6a7be34827f43850
-mac.version: 0.8.86
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.86/publix-0.8.86-mac.zip
-mac.sha512: 62bea7925bdda05a12f71d28ccaaa3a9a1f78ddc487084bdcd8c966f50594393ac0c02cda0f75d4e69b3394c7a03a2364c00d057ff5b45f0061e1444afb5679a
+commit: aca8301111026e2ecfedaf4b4652bc3bb046db09
+mac.version: 0.8.87
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.87/publix-0.8.87-mac.zip
+mac.sha512: b9c5db9b36156ed7abb4865cfa8a0dc5db53cdbed1cfa21c6d5e7aed9e0c9569ae2996cfc98ab4d9601a504f2e52c85a8f27d703ab3359fe0adb621d1c5ff130
 win.version: 0.8.65
 win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win.zip
 win.sha512: 02685a06c1de212c9ce9870561ede63420642297613d650859976f6a8032965e939c1f7a82570f19da55d5cb6b8f705ca1f583fd52318eebbcc1d249831d092b
-mac.22.version: 0.8.86
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.86/publix-0.8.86-mac-id22.zip
-mac.22.sha512: 0f460d8a5c598d1218bcf7c668a24f8860b050ad684e58d074a3ba511d15c96e5528a60521a2fb5f4e81c32c2a7fdf723b86af0b6aebe3829f6178cd012ed69d
+mac.22.version: 0.8.87
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.87/publix-0.8.87-mac-id22.zip
+mac.22.sha512: f7b45cf751849eeb248ccf240403acef2f3738f28d3d335b87b15d7c9530dad85402a92eda7cd18570320d6d0f26aae9516d2be3599f2bb4f6dea3095a2397fa
 win.22.version: 0.8.65
 win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win-id22.zip
 win.22.sha512: 70f58634f5f8ffed59fb4ca02c1d8b4d9d50e031fa7e37b2c2d4e0d5818a54d165f9d6b595c8dd4ea49f24d28d02ccb36d73d760045308d20e999ab754d7e5da
 notes:
-- Beim Live-Verfolgen des Aufbaus zeigt PubliX die gerade bearbeitete Seite zentriert im Einzelseitenzoom. Die Ansicht aktualisiert sich beim Aufbau und folgt den Seitenwechseln.
-signature: 0cf26705a457e176ec7d589e8200282ddad4ca0c01e41876ae9eac5550481232f6345d03ded15a5ca02cd16c37e7a45ec3622de34e224db3681e425834ff5701
+- Nach der Automatisierung erscheint ein kurzer Abschlussbericht mit Dauer sowie der Anzahl der ausgegebenen Seiten und Produkte.
+- Unter Fenster › PubliX › Konfigurieren › Ausgabe lässt sich der Abschlussbericht ein- und ausschalten. Titel und angezeigte Kennzahlen sind editierbar. Die ausführliche Berichtsdatei steht auch bei ausgeschaltetem Fenster zur Verfügung.
+- Im Hauptdialog von PubliX sind die Einträge links ausgerichtet. Ein eingekreistes „i“ hinter dem jeweiligen Eintrag zeigt die zugehörige Hilfe.
+signature: 709f5770217ab2bb6bc62c2afc98d76ec1d54ae434013bad2611acde11f312e462f1c7893f0bca783902a373e4cad74a3f21f0b55467d2e0e24826d37d472d0f
