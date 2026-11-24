@@ -1,22 +1,22 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.87
-date: 2026-11-23
+version: 0.8.88
+date: 2026-11-24
 host: 21 22
-commit: aca8301111026e2ecfedaf4b4652bc3bb046db09
-mac.version: 0.8.87
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.87/publix-0.8.87-mac.zip
-mac.sha512: b9c5db9b36156ed7abb4865cfa8a0dc5db53cdbed1cfa21c6d5e7aed9e0c9569ae2996cfc98ab4d9601a504f2e52c85a8f27d703ab3359fe0adb621d1c5ff130
+commit: 7e2f5558ce2d34118a9f7f19f7ff6019da5b7a0f
+mac.version: 0.8.88
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.88/publix-0.8.88-mac.zip
+mac.sha512: 02e082f23cac3a1e53783ed1ff07e91ffc43919fd33f10dc342fa8d034cc66006748d488aadacb029de8f7c3ab4dc72130871932a47d209a7f3f99b874a52eec
 win.version: 0.8.65
 win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win.zip
 win.sha512: 02685a06c1de212c9ce9870561ede63420642297613d650859976f6a8032965e939c1f7a82570f19da55d5cb6b8f705ca1f583fd52318eebbcc1d249831d092b
-mac.22.version: 0.8.87
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.87/publix-0.8.87-mac-id22.zip
-mac.22.sha512: f7b45cf751849eeb248ccf240403acef2f3738f28d3d335b87b15d7c9530dad85402a92eda7cd18570320d6d0f26aae9516d2be3599f2bb4f6dea3095a2397fa
+mac.22.version: 0.8.88
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.88/publix-0.8.88-mac-id22.zip
+mac.22.sha512: 92e469cb2da68936d067525208f16541bc9f6219b7474ff32149b06d38281ec04d5b8906a320f2391ad733ff252b47b215be0b9efe608e34b8b640f66db939f1
 win.22.version: 0.8.65
 win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.65/publix-0.8.65-win-id22.zip
 win.22.sha512: 70f58634f5f8ffed59fb4ca02c1d8b4d9d50e031fa7e37b2c2d4e0d5818a54d165f9d6b595c8dd4ea49f24d28d02ccb36d73d760045308d20e999ab754d7e5da
 notes:
-- Nach der Automatisierung erscheint ein kurzer Abschlussbericht mit Dauer sowie der Anzahl der ausgegebenen Seiten und Produkte.
-- Unter Fenster › PubliX › Konfigurieren › Ausgabe lässt sich der Abschlussbericht ein- und ausschalten. Titel und angezeigte Kennzahlen sind editierbar. Die ausführliche Berichtsdatei steht auch bei ausgeschaltetem Fenster zur Verfügung.
-- Im Hauptdialog von PubliX sind die Einträge links ausgerichtet. Ein eingekreistes „i“ hinter dem jeweiligen Eintrag zeigt die zugehörige Hilfe.
+- PubliX sichert Konfigurationen und Template-Bibliotheken im Projektordner. Beim Öffnen wird die dort gespeicherte Bibliothek geladen. Mitgegebene Quellen werden relativ zum Projekt aufgelöst.
+- Konfigurationen können separat als PubliX-Konfigurationspaket exportiert und importiert werden. PubliX prüft die Bezüge zur Zielquelle und bietet eine Zuordnung der Bibliothek an.
+- Exportierte Bibliotheken können separat importiert werden. PubliX prüft die Prüfsummen und legt eine eigenständige Kopie an.
