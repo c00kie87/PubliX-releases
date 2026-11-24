@@ -1,22 +1,23 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.89
+version: 0.8.90
 date: 2026-11-24
 host: 21 22
-commit: fb59883b0d949adf2909b1992f288987621730d7
-mac.version: 0.8.89
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.89/publix-0.8.89-mac.zip
-mac.sha512: 964e5d77999791f0a7024633245be966d6ff4fb09b3c5a1d97abd9239abd05e1275d60f57626312165a1c986cb11538d355d23681d40e37fd01b106f144e4fcb
-win.version: 0.8.89
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.89/publix-0.8.89-win.zip
-win.sha512: 2b8b2208b827c9cf7231cf74181dd453e17d87480a268ea13c1e7dfc76ea2e0604f069a3d4a93495816f44cb56ca45618c58b58ed0c19d026abbd2e0aabe8435
-mac.22.version: 0.8.89
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.89/publix-0.8.89-mac-id22.zip
-mac.22.sha512: 8e876339f8b22c6be4fd66112cf31c30628970cfad93394052f000161e520976966256f88421f03e46fc10623366800c81dbe4734ee61f287cbec55ef74778b7
-win.22.version: 0.8.89
-win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.89/publix-0.8.89-win-id22.zip
-win.22.sha512: 131d4e1dcc04cedd23cce411e5a5fce96c22b2583ed566a9e20403283e534997fe425b9263c49521d6ddb59a01b36b319bd1bcbf961c47bb2f9a1bb7ec25bb0c
+commit: 8c40eff8a4f40e1f20e1f69a30ed254cfcc0582d
+mac.version: 0.8.90
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.90/publix-0.8.90-mac.zip
+mac.sha512: 04b61773bc7ed46c7798bc592789f024d50bd515e846643c023f63bf4ae1ba4db1765033c974b8371710d15bb1c5a25e0bbaf5f64960fecaa183adb4b181c3a5
+win.version: 0.8.90
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.90/publix-0.8.90-win.zip
+win.sha512: 03f28112259ee8503e0d1bc86c1d59259364d91f1cbca19b93b4e05908f00f6247673dfda05270fd4610c3fd74b479e2b305d31f7dca9bea21a77531b07f5f55
+mac.22.version: 0.8.90
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.90/publix-0.8.90-mac-id22.zip
+mac.22.sha512: fe975968eadc3e7325967caf5844c89858dcd56443e0097b2c426dd702cf724e525087d977ed19a03d1b97fa5c7a01b59c27062093198318e0d1f4556d7287da
+win.22.version: 0.8.90
+win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.90/publix-0.8.90-win-id22.zip
+win.22.sha512: 15a9c6db02ca5f9244a6d86856e9b9526acf32129da7d3361e8adcd6d8c008f050e3d6ce1b468ce4a650232e4ce3ed2331523589645b29a0ee434a38f1ce749d
 notes:
-- Das Datenquellenmenü beginnt mit „Projekte und Ablage“. „Konfiguration anlegen und verwalten“ und „Dokument und Quelle abgleichen“ benennen die jeweiligen Aufgaben direkt. Trennlinien gliedern die Befehle.
-- Das Templates-Menü gruppiert Template-Befehle, Produktversionen, Bibliotheksverwaltung und Bibliotheksaustausch.
-- Im Dialog „Automatisieren“ lässt sich „Dokument aufteilen“ ein- und ausklappen. PubliX merkt sich die Einstellung für den Abschnitt.
+- PubliX prüft nach einem Tabellenschnitt, ob Datenzeilen oder Text gesetzt wurden. Bleibt der erste Teil ohne Inhalt, wird der Schnitt zurückgenommen. Auf einer freien Seite meldet PubliX den betroffenen Rahmen und hält die Ausgabe an.
+- Die Zellprüfung im Rahmenfluss beschränkt sich auf den neuen Umbruch. Zwischen längeren Schnittproben kann PubliX „Abbrechen“ auswerten.
+- Die Ausgabe startet nach dem Schließen des Automatisieren-Dialogs. Beim Einblenden der fertigen Ausgabe entfällt der zusätzliche diagnostische Textsatz.
+- Die Datenquelle zeigt pro Gruppe die direkten Untergruppen und die Datensätze, zum Beispiel „(23 | 801)“.
