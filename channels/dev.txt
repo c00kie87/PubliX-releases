@@ -1,22 +1,22 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.88
+version: 0.8.89
 date: 2026-11-24
 host: 21 22
-commit: 7e2f5558ce2d34118a9f7f19f7ff6019da5b7a0f
-mac.version: 0.8.88
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.88/publix-0.8.88-mac.zip
-mac.sha512: 02e082f23cac3a1e53783ed1ff07e91ffc43919fd33f10dc342fa8d034cc66006748d488aadacb029de8f7c3ab4dc72130871932a47d209a7f3f99b874a52eec
-win.version: 0.8.88
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.88/publix-0.8.88-win.zip
-win.sha512: 77422c27a68cde0073872336a860ba413888d6cb136e446f7a828e0fb49c79841fe317c08ccb7cb6d03197d43f90a6822442fba1b74652c8cecfcf70cdd30c3c
-mac.22.version: 0.8.88
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.88/publix-0.8.88-mac-id22.zip
-mac.22.sha512: 92e469cb2da68936d067525208f16541bc9f6219b7474ff32149b06d38281ec04d5b8906a320f2391ad733ff252b47b215be0b9efe608e34b8b640f66db939f1
-win.22.version: 0.8.88
-win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.88/publix-0.8.88-win-id22.zip
-win.22.sha512: 3d59ef20910d9c436d8ef98e936a5da072ceade6b76c61e600cf533048a73241ef34044d5baa77409b09f0c2ac0cbfe7c7eadbe8c80c065ca5911e33523be139
+commit: fb59883b0d949adf2909b1992f288987621730d7
+mac.version: 0.8.89
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.89/publix-0.8.89-mac.zip
+mac.sha512: 964e5d77999791f0a7024633245be966d6ff4fb09b3c5a1d97abd9239abd05e1275d60f57626312165a1c986cb11538d355d23681d40e37fd01b106f144e4fcb
+win.version: 0.8.89
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.89/publix-0.8.89-win.zip
+win.sha512: 2b8b2208b827c9cf7231cf74181dd453e17d87480a268ea13c1e7dfc76ea2e0604f069a3d4a93495816f44cb56ca45618c58b58ed0c19d026abbd2e0aabe8435
+mac.22.version: 0.8.89
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.89/publix-0.8.89-mac-id22.zip
+mac.22.sha512: 8e876339f8b22c6be4fd66112cf31c30628970cfad93394052f000161e520976966256f88421f03e46fc10623366800c81dbe4734ee61f287cbec55ef74778b7
+win.22.version: 0.8.89
+win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.89/publix-0.8.89-win-id22.zip
+win.22.sha512: 131d4e1dcc04cedd23cce411e5a5fce96c22b2583ed566a9e20403283e534997fe425b9263c49521d6ddb59a01b36b319bd1bcbf961c47bb2f9a1bb7ec25bb0c
 notes:
-- PubliX sichert Konfigurationen und Template-Bibliotheken im Projektordner. Beim Öffnen wird die dort gespeicherte Bibliothek geladen. Mitgegebene Quellen werden relativ zum Projekt aufgelöst.
-- Konfigurationen können separat als PubliX-Konfigurationspaket exportiert und importiert werden. PubliX prüft die Bezüge zur Zielquelle und bietet eine Zuordnung der Bibliothek an.
-- Exportierte Bibliotheken können separat importiert werden. PubliX prüft die Prüfsummen und legt eine eigenständige Kopie an.
+- Das Datenquellenmenü beginnt mit „Projekte und Ablage“. „Konfiguration anlegen und verwalten“ und „Dokument und Quelle abgleichen“ benennen die jeweiligen Aufgaben direkt. Trennlinien gliedern die Befehle.
+- Das Templates-Menü gruppiert Template-Befehle, Produktversionen, Bibliotheksverwaltung und Bibliotheksaustausch.
+- Im Dialog „Automatisieren“ lässt sich „Dokument aufteilen“ ein- und ausklappen. PubliX merkt sich die Einstellung für den Abschnitt.
