@@ -1,23 +1,23 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.90
+version: 0.8.91
 date: 2026-11-24
 host: 21 22
-commit: 8c40eff8a4f40e1f20e1f69a30ed254cfcc0582d
-mac.version: 0.8.90
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.90/publix-0.8.90-mac.zip
-mac.sha512: 04b61773bc7ed46c7798bc592789f024d50bd515e846643c023f63bf4ae1ba4db1765033c974b8371710d15bb1c5a25e0bbaf5f64960fecaa183adb4b181c3a5
+commit: 4e9822c7829a2a69cbcbd0715f5aee88a007214f
+mac.version: 0.8.91
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.91/publix-0.8.91-mac.zip
+mac.sha512: df0b723d72161b64a590b03e9179a7894d52603e92b790f6c8845abbdfed9cd06fc155e1ee5d282d6e00913cb66b870e04104bff49c7c542161a0dce661ff0c1
 win.version: 0.8.90
 win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.90/publix-0.8.90-win.zip
 win.sha512: 03f28112259ee8503e0d1bc86c1d59259364d91f1cbca19b93b4e05908f00f6247673dfda05270fd4610c3fd74b479e2b305d31f7dca9bea21a77531b07f5f55
-mac.22.version: 0.8.90
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.90/publix-0.8.90-mac-id22.zip
-mac.22.sha512: fe975968eadc3e7325967caf5844c89858dcd56443e0097b2c426dd702cf724e525087d977ed19a03d1b97fa5c7a01b59c27062093198318e0d1f4556d7287da
+mac.22.version: 0.8.91
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.91/publix-0.8.91-mac-id22.zip
+mac.22.sha512: 093ab2fb8579da7f3e2500ef08d9b75bc71bdd63cc3322bcfc761b5b993a66a898d8c42e1dc9ad5d8b32f30e37ed74cab4e611c07feaf54c4832805b0d548f52
 win.22.version: 0.8.90
 win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.90/publix-0.8.90-win-id22.zip
 win.22.sha512: 15a9c6db02ca5f9244a6d86856e9b9526acf32129da7d3361e8adcd6d8c008f050e3d6ce1b468ce4a650232e4ce3ed2331523589645b29a0ee434a38f1ce749d
 notes:
-- PubliX prüft nach einem Tabellenschnitt, ob Datenzeilen oder Text gesetzt wurden. Bleibt der erste Teil ohne Inhalt, wird der Schnitt zurückgenommen. Auf einer freien Seite meldet PubliX den betroffenen Rahmen und hält die Ausgabe an.
-- Die Zellprüfung im Rahmenfluss beschränkt sich auf den neuen Umbruch. Zwischen längeren Schnittproben kann PubliX „Abbrechen“ auswerten.
-- Die Ausgabe startet nach dem Schließen des Automatisieren-Dialogs. Beim Einblenden der fertigen Ausgabe entfällt der zusätzliche diagnostische Textsatz.
-- Die Datenquelle zeigt pro Gruppe die direkten Untergruppen und die Datensätze, zum Beispiel „(23 | 801)“.
+- Fenster › PubliX › Konfiguration › Gruppenanzeige bietet unabhängig schaltbare Zähler für Datensätze, direkte Untergruppen und Untergruppen aller Ebenen. Reihenfolge, Beschriftungen und Nullwerte sind einstellbar.
+- Bild und aufgelöster Begleittext bleiben in Vorlagen mit „Gruppe als Ganzes“ beim Seitenumbruch zusammen. Eine folgende Tabelle rückt bei höherem Begleittext nach unten.
+- Abgleich ordnet Zellübersatz dem betroffenen Fortsetzungsrahmen zu. Neu ausgegebene Tabellen merken sich ihre Struktur und gefüllten Zellen, damit gelöschte Zeilen, Spalten und Werte als Befunde erscheinen.
+- Die Breitenprüfung probiert bei Zellübersatz Reserven flexibler Spalten aus und übernimmt eine Umverteilung mit weniger Übersatz innerhalb der Spaltenlimits.
