@@ -1,23 +1,25 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.92
+version: 0.8.93
 date: 2026-11-25
 host: 21 22
-commit: c5484ccc40019ca8e62d76a4bc298bbe0ff0e396
-mac.version: 0.8.92
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.92/publix-0.8.92-mac.zip
-mac.sha512: d55512a1308171130122f08ebb8270cfcb81e9823bd490c7c120cdaa3568e74f86bde4148401699753b9af4a075be5ed7f5151bb812028d358590070260b4f6e
-win.version: 0.8.92
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.92/publix-0.8.92-win.zip
-win.sha512: 531e0752b71b61b46780d2d71c0af22fa8b97ccd7a956c9608c42101548da4a688c5b36e814d6393d10b1a0a4de8103179e50b5408aca28c0c7743530602a072
-mac.22.version: 0.8.92
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.92/publix-0.8.92-mac-id22.zip
-mac.22.sha512: 04dd55728c3feb0ee9a15a1428099ecdcad7b3432e1c0b7e82fd572877392aa4a5bef056fbb6f07c35382d644f7c414caa29584d650ae050d006d481f53bb6e4
-win.22.version: 0.8.92
-win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.92/publix-0.8.92-win-id22.zip
-win.22.sha512: d9711b18995bafd6d53f565cce4a20141f8dc6b1cdd6d16e1da21fc23680990aa6b44bfabbdf7ae13d5debc372ff34bfb1589f249c70e9b7e889e44f1fa20050
+commit: dbb57abff2b5c4586669f5f988c1989e53affb8a
+mac.version: 0.8.93
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.93/publix-0.8.93-mac.zip
+mac.sha512: dcaeccc2e4cfafd547107013fbbf31b456fa4e94eca76d8d3830d742d2b834fcdf5d3a92164d105237e13c8a0af10b533bdbc30725270f023e93a00b9bc3829a
+win.version: 0.8.93
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.93/publix-0.8.93-win.zip
+win.sha512: a104f4cc70fbe32f9a777bade240260899407442d5d123cfec517e26cc2aea687b213ff71eaea95bb5cfcb0330e60d7ba107e368940fac3d56868111c58a1ca6
+mac.22.version: 0.8.93
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.93/publix-0.8.93-mac-id22.zip
+mac.22.sha512: cfdb0101596699287242f411ad399314fcc8bb5be5286e0fcca02054fa4071e1836735d3ce9e0007f1166e34bd2641e7d9e86e27479e064ff6effe7884f72fec
+win.22.version: 0.8.93
+win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.93/publix-0.8.93-win-id22.zip
+win.22.sha512: 6a116f26008061c1effc408854f75a13b240a686643e4e5ab502a4b27cbb30485cf4e2a251e45a88d40766b262cca26087d1efb0dc8b8ebf773ca55576993307
 notes:
-- Die Palette „Abgleich“ passt Befundliste, Beschreibung, Status und Schaltflächen an die verfügbare Breite und Höhe an. Auch beim Andocken bleiben die Bereiche getrennt.
-- Bei schmaler Palette werden Befehle kürzer beschriftet. Lange Beschreibungen und die vollständige Befundübersicht sind als Info beim Überfahren verfügbar.
-- Abgleich meldet Kollisionen zwischen gesetztem Text, Tabelleninhalt und platzierten Bildern. „Hinspringen“ wählt beide beteiligten Rahmen aus.
-- Bewusst geänderte Feldtexte lassen sich im Abgleich einchecken. Die Freigabe gilt für diese Textfassung und den gegenwärtigen Quellenwert. Im Filter „Typografie eingecheckt“ lässt sie sich wieder auschecken.
+- Tabellen aufteilen: vor oder nach einer Platzhalterspalte, mit wiederholbaren Template-Spalten und Tabellenkopf.
+- Kreuztabellen aufteilen: ganze Variantengruppen nach Breitenverhältnis verteilen, feste Spalten wiederholen.
+- Abstand zwischen den Tabellenteilen in Millimetern oder aus dem Template.
+- Erzeugungsversion anzeigen: Ausgabeversion für Dokumente und erzeugte Elemente im PubliX-Menü.
+- Bild-Text-Gruppen: „Gruppe vollständig verschieben“ schützt innere Positionen auch bei der Dynamik.
+- Herstellerlogos: Gemerkte Bildanpassungen übertragen Skalierung und Versatz. Die Rahmenkontur bleibt erhalten.
