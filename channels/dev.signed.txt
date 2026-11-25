@@ -1,24 +1,24 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.91
-date: 2026-11-24
+version: 0.8.92
+date: 2026-11-25
 host: 21 22
-commit: 4e9822c7829a2a69cbcbd0715f5aee88a007214f
-mac.version: 0.8.91
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.91/publix-0.8.91-mac.zip
-mac.sha512: df0b723d72161b64a590b03e9179a7894d52603e92b790f6c8845abbdfed9cd06fc155e1ee5d282d6e00913cb66b870e04104bff49c7c542161a0dce661ff0c1
-win.version: 0.8.91
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.91/publix-0.8.91-win.zip
-win.sha512: 9ef3bf557b93c5143c46635f5993bd94995a14e70b38f366e5cf601f83fcf5fc48987e811f92ea2a25431bfe4c9a0b6747868bf65423bb154be1083f253914a0
-mac.22.version: 0.8.91
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.91/publix-0.8.91-mac-id22.zip
-mac.22.sha512: 093ab2fb8579da7f3e2500ef08d9b75bc71bdd63cc3322bcfc761b5b993a66a898d8c42e1dc9ad5d8b32f30e37ed74cab4e611c07feaf54c4832805b0d548f52
-win.22.version: 0.8.91
-win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.91/publix-0.8.91-win-id22.zip
-win.22.sha512: 7d337011fa4e05d56d6390d5cf163ca59a52662b3af8270b0811b2dedaab81641448d28bc14a697ad386c3b18420e7f5ba76475032299dea661c1154398d09e8
+commit: c5484ccc40019ca8e62d76a4bc298bbe0ff0e396
+mac.version: 0.8.92
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.92/publix-0.8.92-mac.zip
+mac.sha512: d55512a1308171130122f08ebb8270cfcb81e9823bd490c7c120cdaa3568e74f86bde4148401699753b9af4a075be5ed7f5151bb812028d358590070260b4f6e
+win.version: 0.8.92
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.92/publix-0.8.92-win.zip
+win.sha512: 531e0752b71b61b46780d2d71c0af22fa8b97ccd7a956c9608c42101548da4a688c5b36e814d6393d10b1a0a4de8103179e50b5408aca28c0c7743530602a072
+mac.22.version: 0.8.92
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.92/publix-0.8.92-mac-id22.zip
+mac.22.sha512: 04dd55728c3feb0ee9a15a1428099ecdcad7b3432e1c0b7e82fd572877392aa4a5bef056fbb6f07c35382d644f7c414caa29584d650ae050d006d481f53bb6e4
+win.22.version: 0.8.92
+win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.92/publix-0.8.92-win-id22.zip
+win.22.sha512: d9711b18995bafd6d53f565cce4a20141f8dc6b1cdd6d16e1da21fc23680990aa6b44bfabbdf7ae13d5debc372ff34bfb1589f249c70e9b7e889e44f1fa20050
 notes:
-- Fenster › PubliX › Konfiguration › Gruppenanzeige bietet unabhängig schaltbare Zähler für Datensätze, direkte Untergruppen und Untergruppen aller Ebenen. Reihenfolge, Beschriftungen und Nullwerte sind einstellbar.
-- Bild und aufgelöster Begleittext bleiben in Vorlagen mit „Gruppe als Ganzes“ beim Seitenumbruch zusammen. Eine folgende Tabelle rückt bei höherem Begleittext nach unten.
-- Abgleich ordnet Zellübersatz dem betroffenen Fortsetzungsrahmen zu. Neu ausgegebene Tabellen merken sich ihre Struktur und gefüllten Zellen, damit gelöschte Zeilen, Spalten und Werte als Befunde erscheinen.
-- Die Breitenprüfung probiert bei Zellübersatz Reserven flexibler Spalten aus und übernimmt eine Umverteilung mit weniger Übersatz innerhalb der Spaltenlimits.
-signature: 51071e027eb900191e4eef269982cf5900c4e9a23c4fb3b51c77406bc5be1a8806770b1edb2f4e4fec28217b6981ff9e610f55c50e8f6f61194cfa278ff32509
+- Die Palette „Abgleich“ passt Befundliste, Beschreibung, Status und Schaltflächen an die verfügbare Breite und Höhe an. Auch beim Andocken bleiben die Bereiche getrennt.
+- Bei schmaler Palette werden Befehle kürzer beschriftet. Lange Beschreibungen und die vollständige Befundübersicht sind als Info beim Überfahren verfügbar.
+- Abgleich meldet Kollisionen zwischen gesetztem Text, Tabelleninhalt und platzierten Bildern. „Hinspringen“ wählt beide beteiligten Rahmen aus.
+- Bewusst geänderte Feldtexte lassen sich im Abgleich einchecken. Die Freigabe gilt für diese Textfassung und den gegenwärtigen Quellenwert. Im Filter „Typografie eingecheckt“ lässt sie sich wieder auschecken.
+signature: 7fe0ef11ca4cf2d3331b221356a39b0bc0b49f7a83fa9163d2bcc61b8af81b6947afb490756c9515f3bc1f7d63ae274f3c53a090107bd72ce497c133d4ba940a
