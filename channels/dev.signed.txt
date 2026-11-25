@@ -7,18 +7,18 @@ commit: 4e9822c7829a2a69cbcbd0715f5aee88a007214f
 mac.version: 0.8.91
 mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.91/publix-0.8.91-mac.zip
 mac.sha512: df0b723d72161b64a590b03e9179a7894d52603e92b790f6c8845abbdfed9cd06fc155e1ee5d282d6e00913cb66b870e04104bff49c7c542161a0dce661ff0c1
-win.version: 0.8.90
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.90/publix-0.8.90-win.zip
-win.sha512: 03f28112259ee8503e0d1bc86c1d59259364d91f1cbca19b93b4e05908f00f6247673dfda05270fd4610c3fd74b479e2b305d31f7dca9bea21a77531b07f5f55
+win.version: 0.8.91
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.91/publix-0.8.91-win.zip
+win.sha512: 9ef3bf557b93c5143c46635f5993bd94995a14e70b38f366e5cf601f83fcf5fc48987e811f92ea2a25431bfe4c9a0b6747868bf65423bb154be1083f253914a0
 mac.22.version: 0.8.91
 mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.91/publix-0.8.91-mac-id22.zip
 mac.22.sha512: 093ab2fb8579da7f3e2500ef08d9b75bc71bdd63cc3322bcfc761b5b993a66a898d8c42e1dc9ad5d8b32f30e37ed74cab4e611c07feaf54c4832805b0d548f52
-win.22.version: 0.8.90
-win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.90/publix-0.8.90-win-id22.zip
-win.22.sha512: 15a9c6db02ca5f9244a6d86856e9b9526acf32129da7d3361e8adcd6d8c008f050e3d6ce1b468ce4a650232e4ce3ed2331523589645b29a0ee434a38f1ce749d
+win.22.version: 0.8.91
+win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.91/publix-0.8.91-win-id22.zip
+win.22.sha512: 7d337011fa4e05d56d6390d5cf163ca59a52662b3af8270b0811b2dedaab81641448d28bc14a697ad386c3b18420e7f5ba76475032299dea661c1154398d09e8
 notes:
 - Fenster › PubliX › Konfiguration › Gruppenanzeige bietet unabhängig schaltbare Zähler für Datensätze, direkte Untergruppen und Untergruppen aller Ebenen. Reihenfolge, Beschriftungen und Nullwerte sind einstellbar.
 - Bild und aufgelöster Begleittext bleiben in Vorlagen mit „Gruppe als Ganzes“ beim Seitenumbruch zusammen. Eine folgende Tabelle rückt bei höherem Begleittext nach unten.
 - Abgleich ordnet Zellübersatz dem betroffenen Fortsetzungsrahmen zu. Neu ausgegebene Tabellen merken sich ihre Struktur und gefüllten Zellen, damit gelöschte Zeilen, Spalten und Werte als Befunde erscheinen.
 - Die Breitenprüfung probiert bei Zellübersatz Reserven flexibler Spalten aus und übernimmt eine Umverteilung mit weniger Übersatz innerhalb der Spaltenlimits.
-signature: 3b60213575c6e6a63d49a541eb09b11c9ee69cde8e6e5ea0308207ae509fce9d55ce967de1472983bb988f26478380a573d5928cd7111f7750785bbb370aa50d
+signature: 51071e027eb900191e4eef269982cf5900c4e9a23c4fb3b51c77406bc5be1a8806770b1edb2f4e4fec28217b6981ff9e610f55c50e8f6f61194cfa278ff32509
