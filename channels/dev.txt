@@ -1,25 +1,23 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.93
+version: 0.8.94
 date: 2026-11-25
 host: 21 22
-commit: dbb57abff2b5c4586669f5f988c1989e53affb8a
-mac.version: 0.8.93
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.93/publix-0.8.93-mac.zip
-mac.sha512: dcaeccc2e4cfafd547107013fbbf31b456fa4e94eca76d8d3830d742d2b834fcdf5d3a92164d105237e13c8a0af10b533bdbc30725270f023e93a00b9bc3829a
-win.version: 0.8.93
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.93/publix-0.8.93-win.zip
-win.sha512: a104f4cc70fbe32f9a777bade240260899407442d5d123cfec517e26cc2aea687b213ff71eaea95bb5cfcb0330e60d7ba107e368940fac3d56868111c58a1ca6
-mac.22.version: 0.8.93
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.93/publix-0.8.93-mac-id22.zip
-mac.22.sha512: cfdb0101596699287242f411ad399314fcc8bb5be5286e0fcca02054fa4071e1836735d3ce9e0007f1166e34bd2641e7d9e86e27479e064ff6effe7884f72fec
-win.22.version: 0.8.93
-win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.93/publix-0.8.93-win-id22.zip
-win.22.sha512: 6a116f26008061c1effc408854f75a13b240a686643e4e5ab502a4b27cbb30485cf4e2a251e45a88d40766b262cca26087d1efb0dc8b8ebf773ca55576993307
+commit: 7ac045924b84c12a0a1602ea4fdcb157db63cce0
+mac.version: 0.8.94
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.94/publix-0.8.94-mac.zip
+mac.sha512: 9f45a4276b51081907076411e8de3d3ddc2640af4d502b7015cc12e996e97738794d284ab5614ac9cf1b25610912be5d6628a91edfdd31725ae60961bbd8dc04
+win.version: 0.8.94
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.94/publix-0.8.94-win.zip
+win.sha512: 31eb79f8f8b1aa66a9b9821cf0f200959ef35c6ad60a15ae5528d49411e4770915c40f5f4336e9ee63d763f6aa2f83dbfa47d36e1306fda4ac3c70387bcf4a5d
+mac.22.version: 0.8.94
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.94/publix-0.8.94-mac-id22.zip
+mac.22.sha512: a2c65f203e39ef5f764668c814140358750f4ff37f91d5e17b1850966613529a70e64f09638900f5ed4ae107237668d09ce0ff2ef008fd9aff48abf8a2690068
+win.22.version: 0.8.94
+win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.94/publix-0.8.94-win-id22.zip
+win.22.sha512: 199b356cbba77a697f278b75aef793958ec514185b4ed62a55798eb17e1d2fa0cc767f442158493413509c4f1e17a7adc7832c45510bbf898691709459c0898b
 notes:
-- Tabellen aufteilen: vor oder nach einer Platzhalterspalte, mit wiederholbaren Template-Spalten und Tabellenkopf.
-- Kreuztabellen aufteilen: ganze Variantengruppen nach Breitenverhältnis verteilen, feste Spalten wiederholen.
-- Abstand zwischen den Tabellenteilen in Millimetern oder aus dem Template.
-- Erzeugungsversion anzeigen: Ausgabeversion für Dokumente und erzeugte Elemente im PubliX-Menü.
-- Bild-Text-Gruppen: „Gruppe vollständig verschieben“ schützt innere Positionen auch bei der Dynamik.
-- Herstellerlogos: Gemerkte Bildanpassungen übertragen Skalierung und Versatz. Die Rahmenkontur bleibt erhalten.
+- Tabellen aufteilen: „Weitere Teile auf neuer Seite“ für normale Tabellen und Kreuztabellen. Der erste Teil beginnt an der bisherigen Position.
+- Der Rahmenfluss setzt weitere Teile auf Folgeseiten. Textfluss mit nativ eingefügtem Text übernimmt dafür einen InDesign-Seitenumbruch.
+- Geschützte Gruppen, verkettete oder mehrspaltige Template-Rahmen im Rahmenfluss und feste Seitentemplates behalten den bisherigen Seitenfluss und erhalten einen Hinweis im Bericht.
+- Auslöser für beide Tabellenarten. „Nur bei Übersatz nach Ausgleich“ prüft bis zu 30 einstellbare Breitenversuche und teilt nur bei anhaltendem Zellübersatz oder zu großer Tabellenbreite.
