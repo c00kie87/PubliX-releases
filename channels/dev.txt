@@ -1,20 +1,20 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.95
+version: 0.8.96
 date: 2026-11-25
 host: 21 22
-commit: 7350e2dab3916601d5474c716daeb51ffb824b98
-mac.version: 0.8.95
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.95/publix-0.8.95-mac.zip
-mac.sha512: 1f1db484f219c3b13772620959e06a366e61f733f92056a9a790a827edc615f0fcb74f380dc2685caea62277b735e8e0990de2a32cd392b199fa37eb012152da
-win.version: 0.8.95
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.95/publix-0.8.95-win.zip
-win.sha512: bb19d4961603f917eb8eb9eea688d6fc1d30199426a75a53a89c0f99682cffbec70a862e097944358423ad1acb38110f04f08e06fa365e4527f7b7e2edbf608e
-mac.22.version: 0.8.95
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.95/publix-0.8.95-mac-id22.zip
-mac.22.sha512: 4bf0761c6eb27cc1b438d8a9ce8458310af9bfb3850daa1ed1a58f3e81702f057503a3b8ff7f1f525b174badce912463d1629b9a9349859efc67b184fa78b862
-win.22.version: 0.8.95
-win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.95/publix-0.8.95-win-id22.zip
-win.22.sha512: 9a64eeec012cfa5d25eec46af0c1b9880452cbdf2630b7e8f7038d8476308255905d75a360c2c565758e9d4acdf136a6f3af966710f58c2de500cd4ff2781767
+commit: 7875326c4b48546e0249527893e6d1c01009ed58
+mac.version: 0.8.96
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.96/publix-0.8.96-mac.zip
+mac.sha512: cdd4b455b722998c0a15d5d9799759e0c98022e9e70aec31871889be7e78fd3a0c4e1d978d48055fb3f2c00ceb3f5623e9a296c4c6360fdf2de514597db280e6
+win.version: 0.8.96
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.96/publix-0.8.96-win.zip
+win.sha512: 555fa8247a432a219f4474dbb48713028acb783afd92bcf977db27d69646cca52946a5dd08c733e7d15300d5208e393ed8d7c629b94c0d6fcef7160997380134
+mac.22.version: 0.8.96
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.96/publix-0.8.96-mac-id22.zip
+mac.22.sha512: c1041910805101a70def605076dec176547c932da3fb239813d7a2099b9de307b885e205a2583843b3ebf13217093110f86efe5c23e084a25247a0b817c142b5
+win.22.version: 0.8.96
+win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.96/publix-0.8.96-win-id22.zip
+win.22.sha512: 872e4248a1434b225066f95168d08a3b37850a99de1112df2698a8e140f49721ca05685e98fe233af8ee922faba608fd6b61b2dfc0a95e8bf804333613f54b29
 notes:
-- Bilddateien aus der Datenquelle im Finder oder Explorer anzeigen. Rechtsklick auf einen gefundenen Bildpfad markiert die Datei im zugehörigen Ordner. Die Auflösung verwendet dieselben Bildordner wie die Vorschau.
+- Projekttransfer: Fehlende Basisbildordner beim Import direkt zuordnen. Platzierte PubliX-Bilder auf Nachfrage mit demselben relativen Dateipfad im neuen Ordner neu verknüpfen. Einzelne Bildverknüpfungen lassen sich in Abgleich beheben.
