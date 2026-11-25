@@ -1,21 +1,23 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.98
+version: 0.8.99
 date: 2026-11-25
 host: 21 22
-commit: 255eecbe050958b2ce39ccc9ee13f2f518932273
-mac.version: 0.8.98
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.98/publix-0.8.98-mac.zip
-mac.sha512: 415e7b339d167324f0a4f0ef974903e5ebcb1b13fa8047f34af2c26604871112b601cf8d3713e26d51219927ded9de736c18595fb801bdba4b2ea2b85eb98ad2
-win.version: 0.8.98
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.98/publix-0.8.98-win.zip
-win.sha512: f0d6a8a237ae9cbd153ea494b83068121545756e8378a4280bbe5992e5193f61a728ae050fb1b250c605f3284852511ba529410dfd8157bcfb3e5e39c428c760
-mac.22.version: 0.8.98
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.98/publix-0.8.98-mac-id22.zip
-mac.22.sha512: 58c80ce549836103a7a512e66d6a708457606e73e34b2c57667fa31e14d44c1c61cfbcef2ae80195fbd7002c01d5d86bf0c2a0aa6d4caa25c0c6373f83464f32
-win.22.version: 0.8.98
-win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.98/publix-0.8.98-win-id22.zip
-win.22.sha512: 0bb32845b88560570c5b853e71b413c8195395b6bf28f639e2faf24e58eea988564a206971a1df3ba963d2a1cc13b8dc9cca1c1f0fcb714f4b7b4368f043454d
+commit: 489411dd6b947fd907b153585b2bc71a7f6820ee
+mac.version: 0.8.99
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.99/publix-0.8.99-mac.zip
+mac.sha512: 7093a7dfe082ffe22303d956c6ed210f871c5064bef23802da248a9bf9fb63e8aefb9f7526e9415e7be50b61b9967fd195a59fb6f185ffff236efbd0965e6fa5
+win.version: 0.8.99
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.99/publix-0.8.99-win.zip
+win.sha512: c8dd824b09a9cdf866720aa22261da3c419907e4f889f4192efec250fd5e2367340c28d65dcbb59f3bbaf1950a841d10c1a9f383f6d5a4228289ae01483b6eec
+mac.22.version: 0.8.99
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.99/publix-0.8.99-mac-id22.zip
+mac.22.sha512: 66d3fb80e1911bdb86e166022d2bd5799d032c30e0d9d4684ec218187e5719116f3a7d18d3b50bc3f31dbfec20c03509bf735be62fc8128bd98b616f6b868dab
+win.22.version: 0.8.99
+win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.99/publix-0.8.99-win-id22.zip
+win.22.sha512: 675ec550f760ccd7e013de69c52350b5f431128d27ca5329024f5405138400fb6d6af1289bb2edd5cba661d348dd157d0b068757d4e3959d6ac4b23549f04a12
 notes:
-- Abgleich prüft fehlende Bilddateien, leere und gelöschte Bildrahmen sowie eingesetzte Ersatzbilder. Bei „Eigenschaften merken“ lassen sich Rahmenposition und Rahmengröße getrennt einbeziehen. Vorhandene Bilder werden anhand ihrer Platzierung geprüft, wodurch unnötige Zugriffe auf Bildordner entfallen.
-signature: 924c2cad7560469bc88bd6a70c674e357221bc8bdcc3c5a5c75412dd59b3eb1f928173dfe5b69296d029a997279182fa1c5dfc312e7a2693b82a999d09a47901
+- Eigenschaften merken überträgt X/Y-Versatz sowie Änderungen von Breite und Höhe relativ zur automatischen Ausgangsgeometrie jedes Bildrahmens.
+- PubliX setzt Text und Tabellen in einer nativen Kopie des Ursprungsrahmens fort, wenn der Fortsetzungsverweis aus dem Altsystem stammt.
+- Der Rahmenfluss belässt vollständige Zusammenhalte-Ketten im Seitenplan, wenn ihr Verschieben eine ganze freie Seite überspringen würde. Automatisieren bietet im Seitenaufbau zusätzlich „Leere Seiten nach der Ausgabe löschen“.
+signature: a6477e7f1b56676579b7f74c2559e5ec11578b84699c29edd60ecc416e95861163feb7b37408665ecd03aed8e5f729b13d7d58f78c9a6b4dd1dbfea236284600
