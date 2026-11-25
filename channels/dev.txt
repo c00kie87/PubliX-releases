@@ -1,22 +1,22 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.99
+version: 0.8.100
 date: 2026-11-25
 host: 21 22
-commit: 489411dd6b947fd907b153585b2bc71a7f6820ee
-mac.version: 0.8.99
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.99/publix-0.8.99-mac.zip
-mac.sha512: 7093a7dfe082ffe22303d956c6ed210f871c5064bef23802da248a9bf9fb63e8aefb9f7526e9415e7be50b61b9967fd195a59fb6f185ffff236efbd0965e6fa5
-win.version: 0.8.99
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.99/publix-0.8.99-win.zip
-win.sha512: c8dd824b09a9cdf866720aa22261da3c419907e4f889f4192efec250fd5e2367340c28d65dcbb59f3bbaf1950a841d10c1a9f383f6d5a4228289ae01483b6eec
-mac.22.version: 0.8.99
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.99/publix-0.8.99-mac-id22.zip
-mac.22.sha512: 66d3fb80e1911bdb86e166022d2bd5799d032c30e0d9d4684ec218187e5719116f3a7d18d3b50bc3f31dbfec20c03509bf735be62fc8128bd98b616f6b868dab
-win.22.version: 0.8.99
-win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.99/publix-0.8.99-win-id22.zip
-win.22.sha512: 675ec550f760ccd7e013de69c52350b5f431128d27ca5329024f5405138400fb6d6af1289bb2edd5cba661d348dd157d0b068757d4e3959d6ac4b23549f04a12
+commit: 31459736248388675b6317cd76da5fa0be3b0725
+mac.version: 0.8.100
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.100/publix-0.8.100-mac.zip
+mac.sha512: 556ef47d44818dfbd90769e741ad91d00dc3947737c1ac7476596493d3a6fccb1f17c5421cd87cf8f2456dff03e38847f9f76fc8d7f597d9011193a07f0cba47
+win.version: 0.8.100
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.100/publix-0.8.100-win.zip
+win.sha512: 34b056508eb62e7a584c134e1cc00a54a49c214a86bd34e7630bfb0b8b1364767733be8197cfe390f4aa19806d6fd3d867dadfc11ef775276b0599482c85af26
+mac.22.version: 0.8.100
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.100/publix-0.8.100-mac-id22.zip
+mac.22.sha512: e6374839b5933073a522a8bd46ced8ad97cf5d6335004b9f14589f3ec73416c77746e6d4dd7932b7ff890de7a544e756967786e9df1c98b759994855a948980d
+win.22.version: 0.8.100
+win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.100/publix-0.8.100-win-id22.zip
+win.22.sha512: 41896407b14f6648144d5623f668a73cd9e80edd0bb18a4852dd11963fdd92f0e12f2ea2cfce6f8802966357b575ec5b16f259a7e77498f33cdbf98c48cfd0e1
 notes:
-- Eigenschaften merken überträgt X/Y-Versatz sowie Änderungen von Breite und Höhe relativ zur automatischen Ausgangsgeometrie jedes Bildrahmens.
-- PubliX setzt Text und Tabellen in einer nativen Kopie des Ursprungsrahmens fort, wenn der Fortsetzungsverweis aus dem Altsystem stammt.
-- Der Rahmenfluss belässt vollständige Zusammenhalte-Ketten im Seitenplan, wenn ihr Verschieben eine ganze freie Seite überspringen würde. Automatisieren bietet im Seitenaufbau zusätzlich „Leere Seiten nach der Ausgabe löschen“.
+- Dokumentname, Präfix, Suffix und Buchname können in „Dokument aufteilen“ Datenfeld-Platzhalter wie «Kapitel» enthalten. Der Dialog zeigt Beispiele für die resultierenden Dateinamen.
+- Wenn eine noch ungeteilte Datengruppe auf der Folgeseite beginnen muss, baut PubliX sie dort neu auf. Das umgeht den nachgewiesenen InDesign-Absturz beim Verschieben auf den nächsten Druckbogen.
+- Tabellen erhalten beim Seitenumbruch einen leeren Fortsetzungsrahmen, der mit der ursprünglichen Story verkettet wird. Dadurch entfällt das Absturzrisiko beim Leeren der kopierten Tabelle.
