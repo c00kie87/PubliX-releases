@@ -1,20 +1,20 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.97
+version: 0.8.98
 date: 2026-11-25
 host: 21 22
-commit: de4059f921492ee8e56eb277e6e14f9231d5285b
-mac.version: 0.8.97
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.97/publix-0.8.97-mac.zip
-mac.sha512: a5688affa6b6b2d66b168f93451335eb9a5f3993e667f0b9e98c931b0e6120f5c8c6c3c3d627b230c7c7c78f0b2462e81613661ae0ded686bc5d4befd4b1a2fe
-win.version: 0.8.97
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.97/publix-0.8.97-win.zip
-win.sha512: 103cdc07769c408bfe6f53f9c2a4e1a99b8182e1cf95b789818f8e09655ea62eaa7af80f4dc22218d4cd678d7ae230d4ee02661c3ea52285a3bd881133251df8
-mac.22.version: 0.8.97
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.97/publix-0.8.97-mac-id22.zip
-mac.22.sha512: de287426309b24f4950120ffcd717a42c47754d01da1d4d9fc938040afad9fed2d4b0df7f2674fa04c4c12b83ad770d2f703d5f00706eb4900700f30d97c93c9
-win.22.version: 0.8.97
-win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.97/publix-0.8.97-win-id22.zip
-win.22.sha512: e470aad3378d9d814b2ff30f323341a54f47d1b9038065f4697b8dcb4afc56df7e5c183ca9d5e590f3d66f4d2b5a29d85e775453acbc510ecba5854d371f143c
+commit: 255eecbe050958b2ce39ccc9ee13f2f518932273
+mac.version: 0.8.98
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.98/publix-0.8.98-mac.zip
+mac.sha512: 415e7b339d167324f0a4f0ef974903e5ebcb1b13fa8047f34af2c26604871112b601cf8d3713e26d51219927ded9de736c18595fb801bdba4b2ea2b85eb98ad2
+win.version: 0.8.98
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.98/publix-0.8.98-win.zip
+win.sha512: f0d6a8a237ae9cbd153ea494b83068121545756e8378a4280bbe5992e5193f61a728ae050fb1b250c605f3284852511ba529410dfd8157bcfb3e5e39c428c760
+mac.22.version: 0.8.98
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.98/publix-0.8.98-mac-id22.zip
+mac.22.sha512: 58c80ce549836103a7a512e66d6a708457606e73e34b2c57667fa31e14d44c1c61cfbcef2ae80195fbd7002c01d5d86bf0c2a0aa6d4caa25c0c6373f83464f32
+win.22.version: 0.8.98
+win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.98/publix-0.8.98-win-id22.zip
+win.22.sha512: 0bb32845b88560570c5b853e71b413c8195395b6bf28f639e2faf24e58eea988564a206971a1df3ba963d2a1cc13b8dc9cca1c1f0fcb714f4b7b4368f043454d
 notes:
-- Montagefläche der Ausgabe: Unter Fenster › PubliX › Konfiguration › Ausgabe die horizontalen und vertikalen Ränder in Millimetern einstellen. PubliX setzt sie nach der erfolgreichen Ausgabe im Ausgabedokument. Vorgabe 150 mm horizontal und 10 mm vertikal.
+- Abgleich prüft fehlende Bilddateien, leere und gelöschte Bildrahmen sowie eingesetzte Ersatzbilder. Bei „Eigenschaften merken“ lassen sich Rahmenposition und Rahmengröße getrennt einbeziehen. Vorhandene Bilder werden anhand ihrer Platzierung geprüft, wodurch unnötige Zugriffe auf Bildordner entfallen.
