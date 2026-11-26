@@ -1,23 +1,26 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.100
-date: 2026-11-25
+version: 0.8.101
+date: 2026-11-26
 host: 21 22
-commit: 31459736248388675b6317cd76da5fa0be3b0725
-mac.version: 0.8.100
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.100/publix-0.8.100-mac.zip
-mac.sha512: 556ef47d44818dfbd90769e741ad91d00dc3947737c1ac7476596493d3a6fccb1f17c5421cd87cf8f2456dff03e38847f9f76fc8d7f597d9011193a07f0cba47
+commit: 506be206563810a6711e968b62f0fa74a7083813
+mac.version: 0.8.101
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.101/publix-0.8.101-mac.zip
+mac.sha512: b3f81e29240579b83e32c734fd9266a28adba942c5e2cf7a27b37d2d8d55504769ade738054ca4ac0f4a011787f3e1bc04edddd77b0ed3ce55bde9c24046f07e
 win.version: 0.8.100
 win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.100/publix-0.8.100-win.zip
 win.sha512: 34b056508eb62e7a584c134e1cc00a54a49c214a86bd34e7630bfb0b8b1364767733be8197cfe390f4aa19806d6fd3d867dadfc11ef775276b0599482c85af26
-mac.22.version: 0.8.100
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.100/publix-0.8.100-mac-id22.zip
-mac.22.sha512: e6374839b5933073a522a8bd46ced8ad97cf5d6335004b9f14589f3ec73416c77746e6d4dd7932b7ff890de7a544e756967786e9df1c98b759994855a948980d
+mac.22.version: 0.8.101
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.101/publix-0.8.101-mac-id22.zip
+mac.22.sha512: 39264b08b25c9991a22d71b6bd259b732ec332ecac07a45d0077f4f8fb8beef4ceca89800a69edb694a4d2af28ab608aede181211d9ba20ebafa9da510d2468a
 win.22.version: 0.8.100
 win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.100/publix-0.8.100-win-id22.zip
 win.22.sha512: 41896407b14f6648144d5623f668a73cd9e80edd0bb18a4852dd11963fdd92f0e12f2ea2cfce6f8802966357b575ec5b16f259a7e77498f33cdbf98c48cfd0e1
 notes:
-- Dokumentname, Präfix, Suffix und Buchname können in „Dokument aufteilen“ Datenfeld-Platzhalter wie «Kapitel» enthalten. Der Dialog zeigt Beispiele für die resultierenden Dateinamen.
-- Wenn eine noch ungeteilte Datengruppe auf der Folgeseite beginnen muss, baut PubliX sie dort neu auf. Das umgeht den nachgewiesenen InDesign-Absturz beim Verschieben auf den nächsten Druckbogen.
-- Tabellen erhalten beim Seitenumbruch einen leeren Fortsetzungsrahmen, der mit der ursprünglichen Story verkettet wird. Dadurch entfällt das Absturzrisiko beim Leeren der kopierten Tabelle.
-signature: a6b17e3b4da676b8dff84ca09542d18ec71f86894b06d0b8e304203c5b3f9cfe8869d9444cfd462c7e1df109aa6ec5358cd307878330021207243d0fe5b0210c
+- Textrahmen: neue Einstellung „Mehrspaltig bei Platzmangel ab“. Passt eine Einheit nicht mehr auf die Seite, baut PubliX sie probeweise mit mehrspaltigem Text auf und nimmt diese Fassung, wenn sie auf die Seite passt (auch ohne Template-Varianten).
+- Textrahmen mit „Breite an Inhalt“ bekommen beim Mehrspaltigwerden zuerst ihre Template-Breite zurück, statt als schmale, hohe Spalte stehen zu bleiben.
+- Hilfstabellen: Der zweispaltige Text einer hohen Zeile reicht bis zum Rand der Template-Gruppe. Auf linken Seiten wird er nicht mehr zu breit, und die Bestellnummer daneben wird nicht mehr gestaucht.
+- Kreuztabellen: Wiederholungsspalten wie Preis oder Bestellnummer je Artikel werden bei „alle Spalten verbinden“ im Körper nicht mehr senkrecht verbunden.
+- Kreuztabellen ohne Zeilenschlüssel: Merkmale stehen als feste Zeilen, je Artikel entsteht eine Spalte, ohne Obergrenze. Damit arbeitet Template 7 (Technische Daten).
+- Laufzeit: Die Erfassung des Tabellenbestands am Ende der Ausgabe liest Zellinhalte gesammelt. Vor dem Einblenden wird auf den aktuellen Druckbogen eingepasst, um langes Neuzeichnen zu vermeiden.
+signature: ddaa7cad7237a3a3f1dbaca2d1bb525833992eac71b24c112aa90f4ff40ca82d452dc5e1a4c9efde636db503664e40e115eec1c8dbd6bf24ae8d79e95e570a08
