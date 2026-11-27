@@ -1,20 +1,21 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.102
+version: 0.8.103
 date: 2026-11-27
 host: 21 22
-commit: 7f94cb851d090c8760d3e5166dacd62e1ef4f093
-mac.version: 0.8.102
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.102/publix-0.8.102-mac.zip
-mac.sha512: fd4bd4a3e972d1aa4940d04e12a86c6baffbf57fad743065feea849fccf69de4703f8fcfb27147291573a667235af16865a10d5b660846a0e58e472476705848
+commit: 13d62b9e200da51a4baa99fa44d7262ed40b9cdd
+mac.version: 0.8.103
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.103/publix-0.8.103-mac.zip
+mac.sha512: 9a31a991e40dd7d7f9450bc0b8da4c347daa62ff894a4c14ff48aa584415bf54a36ef36e3024a33521815c9af83cab38092b312f78178dda1d72c22aa1b11cd9
 win.version: 0.8.100
 win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.100/publix-0.8.100-win.zip
 win.sha512: 34b056508eb62e7a584c134e1cc00a54a49c214a86bd34e7630bfb0b8b1364767733be8197cfe390f4aa19806d6fd3d867dadfc11ef775276b0599482c85af26
-mac.22.version: 0.8.102
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.102/publix-0.8.102-mac-id22.zip
-mac.22.sha512: 70f3ce7462b7064f1fa9070fc95ead8cf9d934cd86071bcecd0eadc139bc546d0165878450a7d0cad19ccf1b1fd54a0b8f3eba254e7614c19de5229b9928f63e
+mac.22.version: 0.8.103
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.103/publix-0.8.103-mac-id22.zip
+mac.22.sha512: a9f55db24d11795ce8f99fb738e4f903f070ec8766cb7ab08aa5c2477d4b49e957425332a2c2eb92ecd91b6b19044d7c92889d7e1c11bae9742876f10118d32d
 win.22.version: 0.8.100
 win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.100/publix-0.8.100-win-id22.zip
 win.22.sha512: 41896407b14f6648144d5623f668a73cd9e80edd0bb18a4852dd11963fdd92f0e12f2ea2cfce6f8802966357b575ec5b16f259a7e77498f33cdbf98c48cfd0e1
 notes:
-- Mehrspaltig („ab Höhe“ und „bei Platzmangel“) wirkt jetzt auch bei Textrahmen in Gruppen, z. B. beim Produktgruppentext in K1. Bisher wurde die Einstellung dort übergangen.
+- Verwaiste PubliX-Werte halten die Ausgabe nicht mehr auf. Bis 300 entfernt PubliX sie sofort, mehr räumt es danach im Leerlauf in Portionen weg, ohne Fortschrittsfenster und im selben Rückgängig-Schritt.
+- Der Probeaufbau „mehrspaltig bei Platzmangel“ entsteht nur noch, wenn im Aufbau ein Textrahmen über dem Grenzwert liegt. Das spart Aufbauzeit und verwaiste Werte.
