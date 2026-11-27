@@ -1,25 +1,20 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.101
-date: 2026-11-26
+version: 0.8.102
+date: 2026-11-27
 host: 21 22
-commit: 506be206563810a6711e968b62f0fa74a7083813
-mac.version: 0.8.101
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.101/publix-0.8.101-mac.zip
-mac.sha512: b3f81e29240579b83e32c734fd9266a28adba942c5e2cf7a27b37d2d8d55504769ade738054ca4ac0f4a011787f3e1bc04edddd77b0ed3ce55bde9c24046f07e
+commit: 7f94cb851d090c8760d3e5166dacd62e1ef4f093
+mac.version: 0.8.102
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.102/publix-0.8.102-mac.zip
+mac.sha512: fd4bd4a3e972d1aa4940d04e12a86c6baffbf57fad743065feea849fccf69de4703f8fcfb27147291573a667235af16865a10d5b660846a0e58e472476705848
 win.version: 0.8.100
 win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.100/publix-0.8.100-win.zip
 win.sha512: 34b056508eb62e7a584c134e1cc00a54a49c214a86bd34e7630bfb0b8b1364767733be8197cfe390f4aa19806d6fd3d867dadfc11ef775276b0599482c85af26
-mac.22.version: 0.8.101
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.101/publix-0.8.101-mac-id22.zip
-mac.22.sha512: 39264b08b25c9991a22d71b6bd259b732ec332ecac07a45d0077f4f8fb8beef4ceca89800a69edb694a4d2af28ab608aede181211d9ba20ebafa9da510d2468a
+mac.22.version: 0.8.102
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.102/publix-0.8.102-mac-id22.zip
+mac.22.sha512: 70f3ce7462b7064f1fa9070fc95ead8cf9d934cd86071bcecd0eadc139bc546d0165878450a7d0cad19ccf1b1fd54a0b8f3eba254e7614c19de5229b9928f63e
 win.22.version: 0.8.100
 win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.100/publix-0.8.100-win-id22.zip
 win.22.sha512: 41896407b14f6648144d5623f668a73cd9e80edd0bb18a4852dd11963fdd92f0e12f2ea2cfce6f8802966357b575ec5b16f259a7e77498f33cdbf98c48cfd0e1
 notes:
-- Textrahmen: neue Einstellung „Mehrspaltig bei Platzmangel ab“. Passt eine Einheit nicht mehr auf die Seite, baut PubliX sie probeweise mit mehrspaltigem Text auf und nimmt diese Fassung, wenn sie auf die Seite passt (auch ohne Template-Varianten).
-- Textrahmen mit „Breite an Inhalt“ bekommen beim Mehrspaltigwerden zuerst ihre Template-Breite zurück, statt als schmale, hohe Spalte stehen zu bleiben.
-- Hilfstabellen: Der zweispaltige Text einer hohen Zeile reicht bis zum Rand der Template-Gruppe. Auf linken Seiten wird er nicht mehr zu breit, und die Bestellnummer daneben wird nicht mehr gestaucht.
-- Kreuztabellen: Wiederholungsspalten wie Preis oder Bestellnummer je Artikel werden bei „alle Spalten verbinden“ im Körper nicht mehr senkrecht verbunden.
-- Kreuztabellen ohne Zeilenschlüssel: Merkmale stehen als feste Zeilen, je Artikel entsteht eine Spalte, ohne Obergrenze. Damit arbeitet Template 7 (Technische Daten).
-- Laufzeit: Die Erfassung des Tabellenbestands am Ende der Ausgabe liest Zellinhalte gesammelt. Vor dem Einblenden wird auf den aktuellen Druckbogen eingepasst, um langes Neuzeichnen zu vermeiden.
+- Mehrspaltig („ab Höhe“ und „bei Platzmangel“) wirkt jetzt auch bei Textrahmen in Gruppen, z. B. beim Produktgruppentext in K1. Bisher wurde die Einstellung dort übergangen.
