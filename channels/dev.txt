@@ -1,20 +1,22 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.107
+version: 0.8.108
 date: 2026-11-27
 host: 21 22
-commit: 204610eabe736ff5b8cd7743f4394527020d3077
-mac.version: 0.8.107
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.107/publix-0.8.107-mac.zip
-mac.sha512: 4dbc5dcce4c8c3504d079bcdfb188ca9b64b20d2e9204f46fb4cfb0f7c914027f17f43f86d9dc5e3795b90bd97127b9732265620fbda00df96c2d1ca7845934c
-win.version: 0.8.107
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.107/publix-0.8.107-win.zip
-win.sha512: 910d9ad5f133a6fa398ac32e4d8d16483372860a9ac2ff9f6215a100c7cf0ce3ed6b2355fc4ae7e2028d9b85637407b302b2eb9cea2848d0b7004f481a17cd09
-mac.22.version: 0.8.107
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.107/publix-0.8.107-mac-id22.zip
-mac.22.sha512: 0def560b61bb0dc1d9241739e9539cb07b0028be49d39a8200e0b2c5ef470943cc6ce1f0f8ebcff9f6f7cc327ac4ff1e8663df1c8cf0f7fdafdcc09dea01eab0
-win.22.version: 0.8.107
-win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.107/publix-0.8.107-win-id22.zip
-win.22.sha512: faac61d458c7d6474e4eb8bd23ceabc5bab3b4bff954d307612a5fa66247ba522b292d2ba1be69f009ed07ea0999a55d4eac506666a4e857b6242400504d8d8f
+commit: 41a6ce1037fa63cd2b56d29f832f65c274bba22c
+mac.version: 0.8.108
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.108/publix-0.8.108-mac.zip
+mac.sha512: e07a2bdf04b7488c2f7b41966a50ab24d5dbb7988658d1aa5d5ee85c033e22cbe08c13b08b30a25589486324ecb70e845a987c0bdf9db9f0c536f4bf295ae049
+win.version: 0.8.108
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.108/publix-0.8.108-win.zip
+win.sha512: 0a84734761b28a26c45d97e46156ce1fe3ade856a16a860dd1a61f2ee53185ab67a4ea50bbe309c5f74deee5621a9ec33ff089436a2d9ee88edede5a5ef2f63a
+mac.22.version: 0.8.108
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.108/publix-0.8.108-mac-id22.zip
+mac.22.sha512: d7872d1ad027d132897a71f4443fb6c74923106079b1e4300fe2b395ec71ebc6db5b8857aed748ffae351929f219de5fba60fa7f14baba5af6c0518424a60463
+win.22.version: 0.8.108
+win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.108/publix-0.8.108-win-id22.zip
+win.22.sha512: b6cae33c2d9aabf898f9ae0a250f3c54c2f2fa3eb4fced942962480984a0df1287836e4a749e5a1e35f1ad8daa200c7f9c362abb3fa283688d97d94d151f0463
 notes:
-- Mehrspaltig: Ein mehrspaltiger Textrahmen darf jetzt auch breiter werden, wenn Nachbarrahmen wie Piktogramme oder Bilder in diesem Bereich stehen. Die Nachbarn bekommen einen Textumfluss, und der Text läuft um sie herum. So gewinnt der Rahmen mehr Platz, ohne zu kollidieren. Greift der Umfluss nicht, endet der Rahmen wie bisher mit Steg vor dem Nachbarn.
+- Mehrspaltig: Neue Template-Einstellung „Breite bei mehrspaltig“. Wird ein Textrahmen mehrspaltig, nimmt er genau diese Breite an, zum Beispiel ab 60 mm Höhe zwei Spalten mit 4 mm Steg und 183 mm statt 89,5 mm Breite. Rahmen im Weg wie Piktogramme oder Bilder bekommen Textumfluss. Die Breite bestimmt das Template, nicht PubliX.
+- Skripte nach der Ausgabe: In der Ausgaberegel unter Vorgaben lassen sich eigene InDesign-Skripte eintragen oder mit „Wählen …“ anhängen. Sie laufen nach jeder erfolgreichen Ausgabe nacheinander, jedes als eigener Rückgängig-Schritt. Ergebnis und Fehler stehen im Abschlussbericht.
+- Gemerkte Eigenschaften: „Eigenschaften für diesen Wert merken“ und „… entfernen“ stehen jetzt im Rechtsklick-Menü eines Objekts statt im Palettenmenü „Automatisieren“. Neu ist eine Übersicht aller gemerkten Werte als Tabelle, in der man einzelne Einträge entfernen kann.
