@@ -1,23 +1,20 @@
 publix-manifest: 1
 channel: dev
-version: 0.8.106
+version: 0.8.107
 date: 2026-11-27
 host: 21 22
-commit: 8263385b9ee997831ce35a9ae6dbcb02abdbe477
-mac.version: 0.8.106
-mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.106/publix-0.8.106-mac.zip
-mac.sha512: be8be017d740c016f8a79ab874f4c9d3fb4dc640d34aef4d81cfd05ea3c85aa20a0e009521c270169250a29bcb267a9c817b0dffca162764854a22520578a6b8
-win.version: 0.8.106
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.106/publix-0.8.106-win.zip
-win.sha512: 2144a37cab58b076aa5b667ee1b4beee5a8ece17356429bb8d4830c616a6ad67cc86d33b62c20f3b9eb1fff60000d23a996c57287ebf37ae7fb5714a3a9d8a50
-mac.22.version: 0.8.106
-mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.106/publix-0.8.106-mac-id22.zip
-mac.22.sha512: 6a9dd81c0fae98b254cbff2e5dbfd874fb890f49824e28a3d5d65f7c902a809668a2072c591ae366818fc91bc07dddc2f7683620696ab65f580eb040c36803da
-win.22.version: 0.8.106
-win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.106/publix-0.8.106-win-id22.zip
-win.22.sha512: b86140d23cea3e6efd8d0847de5d5074ffe2a0c09a7c930ae10dcc4ca119160c0bf51fdf137c63aeb5caa15a8e993f180188e5adc6639e80ac9c478cd8ee01c2
+commit: 204610eabe736ff5b8cd7743f4394527020d3077
+mac.version: 0.8.107
+mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.107/publix-0.8.107-mac.zip
+mac.sha512: 4dbc5dcce4c8c3504d079bcdfb188ca9b64b20d2e9204f46fb4cfb0f7c914027f17f43f86d9dc5e3795b90bd97127b9732265620fbda00df96c2d1ca7845934c
+win.version: 0.8.107
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.107/publix-0.8.107-win.zip
+win.sha512: 910d9ad5f133a6fa398ac32e4d8d16483372860a9ac2ff9f6215a100c7cf0ce3ed6b2355fc4ae7e2028d9b85637407b302b2eb9cea2848d0b7004f481a17cd09
+mac.22.version: 0.8.107
+mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.107/publix-0.8.107-mac-id22.zip
+mac.22.sha512: 0def560b61bb0dc1d9241739e9539cb07b0028be49d39a8200e0b2c5ef470943cc6ce1f0f8ebcff9f6f7cc327ac4ff1e8663df1c8cf0f7fdafdcc09dea01eab0
+win.22.version: 0.8.107
+win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.107/publix-0.8.107-win-id22.zip
+win.22.sha512: faac61d458c7d6474e4eb8bd23ceabc5bab3b4bff954d307612a5fa66247ba522b292d2ba1be69f009ed07ea0999a55d4eac506666a4e857b6242400504d8d8f
 notes:
-- Mehrspaltig bei Platzmangel: Ein Textrahmen behält jetzt seine breite, mehrspaltige Form, auch wenn er im Aufbau ein zweites Mal eingepasst wird. Vorher schnappte er auf die schmale Breite zurück, und die Probe brachte keinen Platz. Die mehrspaltige Probe wird außerdem nicht mehr wegen eines nur teilweise gefüllten Rasters verworfen, denn sie hat dieselbe Rasterbelegung wie das Grund-Template.
-- Nach der Ausgabe schreibt PubliX zusätzliche Zeitmessungen ins Protokoll (Nacharbeit von InDesign, Textumbruch des Dokuments), um die lange Wartezeit nach dem Lauf einzugrenzen.
-- Kreuztabellen: Die Zellen transponierter Spalten werden nicht mehr verbunden, auch nicht in der zweiten und weiteren Spalte. Vorher verband PubliX nach dem Teilen von Zellen oder bei Fortsetzungen alle Kopien außer der ersten senkrecht.
-- Mehrspaltig: Ein Textrahmen wird beim Verbreitern nicht mehr über Nachbarrahmen wie Piktogramme oder Bilder gezogen. Er endet mit Steg vor dem nächsten Rahmen.
+- Mehrspaltig: Ein mehrspaltiger Textrahmen darf jetzt auch breiter werden, wenn Nachbarrahmen wie Piktogramme oder Bilder in diesem Bereich stehen. Die Nachbarn bekommen einen Textumfluss, und der Text läuft um sie herum. So gewinnt der Rahmen mehr Platz, ohne zu kollidieren. Greift der Umfluss nicht, endet der Rahmen wie bisher mit Steg vor dem Nachbarn.
