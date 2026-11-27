@@ -7,14 +7,14 @@ commit: e866e9b489edafb9341dee5e29373af3a8308bb1
 mac.version: 0.8.105
 mac.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.105/publix-0.8.105-mac.zip
 mac.sha512: 71bfc17821a67ce39c2e53690b68884dd562397062ed2fc04f0e34cbbc61eb07676def8131ea650f5b6498cdbe8619ecc62cbbbaf5cbd65dbb78f374392058d0
-win.version: 0.8.100
-win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.100/publix-0.8.100-win.zip
-win.sha512: 34b056508eb62e7a584c134e1cc00a54a49c214a86bd34e7630bfb0b8b1364767733be8197cfe390f4aa19806d6fd3d867dadfc11ef775276b0599482c85af26
+win.version: 0.8.105
+win.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.105/publix-0.8.105-win.zip
+win.sha512: bbed9cd186b5c61a46ed5bad360318e5a0972b654b7e53d94544f2f7a588a3fc216d4cab50531436b19043078ce9eecb6e64880561aa9d59506ddad1fe386b66
 mac.22.version: 0.8.105
 mac.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.105/publix-0.8.105-mac-id22.zip
 mac.22.sha512: 9acb9eab60e06e1431b0e6f99c4b62055e15a187436d3b285b44839718df7b6c873d2b478d1cc27149b0ed6ae8cd6e26fe3b182d73e2e660292fc58234408634
-win.22.version: 0.8.100
-win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.100/publix-0.8.100-win-id22.zip
-win.22.sha512: 41896407b14f6648144d5623f668a73cd9e80edd0bb18a4852dd11963fdd92f0e12f2ea2cfce6f8802966357b575ec5b16f259a7e77498f33cdbf98c48cfd0e1
+win.22.version: 0.8.105
+win.22.url: https://github.com/c00kie87/publix-releases/releases/download/v0.8.105/publix-0.8.105-win-id22.zip
+win.22.sha512: edec2f8af225502371b4311fb8ccd7ebcb2100259d638e352bdeebd79a8e2ce0accba9fe68f88d207c61017dc67daaf0ca37c977b4436bb4247d04d5aac1342b
 notes:
 - Abgleich: Wenn du Inhalte oder ganze Seiten löschst, meldet PubliX dafür kein „Bildrahmen fehlt“ mehr. Die Meldung erscheint nur noch, wenn vom Datensatz noch etwas im Dokument steht und genau sein Bildrahmen fehlt. Veraltete Einträge streicht PubliX beim Prüfen aus seinem Bildbestand.
